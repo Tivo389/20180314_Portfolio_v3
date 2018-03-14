@@ -1,27 +1,28 @@
-$box-shadow--default: 0 3px 3px rgba(0,0,0,0.12), 0 3px 3px rgba(0,0,0,0.24), 0 0 3px rgba(0,0,0,0.12);
-$box-shadow--hover: 0 6px 6px rgba(0,0,0,0.08), 0 6px 6px rgba(0,0,0,0.16), 0 0 6px rgba(0,0,0,0.08);
-$color--black: #222222;
-$color--gray-dark: #333333;
-$color--gray-light: #cccccc;
-$color--gray: #777777;
-$color--white--transparent: rgba(255,255,255,0.95);
+// $box-shadow--default: 0 3px 3px rgba(0,0,0,0.12), 0 3px 3px rgba(0,0,0,0.24), 0 0 3px rgba(0,0,0,0.12);
+// $box-shadow--hover: 0 6px 6px rgba(0,0,0,0.08), 0 6px 6px rgba(0,0,0,0.16), 0 0 6px rgba(0,0,0,0.08);
+$color--black: #404040;
+// $color--gray-dark: #333333;
+$color--lightgray: #E6E6E6;
+$color--gray: #808080;
+// $color--white--transparent: rgba(255,255,255,0.95);
 $color--white: #FFFFFF;
-$color__theme--accent: #EE86A8;
-$color__theme--main: #00A5D5;
-$color__theme--sub: #EED786;
-$font__family--body: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$font__family--header: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$font__size--p: 1.6rem; // BODY TEXT
-$font__size--h5: calc(#{$font__size--p} * 1.35); // ARTICLE SUB HEADER
-$font__size--h4: calc(#{$font__size--h5} * 1.35); // ARTICLE MAIN HEADER
-$font__size--h3: calc(#{$font__size--h4} * 1.35); // PAGE SUB HEADER
-$font__size--h2: calc(#{$font__size--h3} * 1.35); // PAGE MAIN HEADER
-$font__size--h1: calc(#{$font__size--h2} * 1.35); // PAGE BANNER
-$spacer--lg: 90px;
-$spacer--md: 60px;
-$spacer--sm: 30px;
-$spacer--xl: 120px;
-$spacer--xs: 10px;
-$transition--lg: 1s;
-$transition--md: 0.6s;
-$transition--sm: 0.3s;
+$color--main: #00A5D5;    // Blue
+$color--sub: #EE86A8;     // Pink
+$color--accent: #404040;  // Black
+$font--serif: "tribute", "Georgia", "Times New Roman", serif;
+$font--sans-serif: "azo-sans-web", "helvetica", sans-serif;
+$font--p: 1.6rem;                           // BODY TEXT
+$font--h1: calc(#{$font--p} * 4.48);  // PAGE BANNER
+$font--h2: calc(#{$font--p} * 3.32);  // PAGE MAIN HEADER
+$font--h3: calc(#{$font--p} * 2.46);  // PAGE SUB HEADER
+$font--h4: calc(#{$font--p} * 1.83);  // ARTICLE MAIN HEADER
+$font--h5: calc(#{$font--p} * 1.35);  // ARTICLE SUB HEADER
+$space__mobile--s: 30px;
+$space__mobile--m: 60px;
+$space__mobile--l: 90px;
+$space__desktop--s: 20px;
+$space__desktop--m: 40px;
+$space__desktop--l: 60px;
+$transition--s: 0.3s;
+$transition--m: 0.6s;
+$transition--l: 1s;
