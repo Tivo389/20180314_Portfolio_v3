@@ -1,0 +1,36 @@
+h1, h2, h3, h4, h5, h6, p, a {
+  color: $color--black;
+  font-family: $font__family--header;
+  line-height: 125%;
+  text-align: center;
+}
+h1 {
+  font-size: $font__size--h1;
+  font-weight: bolder;
+}
+h2 {
+  font-size: $font__size--h2;
+  font-weight: bolder;
+}
+h3 {
+  font-size: $font__size--h3;
+  font-weight: bolder;
+}
+h4 {
+  font-size: $font__size--h4;
+  font-weight: bolder;
+}
+h5, h6 {
+  font-size: $font__size--h5;
+}
+p {
+  font-size: $font__size--p;
+}
+a {
+  font-size: $font__size--p;
+  &:visited, &:focus, &:active {
+    color: $color--black;
+    outline: none;
+    text-decoration: none;
+  }
+}
