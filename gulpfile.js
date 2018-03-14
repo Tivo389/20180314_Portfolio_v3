@@ -7,7 +7,7 @@ var autoprefixer = require('gulp-autoprefixer');
 gulp.task('sass', function() {
   return gulp.src('css/stylesheet.scss')
     .pipe(sass({
-      outputStyle: 'compressed',
+      outputStyle: 'minified',
     }).on('error', sass.logError))
     .pipe(gulp.dest('css'))
 });
@@ -15,7 +15,11 @@ gulp.task('sass', function() {
 
 // START / BROWSER-SYNC
 gulp.task('browserSync', function() {
-  browserSync.init();
+  browserSync.init({
+    server: {
+      baseDir: './'
+    }
+  });
 });
 // END / BROWSER-SYNC
 
