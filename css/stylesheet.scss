@@ -24,25 +24,18 @@
   }
 }
 
-.image--container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  padding: 0 5vw;
-}
-
 img + img, .expertise--card + .expertise--card {
   margin-top: 1.5rem;
-  // margin-top: 5vw;
 }
 
 section {
+  padding: 3rem 0 6rem 0;
   .section--header {
     align-items: center;
     display: flex;
     height: 2.2rem;
     justify-content: center;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     overflow: hidden;
     width: 100vw;
     > h2 {
@@ -64,9 +57,66 @@ section {
 section {
   &.landingPage {
     padding: 9rem 0 3rem 0;
+    .section--header {
+      margin-bottom: 2rem;
+    }
     &:last-child {
       padding: 9rem 0 9rem 0;
     }
+  }
+}
+
+section {
+  &.work--detail {
+    padding: 6rem 0 6rem 0;
+    .section--header {
+      flex-direction: column;
+      height: auto;
+      margin-bottom: 2rem;
+      overflow: unset;
+      h2 {
+        color: $color--black;
+        font-family: $font--serif;
+      }
+      p {
+        font-family: $font--serif;
+        font-size: 1.6rem;
+      }
+    }
+  }
+  .detail--list {
+    margin: 2rem 0 0 0;
+    p {
+      font-family: $font--exo;
+      font-size: 1.2rem;
+    }
+  }
+  .detail--body {
+    margin: 0 0 2rem 0;
+    &:last-child {
+      margin: 0;
+    }
+    h4 {
+      margin: 2rem 0 0.2rem 0;
+    }
+    p {
+      font-family: $font--exo;
+      font-size: 1.6rem;
+      line-height: 135%;
+      + p {
+        margin-top: 0.8rem;
+      }
+    }
+  }
+}
+
+.button--container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0 0 0;
+  svg {
+    font-size: 3.2rem;
   }
 }
 
@@ -123,6 +173,35 @@ section {
   p {
     font-size: 1.4rem;
     text-align: center;
+  }
+}
+
+.image--container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 5vw;
+}
+
+.number--container {
+  align-items: center;
+  color: $color--gray;
+  display: flex;
+  font-family: $font--exo;
+  margin: 0 4rem;
+  position: relative;
+  .numerator {
+    padding-bottom: 1.4rem;
+    transform: translateX(4px);
+  }
+  .slash {
+    font-size: 2.8rem;
+    font-weight: 300;
+    transform: translateY(-2px);
+  }
+  .denominator {
+    padding-top: 1.4rem;
+    transform: translateX(-4px);
   }
 }
 
