@@ -6,14 +6,16 @@ $color--lightgray: #E6E6E6;
 $color--gray: #808080;
 // $color--white--transparent: rgba(255,255,255,0.95);
 $color--white: #FFFFFF;
+$color--card: rgba(0,165,213,0.05);
 $color--main: #00A5D5;    // Blue
 $color--sub: #EE86A8;     // Pink
 $color--accent: #404040;  // Black
 $font--serif: "tribute", "Georgia", "Times New Roman", serif;
-$font--sans-serif: "azo-sans-web", "helvetica", sans-serif;
-$font--p: 1.6rem;                           // BODY TEXT
-$font--h1: calc(#{$font--p} * 4.48);  // PAGE BANNER
-$font--h2: calc(#{$font--p} * 3.32);  // PAGE MAIN HEADER
+$font--exo: "Exo 2", "helvetica", sans-serif;
+$font--azo: "azo-sans-web", "helvetica", sans-serif;
+$font--p: 1.8rem;   // BODY TEXT
+$font--h1: 3.8rem;  // PAGE BANNER
+$font--h2: 3.2rem;  // PAGE MAIN HEADER
 $font--h3: calc(#{$font--p} * 2.46);  // PAGE SUB HEADER
 $font--h4: calc(#{$font--p} * 1.83);  // ARTICLE MAIN HEADER
 $font--h5: calc(#{$font--p} * 1.35);  // ARTICLE SUB HEADER
