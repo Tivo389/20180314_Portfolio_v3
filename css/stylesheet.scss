@@ -10,8 +10,6 @@
   flex-direction: column;
   min-height: 100vh;
   padding: 0 0 1.5rem 0;
-}
-#landing {
   img {
     width: 68.75vw;
     max-width: 320px;
@@ -24,6 +22,7 @@
   }
 }
 
+
 img + img, .expertise--card + .expertise--card {
   margin-top: 1.5rem;
 }
@@ -33,7 +32,7 @@ section {
   .section--header {
     align-items: center;
     display: flex;
-    height: 2.2rem;
+    height: 2rem;
     justify-content: center;
     margin-bottom: 3rem;
     overflow: hidden;
@@ -54,34 +53,30 @@ section {
   }
 }
 
-section {
-  &.landingPage {
-    padding: 9rem 0 3rem 0;
-    .section--header {
-      margin-bottom: 2rem;
-    }
-    &:last-child {
-      padding: 9rem 0 9rem 0;
-    }
+section.landingPage {
+  padding: 9rem 0 3rem 0;
+  .section--header {
+    margin-bottom: 2rem;
+  }
+  &:last-child {
+    padding: 9rem 0 9rem 0;
   }
 }
 
-section {
-  &.work--detail {
-    padding: 6rem 0 6rem 0;
-    .section--header {
-      flex-direction: column;
-      height: auto;
-      margin-bottom: 2rem;
-      overflow: unset;
-      h2 {
-        color: $color--black;
-        font-family: $font--serif;
-      }
-      p {
-        font-family: $font--serif;
-        font-size: 1.6rem;
-      }
+section.work--detail {
+  padding: 6rem 0 6rem 0;
+  .section--header {
+    flex-direction: column;
+    height: auto;
+    margin-bottom: 2rem;
+    overflow: unset;
+    h2 {
+      color: $color--black;
+      font-family: $font--serif;
+    }
+    p {
+      font-family: $font--serif;
+      font-size: 1.6rem;
     }
   }
   .detail--list {
@@ -110,6 +105,20 @@ section {
   }
 }
 
+.about--text {
+  p {
+    font-family: $font--serif;
+    font-size: $font--p;
+    line-height: 135%;
+    + p {
+      margin-top: 0.8rem;
+    }
+  }
+  .callToAction {
+    margin-top: 24px;
+  }
+}
+
 .button--container {
   align-items: center;
   display: flex;
@@ -125,6 +134,15 @@ section {
   color: $color--black;
   display: flex;
   justify-content: center;
+  &.column {
+    flex-direction: column;
+    svg {
+      margin-top: 0;
+    }
+  }
+  &.left {
+    justify-content: left;
+  }
   span{
     display: block;
     font-family: $font--exo;
@@ -137,15 +155,20 @@ section {
   }
 }
 
-.callToAction {
-  &.column {
-    flex-direction: column;
-    svg {
-      margin-top: 0;
+.experiment--img--container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  img {
+    height: 100%;
+    margin-bottom: 5%;
+    width: 42.5%;
+    &:last-child, &:nth-last-child(2) {
+      margin-bottom: 0;
     }
-  }
-  &.rtl {
-    flex-direction: row-reverse;
+    + img {
+      margin-top: unset;
+    }
   }
 }
 
@@ -166,7 +189,7 @@ section {
     font-family: $font--exo;
   }
   span {
-    font-size: 1.8rem;
+    font-size: $font--p;
     font-weight: bolder;
     margin-bottom: 0.6rem;
   }
@@ -203,6 +226,14 @@ section {
     padding-top: 1.4rem;
     transform: translateX(-4px);
   }
+}
+
+.profile {
+  background-image: url('./../images/dummy_1x.png');
+  background-size: cover;
+  height: 35vh;
+  max-height: 250px;
+  margin-bottom: 30px;
 }
 
 .cBlue {
