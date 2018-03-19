@@ -1,0 +1,77 @@
+section {
+  padding: 3rem 0 6rem 0;
+  .section--header {
+    align-items: center;
+    display: flex;
+    height: 2.4rem;
+    justify-content: center;
+    margin-bottom: 3rem;
+    overflow: hidden;
+    width: 100vw;
+    > h2 {
+      color: $color--white;
+      font-family: $font--azo;
+    }
+    + p {
+      font-family: $font--serif;
+      margin-bottom: 6rem;
+      padding: 0 5vw 0 5vw;
+      text-align: center;
+      &.ctaOnly {
+        margin-bottom: 2rem;
+      }
+    }
+  }
+}
+
+section.landingPage {
+  padding: 9rem 0 3rem 0;
+  .section--header {
+    margin-bottom: 2rem;
+  }
+  &:last-child {
+    padding: 9rem 0 9rem 0;
+  }
+}
+
+section.work--detail {
+  padding: 6rem 0 6rem 0;
+  .section--header {
+    flex-direction: column;
+    height: auto;
+    margin-bottom: 2rem;
+    overflow: unset;
+    h2 {
+      color: $color--black;
+      font-family: $font--serif;
+    }
+    p {
+      font-family: $font--serif;
+      font-size: 1.6rem;
+    }
+  }
+  .detail--list {
+    margin: 2rem 0 0 0;
+    p {
+      font-family: $font--exo;
+      font-size: 1.2rem;
+    }
+  }
+  .detail--body {
+    margin: 0 0 2rem 0;
+    &:last-child {
+      margin: 0;
+    }
+    h4 {
+      margin: 2rem 0 0.2rem 0;
+    }
+    p {
+      font-family: $font--exo;
+      font-size: 1.6rem;
+      line-height: 135%;
+      + p {
+        margin-top: 0.8rem;
+      }
+    }
+  }
+}
