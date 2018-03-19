@@ -4,7 +4,7 @@
 @import "_font";
 @import "_debugger";
 @import "_section";
-@import "_mobileMenu";
+@import "_menu";
 @import "_work_image";
 
 #landing {
@@ -26,10 +26,6 @@
       text-align: center;
     }
   }
-}
-
-img + img, .expertise--card + .expertise--card {
-  margin-top: 1.5rem;
 }
 
 .about--text {
@@ -112,6 +108,9 @@ img + img, .expertise--card + .expertise--card {
   flex-direction: column;
   justify-content: center;
   padding: 4rem 1.8rem 4rem 1.8rem;
+  + .expertise--card {
+    margin-top: 1.5rem;
+  }
   img {
     margin-bottom: 1.6rem;
     width: 6rem;

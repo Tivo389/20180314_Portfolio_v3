@@ -3,46 +3,7 @@ $bg--sub: rgba(238,164,168,0.65);
 $bg--accent: rgba(64,64,64,0.65);
 $spaceFromEdge: 0.8rem;
 
-#mobileMenu {
-  align-items: flex-end;
-  background-color: $bg--main;
-  bottom: 0;
-  display: flex;
-  height: 100vh;
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 100vw;
-  z-index: 900;
-  ul {
-    margin-bottom: 8.5rem;
-    width: 100%;
-  }
-  a {
-    align-items: center;
-    border-top: 3px solid $color--white;
-    color: $color--white;
-    display: flex;
-    font-family: $font--azo;
-    font-size: 1.8rem;
-    font-weight: bolder;
-    justify-content: center;
-    padding: 1.8rem;
-    &:last-child {
-      border-bottom: 3px solid $color--white;
-    }
-  }
-  svg {
-    bottom: $spaceFromEdge;
-    color: $color--white;
-    font-size: 3.2rem;
-    left: $spaceFromEdge;
-    position: absolute;
-  }
-}
-
-#mobileMenuBtn {
+#menuBtn {
   align-items: center;
   background-color: $color--white;
   border-radius: 50%;
@@ -51,13 +12,13 @@ $spaceFromEdge: 0.8rem;
   box-shadow: $box-shadow--default;
   display: flex;
   flex-direction: column;
-  height: 4rem;
+  height: 4.6rem;
   justify-content: center;
   margin: 0;
   padding: 0;
   position: fixed;
   right: $spaceFromEdge;
-  width: 4rem;
+  width: 4.6rem;
   z-index: 1000;
   &:active, &:hover, &:focus, &:visited {
     outline: none;
@@ -73,10 +34,56 @@ $spaceFromEdge: 0.8rem;
     }
   }
 }
-body.menuOpen, html.menuOpen {
-  overflow: hidden;
+
+#mobileMenu {
+  align-items: flex-end;
+  background-color: $bg--main;
+  bottom: 0;
+  display: none;
   height: 100vh;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100vw;
+  z-index: 900;
+  ul {
+    margin-bottom: 8.5rem;
+    width: 100%;
+  }
+  a.listAnchor {
+    align-items: center;
+    border-top: 3px solid $color--white;
+    color: $color--white;
+    display: flex;
+    font-family: $font--azo;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    justify-content: center;
+    padding: 1.8rem;
+    &:last-child {
+      border-bottom: 3px solid $color--white;
+    }
+  }
+  .homeIcon {
+    bottom: $spaceFromEdge;
+    color: $color--white;
+    font-size: 3.2rem;
+    left: $spaceFromEdge;
+    line-height: 0;
+    position: absolute;
+  }
 }
-#main.menuOpen {
+
+#mobileMenu.active {
+  display: flex;
+}
+
+body.active, html.active {
+  overflow: hidden;
+  // height: 100vh;
+}
+
+#main.active {
   filter: blur($blurAmount);
 }
