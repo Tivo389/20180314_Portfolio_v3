@@ -1,15 +1,16 @@
-// $box-shadow--default: 0 3px 3px rgba(0,0,0,0.12), 0 3px 3px rgba(0,0,0,0.24), 0 0 3px rgba(0,0,0,0.12);
+$blurAmount: 6px;
+$box-shadow--default: 0 3px 3px rgba(0,0,0,0.12), 0 3px 3px rgba(0,0,0,0.24), 0 0 3px rgba(0,0,0,0.12);
 // $box-shadow--hover: 0 6px 6px rgba(0,0,0,0.08), 0 6px 6px rgba(0,0,0,0.16), 0 0 6px rgba(0,0,0,0.08);
 $color--black: #404040;
 // $color--gray-dark: #333333;
 $color--lightgray: #E6E6E6;
-$color--gray: #808080;
+$color--gray: #808080;  // rgb(128,128,128);
 // $color--white--transparent: rgba(255,255,255,0.95);
 $color--white: #FFFFFF;
 $color--card: rgba(0,165,213,0.05);
-$color--main: #00A5D5;    // Blue
-$color--sub: #EE86A8;     // Pink
-$color--accent: #404040;  // Black
+$color--main: #00A5D5;    // Blue  rgb(0,165,213);
+$color--sub: #EE86A8;     // Pink  rgb(238,164,168);
+$color--accent: #404040;  // Black rgb(64,64,64);
 $font--serif: "tribute", "Georgia", "Times New Roman", serif;
 $font--exo: "Exo 2", "helvetica", sans-serif;
 $font--azo: "azo-sans-web", "helvetica", sans-serif;
