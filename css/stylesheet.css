@@ -328,7 +328,7 @@ section.work--detail {
     left: 0.8rem;
     position: absolute; }
 
-#mobileMenuBtn {
+#menuBtn {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -355,15 +355,15 @@ section.work--detail {
   right: 0.8rem;
   width: 4rem;
   z-index: 1000; }
-  #mobileMenuBtn:active, #mobileMenuBtn:hover, #mobileMenuBtn:focus, #mobileMenuBtn:visited {
+  #menuBtn:active, #menuBtn:hover, #menuBtn:focus, #menuBtn:visited {
     outline: none; }
-  #mobileMenuBtn .icon-bar {
+  #menuBtn .icon-bar {
     background-color: #404040;
     border-radius: 10px;
     display: block;
     height: 3px;
     width: 24px; }
-    #mobileMenuBtn .icon-bar + .icon-bar {
+    #menuBtn .icon-bar + .icon-bar {
       margin-top: 5px; }
 
 body.menuOpen, html.menuOpen {
@@ -477,9 +477,6 @@ a.work--image.active::after {
     #landing .landing--banner div {
       text-align: center; }
 
-img + img, .expertise--card + .expertise--card {
-  margin-top: 1.5rem; }
-
 .about--text p {
   font-family: "tribute", "Georgia", "Times New Roman", serif;
   font-size: 2.2rem;
@@ -580,6 +577,8 @@ img + img, .expertise--card + .expertise--card {
   -ms-flex-pack: center;
   justify-content: center;
   padding: 4rem 1.8rem 4rem 1.8rem; }
+  .expertise--card + .expertise--card {
+    margin-top: 1.5rem; }
   .expertise--card img {
     margin-bottom: 1.6rem;
     width: 6rem; }
