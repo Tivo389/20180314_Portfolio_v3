@@ -7,3 +7,13 @@
     menuBtn.addEventListener('click', openMenu);
   });
 })();
+
+(function() {
+  return fetch("./../components/mobileMenu.html")
+  .then(response => response.text())
+  .then((data) => {
+    $('#main').before(data);
+    const menuBtn = document.getElementById('menuBtn');
+    menuBtn.addEventListener('click', openMenu);
+  });
+})();

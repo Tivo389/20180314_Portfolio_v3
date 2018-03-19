@@ -1,10 +1,21 @@
 function openMenu(e) {
-  const body = document.querySelector('body');
   const html = document.querySelector('html');
+  const body = document.querySelector('body');
   const main = document.querySelector('#main');
-  body.classList.toggle('menuOpen');
-  html.classList.toggle('menuOpen');
-  main.classList.toggle('menuOpen');
+  const mobileMenu = document.querySelector('#mobileMenu');
+  let aria = e.currentTarget.attributes["aria-expanded"];
+  const ariaExpanded = (aria.value == 'true');
+
+  if(ariaExpanded === false) {
+    aria.value = "true";
+    mobileMenu.classList.add('active');
+  } else {
+    aria.value = "false";
+    mobileMenu.classList.remove('active');
+  }
+  html.classList.toggle('active');
+  body.classList.toggle('active');
+  main.classList.toggle('active');
 }
 
 
@@ -13,5 +24,5 @@ function openMenu(e) {
 // $.get("./../components/menuBtn.html", data => $('#main').after(data) );
 
 // - if the button aria-expanded is true, show this.
-// - also add .menuOpen to body, html, #main
+// - also add .active to body, html, #main
 // $.get("./../components/mobileMenu.html", data => $('#main').before(data) );
