@@ -9,21 +9,22 @@
 
 #landing {
   align-items: center;
+  justify-content: center;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   padding: 0 0 1.5rem 0;
-  img {
-    width: 68.75vw;
-    max-width: 320px;
-    margin-bottom: 4rem;
-  }
   .landing--banner {
     align-items: center;
     display: flex;
     flex: 1;
     div {
       text-align: center;
+    }
+    img {
+      width: 68.75vw;
+      max-width: 320px;
+      margin-bottom: 4rem;
     }
   }
 }
@@ -212,6 +213,65 @@
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) {}
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199px) {}
+@media (min-width: 992px) and (max-width: 1199px) {
+}
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+  #landing {
+    justify-content: center;
+    flex-direction: unset;
+    padding: 0 13.5rem 1.5rem 13.5rem;
+    .landing--banner {
+      div {
+        text-align: left;
+      }
+      h1 {
+        text-align: left;
+        margin-bottom: 6rem;
+      }
+      img {
+        max-width: 260px;
+        margin-bottom: 2.5rem;
+      }
+    }
+    .visible-lg div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        min-width: 500px;
+        max-width: 560px;
+      }
+    }
+  }
+  .callToAction {
+    // align-items: center;
+    // color: $color--black;
+    // display: flex;
+    justify-content: left;
+    &.column {
+      flex-direction: unset;
+      svg {
+        // margin-top: 0;
+      }
+    }
+    &.left {
+      // justify-content: left;
+    }
+    span {
+      // display: block;
+      // font-family: $font--exo;
+      // font-size: 1.8rem;
+      // margin: 0.6rem;
+      // text-align: center;
+    }
+    svg {
+      // margin-top: 0.2rem;
+    }
+    a {
+      // align-items: center;
+      // display: flex;
+      // justify-content: center;
+    }
+  }
+}

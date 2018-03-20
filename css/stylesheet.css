@@ -454,6 +454,9 @@ a.work--image.active::after {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -463,10 +466,6 @@ a.work--image.active::after {
   flex-direction: column;
   min-height: 100vh;
   padding: 0 0 1.5rem 0; }
-  #landing img {
-    width: 68.75vw;
-    max-width: 320px;
-    margin-bottom: 4rem; }
   #landing .landing--banner {
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -479,6 +478,10 @@ a.work--image.active::after {
     flex: 1; }
     #landing .landing--banner div {
       text-align: center; }
+    #landing .landing--banner img {
+      width: 68.75vw;
+      max-width: 320px;
+      margin-bottom: 4rem; }
 
 .about--text p {
   font-family: "tribute", "Georgia", "Times New Roman", serif;
@@ -670,3 +673,43 @@ a.work--image.active::after {
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
 /* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #landing {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: unset;
+    -webkit-box-direction: unset;
+    -ms-flex-direction: unset;
+    flex-direction: unset;
+    padding: 0 13.5rem 1.5rem 13.5rem; }
+    #landing .landing--banner div {
+      text-align: left; }
+    #landing .landing--banner h1 {
+      text-align: left;
+      margin-bottom: 6rem; }
+    #landing .landing--banner img {
+      max-width: 260px;
+      margin-bottom: 2.5rem; }
+    #landing .visible-lg div {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+      #landing .visible-lg div img {
+        min-width: 500px;
+        max-width: 560px; }
+  .callToAction {
+    -webkit-box-pack: left;
+    -ms-flex-pack: left;
+    justify-content: left; }
+    .callToAction.column {
+      -webkit-box-orient: unset;
+      -webkit-box-direction: unset;
+      -ms-flex-direction: unset;
+      flex-direction: unset; } }
