@@ -1,5 +1,9 @@
 section {
   padding: 3rem 0 6rem 0;
+  position: relative;
+  .section--container {
+    padding: 0 5vw;
+  }
   .section--header {
     align-items: center;
     display: flex;
@@ -74,4 +78,57 @@ section.work--detail {
       }
     }
   }
+}
+
+@media (min-width: 1200px) {
+#about {
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  &:not(#landing)::after {
+    bottom: 0;
+    content: " ";
+    display: block !important;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 20px;
+  }
+  &#featuredWork::after {
+    background-color: $color--sub;
+  }
+  &#expertise::after {
+    background-color: $color--main;
+  }
+  &#about::after {
+    background-color: $color--accent;
+  }
+  .section--container {
+    padding: unset;
+  }
+  .section--header {
+    justify-content: left;
+    overflow: unset;
+    width: auto;
+    &.bcBlue,&.bcPink,&.bcBlack {
+      background-color: unset;
+    }
+    h2 {
+      color: $color--gray;
+    }
+    + p {
+      justify-content: left;
+      margin-bottom: 2rem;
+      padding: unset;
+      text-align: left;
+    }
+  }
+}
+
+section.landingPage,section.landingPage:last-child {
+  padding: 12rem 16rem;
+}
 }

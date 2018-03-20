@@ -4,22 +4,30 @@
 @import "_font";
 @import "_debugger";
 @import "_section";
+@import "_expertiseCard";
 @import "_menu";
-@import "_work_image";
+@import "_workImage";
+@import "_callToAction";
 
 #landing {
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
   min-height: 100vh;
+  height: 100vh;
+  max-height: 100vh;
   padding: 0 0 1.5rem 0;
   .landing--banner {
     align-items: center;
     display: flex;
-    flex: 1;
+    flex-direction:column;
+    height: 100%;
+    justify-content: center;
     div {
       text-align: center;
+      &:first-child {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        justify-content: center;
+      }
     }
     img {
       width: 68.75vw;
@@ -28,7 +36,9 @@
     }
   }
 }
-
+img + img {
+  margin-top: 1.5rem;
+}
 .about--text {
   p {
     font-family: $font--serif;
@@ -40,9 +50,11 @@
   }
   .callToAction {
     margin-top: 24px;
+    span {
+      margin: 0.6rem;
+    }
   }
 }
-
 .button--container {
   align-items: center;
   display: flex;
@@ -52,38 +64,6 @@
     font-size: 3.2rem;
   }
 }
-
-.callToAction {
-  align-items: center;
-  color: $color--black;
-  display: flex;
-  justify-content: center;
-  &.column {
-    flex-direction: column;
-    svg {
-      margin-top: 0;
-    }
-  }
-  &.left {
-    justify-content: left;
-  }
-  span {
-    display: block;
-    font-family: $font--exo;
-    font-size: 1.8rem;
-    margin: 0.6rem;
-    text-align: center;
-  }
-  svg {
-    margin-top: 0.2rem;
-  }
-  a {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-  }
-}
-
 .experiment--img--container {
   display: flex;
   flex-wrap: wrap;
@@ -100,50 +80,20 @@
     width: 100%;
   }
 }
-
-.expertise--card {
-  align-items: center;
-  background-color: $color--card;
-  border-radius: 0.2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 4rem 1.8rem 4rem 1.8rem;
-  + .expertise--card {
-    margin-top: 1.5rem;
-  }
-  img {
-    margin-bottom: 1.6rem;
-    width: 6rem;
-  }
-  span, p {
-    color: $color--gray;
-    font-family: $font--exo;
-  }
-  span {
-    font-size: $font--p;
-    font-weight: bolder;
-    margin-bottom: 0.6rem;
-  }
-  p {
-    font-size: 1.6rem;
-    text-align: center;
-  }
-}
-
 .featuredWork--img--container {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 0 5vw;
   a {
     margin-bottom: 1.5rem;
     &:last-child {
       margin-bottom: 0;
     }
+    &.seeMore {
+      display: none;
+    }
   }
 }
-
 .number--container {
   align-items: center;
   color: $color--gray;
@@ -165,7 +115,6 @@
     transform: translateX(-4px);
   }
 }
-
 .profile {
   background-image: url("./../images/dummy_1x.png");
   background-size: cover;
@@ -174,7 +123,9 @@
   max-height: 250px;
   min-height: 200px;
 }
-
+.visibleDesktop {
+  display: none;
+}
 .cBlue {
   color: $color--main !important;
 }
@@ -185,13 +136,13 @@
   color: $color--accent !important;
 }
 .bcBlue {
-  background-color: $color--main !important;
+  background-color: $color--main;
 }
 .bcPink {
-  background-color: $color--sub !important;
+  background-color: $color--sub;
 }
 .bcBlack {
-  background-color: $color--accent !important;
+  background-color: $color--accent;
 }
 
 /* BOOTSTRAP NOTES & RESOLUTION REFERENCE */
@@ -217,61 +168,113 @@
 }
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-  #landing {
-    justify-content: center;
-    flex-direction: unset;
-    padding: 0 13.5rem 1.5rem 13.5rem;
-    .landing--banner {
-      div {
-        text-align: left;
-      }
-      h1 {
-        text-align: left;
-        margin-bottom: 6rem;
-      }
-      img {
-        max-width: 260px;
-        margin-bottom: 2.5rem;
+#landing {
+  display: flex;
+  padding: 0 12rem 1.5rem 12rem;
+  .landing--banner {
+    align-items: left;
+    flex: 5;
+    div {
+      text-align: left;
+      &:first-child {
+        flex: unset;
       }
     }
-    .visible-lg div {
+    h1 {
+      text-align: left;
+      margin-bottom: 4rem;
+    }
+    img {
+      max-width: 260px;
+      margin-bottom: 2rem;
+    }
+  }
+  .landing--notebook {
+    height: 100%;
+    flex: 7;
+    div {
       display: flex;
       align-items: center;
       justify-content: center;
-      img {
-        min-width: 500px;
-        max-width: 560px;
-      }
+      height: 100%;
     }
   }
-  .callToAction {
-    // align-items: center;
-    // color: $color--black;
-    // display: flex;
-    justify-content: left;
-    &.column {
-      flex-direction: unset;
-      svg {
-        // margin-top: 0;
-      }
+  .visible-lg div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      min-width: 500px;
+      max-width: 560px;
     }
-    &.left {
-      // justify-content: left;
+  }
+}
+
+.featuredWork--img--container {
+  padding: unset;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin: -15px;
+  a {
+    margin-bottom: unset;
+    &:last-child {
+      margin-bottom: unset;
     }
+  }
+  a {
+    &.fw--01 {
+      grid-column: 1 / span 2;
+      grid-row: 1 / span 2;
+    }
+    &.fw--02 {
+      grid-column: 3 / span 1;
+      grid-row: 1 / span 1;
+    }
+    &.fw--03 {
+      grid-column: 4 / span 1;
+      grid-row: 1 / span 1;
+    }
+    &.fw--04 {
+      grid-column: 1 / span 1;
+      grid-row: 3 / span 1;
+    }
+    &.fw--05 {
+      grid-column: 2 / span 1;
+      grid-row: 3 / span 1;
+    }
+    &.fw--06 {
+      grid-column: 3 / span 2;
+      grid-row: 2 / span 2;
+    }
+  }
+  a.seeMore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5rem;
+    border: 5px solid $color--sub;
     span {
-      // display: block;
-      // font-family: $font--exo;
-      // font-size: 1.8rem;
-      // margin: 0.6rem;
-      // text-align: center;
-    }
-    svg {
-      // margin-top: 0.2rem;
-    }
-    a {
-      // align-items: center;
-      // display: flex;
-      // justify-content: center;
+      color: $color--sub;
+      font-family: $font--azo;
+      font-size: 2.4rem;
+      font-weight: bolder;
     }
   }
+}
+.profile--photo {
+  background-image: url('../images/dummy_1x.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 300px;
+  min-height: 280px;
+  margin-right: 6rem;
+  flex: 5;
+}
+.profile--text {
+  flex: 7;
+}
+.visibleDesktop {
+  display: inline;
+}
 }
