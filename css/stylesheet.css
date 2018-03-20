@@ -232,7 +232,7 @@ section {
     margin-bottom: 3rem;
     overflow: hidden;
     width: 100vw; }
-    section .section--header > h2 {
+    section .section--header h2 {
       color: #FFFFFF;
       font-family: "azo-sans-web", "helvetica", sans-serif; }
     section .section--header + p {
@@ -515,6 +515,17 @@ a.work--image.active::after {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center; }
+  .callToAction.column {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .callToAction.column svg {
+      margin-top: 0; }
+  .callToAction.left {
+    -webkit-box-pack: left;
+    -ms-flex-pack: left;
+    justify-content: left; }
   .callToAction span {
     display: block;
     font-family: "Exo 2", "helvetica", sans-serif;
@@ -533,17 +544,6 @@ a.work--image.active::after {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center; }
-  .callToAction.column {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column; }
-    .callToAction.column svg {
-      margin-top: 0; }
-  .callToAction.left {
-    -webkit-box-pack: left;
-    -ms-flex-pack: left;
-    justify-content: left; }
 
 .experiment--img--container {
   display: -webkit-box;

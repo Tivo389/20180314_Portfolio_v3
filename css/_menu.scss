@@ -78,12 +78,9 @@ $spaceFromEdge: 0.8rem;
 #mobileMenu.active {
   display: flex;
 }
-
 body.active, html.active {
   overflow: hidden;
-  // height: 100vh;
 }
-
 #main.active {
   filter: blur($blurAmount);
 }
