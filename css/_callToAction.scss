@@ -1,0 +1,48 @@
+.callToAction {
+  align-items: center;
+  color: $color--black;
+  display: flex;
+  justify-content: center;
+  &.column a {
+    flex-direction: column;
+    svg {
+      margin-top: 0;
+    }
+  }
+  &.left {
+    justify-content: left;
+  }
+  a {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  span {
+    display: block;
+    font-family: $font--exo;
+    font-size: 1.8rem;
+    margin: 0.6rem 0.6rem 0.6rem 0;
+    text-align: center;
+  }
+  svg {
+    font-size: 1.8rem;
+    margin-top: 0.2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+.callToAction {
+  justify-content: left;
+  &.column a {
+    flex-direction: unset;
+    svg {
+      font-size: 1.6rem;
+      margin-top: 0.2rem;
+    }
+  }
+  svg {
+    font-size: 1.6rem;
+    margin-top: 0.4rem;
+  }
+}
+}
