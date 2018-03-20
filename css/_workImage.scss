@@ -1,3 +1,17 @@
+.featuredWork--img--container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  a {
+    margin-bottom: 1.5rem;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    &.seeMore {
+      display: none;
+    }
+  }
+}
 a.work--image {
   display: block;
   overflow: hidden;
@@ -58,88 +72,137 @@ a.work--image {
   }
 }
 a.work--image.active {
+  &::after {
+    opacity: 0.6;
+  }
   img {
     filter: blur($blurAmount);
   }
   div {
     opacity: 1;
   }
-  &::after {
-    opacity: 0.6;
-  }
 }
 
 @media (min-width: 1200px) {
-  a.work--image {
-    padding: 1.5rem;
-    // display: block;
-    // overflow: hidden;
-    // position: relative;
-    img {
-      // display: block;
-      // transition: $transition--m;
-    }
-    div {
-      // align-items: center;
-      // bottom: 0;
-      // color: $color--white;
-      // display: flex;
-      // flex-direction: column;
-      // font-family: $font--serif;
-      // justify-content: center;
-      // left: 0;
-      // opacity: 0;
-      // position: absolute;
-      // right: 0;
-      // top: 0;
-      // transition: $transition--m;
-      // z-index: 10;
-      span {
-        // text-align: center;
-        // width: 100%;
-      }
-      .workName {
-        // font-size: 2.6rem;
-      }
-      .workCountry {
-        // font-size: 1.6rem;
-        &::after {
-          // content: '';
-          // width: 85%;
-          // height: 2px;
-          // display: block;
-          // margin: 7px auto;
-          // background-color: $color--white;
-        }
-      }
-      .workCategory {
-        // font-family: $font--exo;
-        // font-size: 1.4rem;
-      }
-    }
-    &::after {
-      // background-color: $color--gray;
-      // bottom: 0;
-      // content: "";
-      // left: 0;
-      // mix-blend-mode: multiply;
-      // opacity: 0;
-      // position: absolute;
-      // right: 0;
-      // transition: $transition--m;
-      // top: 0;
+.featuredWork--img--container {
+  padding: unset;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin: -15px;
+  a {
+    margin-bottom: unset;
+    &:last-child {
+      margin-bottom: unset;
     }
   }
-
-  a.work--image.active {
-    img {
-      // filter: blur($blurAmount);
+  a {
+    &.fw--01 {
+      grid-column: 1 / span 2;
+      grid-row: 1 / span 2;
     }
-    div {
-      // opacity: 1;
+    &.fw--02 {
+      grid-column: 3 / span 1;
+      grid-row: 1 / span 1;
     }
-    &::after {
-      // opacity: 0.6;
+    &.fw--03 {
+      grid-column: 4 / span 1;
+      grid-row: 1 / span 1;
+    }
+    &.fw--04 {
+      grid-column: 1 / span 1;
+      grid-row: 3 / span 1;
+    }
+    &.fw--05 {
+      grid-column: 2 / span 1;
+      grid-row: 3 / span 1;
+    }
+    &.fw--06 {
+      grid-column: 3 / span 2;
+      grid-row: 2 / span 2;
     }
   }
+  a.seeMore {
+    align-items: left;
+    border: 5px solid $color--sub;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: unset;
+    margin: 1.5rem;
+    padding: 1.2rem;
+    transition: $transition--s;
+    &:hover {
+      border: 10px solid $color--sub;
+    }
+    span {
+      color: $color--sub;
+      font-family: $font--azo;
+      font-size: 2.4rem;
+      font-weight: bolder;
+      line-height: 1;
+    }
+  }
+}
+a.work--image {
+  margin: 1.5rem;
+  &::after {
+    transition: $transition--s;
+  }
+  &:hover {
+    &::after {
+      opacity: 0.6;
+    }
+    img {
+      filter: blur($blurAmount);
+    }
+    div {
+      opacity: 1;
+    }
+  }
+  img {
+    transition: $transition--s;
+  }
+  div {
+    padding: 3rem;
+    justify-content: flex-end;
+    transition: $transition--s;
+    span {
+      text-align: left;
+    }
+    .workName {
+      font-size: 3.4rem;
+      margin-bottom: 0.4rem;
+      margin-left: -0.2rem;
+    }
+    .workCountry {
+      font-size: 1.8rem;
+      &::after {
+        width: 100%;
+        margin: 9px 0;
+      }
+    }
+    .workCategory {
+      font-size: 1.8rem;
+    }
+  }
+}
+a.work--image.fw--02,a.work--image.fw--03,a.work--image.fw--05 {
+  div {
+    padding: 1.2rem;
+    .workName {
+      font-size: 2.8rem;
+      margin-bottom: unset;
+      margin-left: -0.1rem;
+    }
+    .workCountry {
+      font-size: 1.6rem;
+      &::after {
+        margin: 6px 0;
+      }
+    }
+    .workCategory {
+      font-size: 1.4rem;
+    }
+  }
+}
 }
