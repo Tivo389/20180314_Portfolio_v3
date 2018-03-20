@@ -57,6 +57,15 @@
   color: $color--black;
   display: flex;
   justify-content: center;
+  &.column {
+    flex-direction: column;
+    svg {
+      margin-top: 0;
+    }
+  }
+  &.left {
+    justify-content: left;
+  }
   span {
     display: block;
     font-family: $font--exo;
@@ -71,15 +80,6 @@
     align-items: center;
     display: flex;
     justify-content: center;
-  }
-  &.column {
-    flex-direction: column;
-    svg {
-      margin-top: 0;
-    }
-  }
-  &.left {
-    justify-content: left;
   }
 }
 
