@@ -2,16 +2,16 @@ function openMenu(e) {
   const html = document.querySelector('html');
   const body = document.querySelector('body');
   const main = document.querySelector('#main');
-  const mobileMenu = document.querySelector('#mobileMenu');
+  const menu = document.querySelector('#menu');
   let aria = e.currentTarget.attributes["aria-expanded"];
   const ariaExpanded = (aria.value == 'true');
 
   if(ariaExpanded === false) {
     aria.value = "true";
-    mobileMenu.classList.add('active');
+    menu.classList.add('active');
   } else {
     aria.value = "false";
-    mobileMenu.classList.remove('active');
+    menu.classList.remove('active');
   }
   html.classList.toggle('active');
   body.classList.toggle('active');
@@ -25,4 +25,4 @@ function openMenu(e) {
 
 // - if the button aria-expanded is true, show this.
 // - also add .active to body, html, #main
-// $.get("./../components/mobileMenu.html", data => $('#main').before(data) );
+// $.get("./../components/menu.html", data => $('#main').before(data) );
