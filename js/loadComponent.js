@@ -9,7 +9,7 @@
 })();
 
 (function() {
-  return fetch("./../components/mobileMenu.html")
+  return fetch("./../components/menu.html")
   .then(response => response.text())
   .then((data) => {
     $('#main').before(data);

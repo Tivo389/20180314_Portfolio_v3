@@ -1,4 +1,5 @@
-$bg--main: rgba(0,165,213,0.65);
+// $bg--main: rgba(0,165,213,0.65);
+$bg--main: rgba(128,128,128,0.65);
 $bg--sub: rgba(238,164,168,0.65);
 $bg--accent: rgba(64,64,64,0.65);
 $spaceFromEdge: 0.8rem;
@@ -29,13 +30,12 @@ $spaceFromEdge: 0.8rem;
     display: block;
     height: 3px;
     width: 24px;
-    & + .icon-bar {
+    &+.icon-bar {
       margin-top: 5px;
     }
   }
 }
-
-#mobileMenu {
+#menu {
   align-items: flex-end;
   background-color: $bg--main;
   bottom: 0;
@@ -53,7 +53,7 @@ $spaceFromEdge: 0.8rem;
   }
   a.listAnchor {
     align-items: center;
-    border-top: 3px solid $color--white;
+    border-bottom: 3px solid $color--white;
     color: $color--white;
     display: flex;
     font-family: $font--azo;
@@ -61,8 +61,8 @@ $spaceFromEdge: 0.8rem;
     font-weight: bolder;
     justify-content: center;
     padding: 1.8rem;
-    &:last-child {
-      border-bottom: 3px solid $color--white;
+    &:first-child {
+      border-top: 3px solid $color--white;
     }
   }
   .homeIcon {
@@ -74,8 +74,7 @@ $spaceFromEdge: 0.8rem;
     position: absolute;
   }
 }
-
-#mobileMenu.active {
+#menu.active {
   display: flex;
 }
 body.active, html.active {
@@ -83,4 +82,62 @@ body.active, html.active {
 }
 #main.active {
   filter: blur($blurAmount);
+}
+
+
+
+
+
+
+@media (min-width: 1200px) {
+#menuBtn {
+  background-color: unset;
+  box-shadow: unset;
+  top: calc(#{$spaceFromEdge} * 1.25);
+  right: calc(#{$spaceFromEdge} * 1.75);
+  &:hover .icon-bar+.icon-bar {
+    margin-top: 3px;
+  }
+  .icon-bar {
+    transition: $transition--s;
+  }
+}
+#menu {
+  background-color: unset;
+  ul {
+    background-color: $bg--main;
+    box-shadow: $box-shadow--default;
+    padding-top: 6.6rem;
+    position: absolute;
+    width: 22.5%;
+  }
+  a.listAnchor {
+    border-bottom: 2px solid $color--white;
+    padding: 1.2rem;
+    &:first-child {
+      border-top: 2px solid $color--white;
+    }
+    &:nth-last-child(2) {
+      border-bottom: none;
+    }
+    &:hover {
+      background-color: rgba(0,0,0,0.5);
+    }
+  }
+  .homeIcon {
+    top: calc(#{$spaceFromEdge} * 2);
+    left: calc(#{$spaceFromEdge} * 3.25);
+  }
+}
+#menuBtn[aria-expanded=true] {
+  .icon-bar {
+    background-color: $color--white;
+  }
+}
+#menu.active {
+  flex-direction: column;
+}
+#main.active {
+  opacity: 0.5;
+}
 }

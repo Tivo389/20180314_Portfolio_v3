@@ -427,11 +427,11 @@ section.work--detail {
     #menuBtn .icon-bar + .icon-bar {
       margin-top: 5px; }
 
-#mobileMenu {
+#menu {
   -webkit-box-align: end;
   -ms-flex-align: end;
   align-items: flex-end;
-  background-color: rgba(0, 165, 213, 0.65);
+  background-color: rgba(128, 128, 128, 0.65);
   bottom: 0;
   display: none;
   height: 100vh;
@@ -441,14 +441,14 @@ section.work--detail {
   top: 0;
   width: 100vw;
   z-index: 900; }
-  #mobileMenu ul {
+  #menu ul {
     margin-bottom: 8.5rem;
     width: 100%; }
-  #mobileMenu a.listAnchor {
+  #menu a.listAnchor {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    border-top: 3px solid #FFFFFF;
+    border-bottom: 3px solid #FFFFFF;
     color: #FFFFFF;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -460,9 +460,9 @@ section.work--detail {
     -ms-flex-pack: center;
     justify-content: center;
     padding: 1.8rem; }
-    #mobileMenu a.listAnchor:last-child {
-      border-bottom: 3px solid #FFFFFF; }
-  #mobileMenu .homeIcon {
+    #menu a.listAnchor:first-child {
+      border-top: 3px solid #FFFFFF; }
+  #menu .homeIcon {
     bottom: 0.8rem;
     color: #FFFFFF;
     font-size: 3.2rem;
@@ -470,7 +470,7 @@ section.work--detail {
     line-height: 0;
     position: absolute; }
 
-#mobileMenu.active {
+#menu.active {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
@@ -481,6 +481,49 @@ body.active, html.active {
 #main.active {
   -webkit-filter: blur(6px);
   filter: blur(6px); }
+
+@media (min-width: 1200px) {
+  #menuBtn {
+    background-color: unset;
+    -webkit-box-shadow: unset;
+    box-shadow: unset;
+    top: calc(0.8rem * 1.25);
+    right: calc(0.8rem * 1.75); }
+    #menuBtn:hover .icon-bar + .icon-bar {
+      margin-top: 3px; }
+    #menuBtn .icon-bar {
+      -webkit-transition: 0.3s;
+      transition: 0.3s; }
+  #menu {
+    background-color: unset; }
+    #menu ul {
+      background-color: rgba(128, 128, 128, 0.65);
+      -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.12), 0 3px 3px rgba(0, 0, 0, 0.24), 0 0 3px rgba(0, 0, 0, 0.12);
+      box-shadow: 0 3px 3px rgba(0, 0, 0, 0.12), 0 3px 3px rgba(0, 0, 0, 0.24), 0 0 3px rgba(0, 0, 0, 0.12);
+      padding-top: 6.6rem;
+      position: absolute;
+      width: 22.5%; }
+    #menu a.listAnchor {
+      border-bottom: 2px solid #FFFFFF;
+      padding: 1.2rem; }
+      #menu a.listAnchor:first-child {
+        border-top: 2px solid #FFFFFF; }
+      #menu a.listAnchor:nth-last-child(2) {
+        border-bottom: none; }
+      #menu a.listAnchor:hover {
+        background-color: rgba(0, 0, 0, 0.5); }
+    #menu .homeIcon {
+      top: calc(0.8rem * 2);
+      left: calc(0.8rem * 3.25); }
+  #menuBtn[aria-expanded=true] .icon-bar {
+    background-color: #FFFFFF; }
+  #menu.active {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  #main.active {
+    opacity: 0.5; } }
 
 .featuredWork--img--container {
   display: -webkit-box;
