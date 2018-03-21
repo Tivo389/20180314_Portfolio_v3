@@ -1,9 +1,6 @@
 section {
   padding: 3rem 0 6rem 0;
   position: relative;
-  .section--container {
-    padding: 0 5vw;
-  }
   .section--header {
     align-items: center;
     display: flex;
@@ -26,8 +23,10 @@ section {
       }
     }
   }
+  .section--container {
+    padding: 0 5vw;
+  }
 }
-
 section.landingPage {
   padding: 9rem 0 3rem 0;
   .section--header {
@@ -37,7 +36,6 @@ section.landingPage {
     padding: 9rem 0 9rem 0;
   }
 }
-
 section.work--detail {
   padding: 6rem 0 6rem 0;
   .section--header {
@@ -80,13 +78,18 @@ section.work--detail {
   }
 }
 
+
+
+
+
+
 @media (min-width: 1200px) {
 #about {
   display: flex;
   justify-content: center;
 }
-
 section {
+  padding: 6rem 16rem;
   &:not(#landing)::after {
     bottom: 0;
     content: " ";
@@ -97,7 +100,7 @@ section {
     top: 0;
     width: 20px;
   }
-  &#featuredWork::after {
+  &#featuredWork::after, &#work::after {
     background-color: $color--sub;
   }
   &#expertise::after {
@@ -105,9 +108,6 @@ section {
   }
   &#about::after {
     background-color: $color--accent;
-  }
-  .section--container {
-    padding: unset;
   }
   .section--header {
     justify-content: left;
@@ -126,8 +126,10 @@ section {
       text-align: left;
     }
   }
+  .section--container {
+    padding: unset;
+  }
 }
-
 section.landingPage,section.landingPage:last-child {
   padding: 12rem 16rem;
 }
