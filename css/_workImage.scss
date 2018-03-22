@@ -1,3 +1,6 @@
+#wImgContainerDesktop { // => Specific to *work_detail.html'
+  display: none;
+}
 a.seeMore, a.seeExperiments {
   display: none;
 }
@@ -71,7 +74,6 @@ a.work--image {
     }
   }
 }
-
 .featuredWork--img--container {
   display: flex;
   justify-content: center;
@@ -83,9 +85,8 @@ a.work--image {
     }
   }
 }
-
 .work--img--container {
-  a {
+  a, img {
     margin-bottom: 1.5rem;
     &:last-child {
       margin-bottom: 0;
@@ -93,8 +94,18 @@ a.work--image {
   }
 }
 
-
 @media (min-width: 1200px) {
+#wImgContainerDesktop { // => Specific to *work_detail.html'
+  display: block;
+  margin-left: auto;
+  width: 50%;
+  img {
+    margin-bottom: 3rem;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
 a.seeMore, a.seeExperiments {
   align-items: left;
   border: 5px solid $color--sub;
@@ -115,7 +126,6 @@ a.seeMore, a.seeExperiments {
     line-height: 1;
   }
 }
-
 a.work--image {
   margin: 1.5rem;
   &::after {
@@ -159,7 +169,6 @@ a.work--image {
     transition: $transition--s;
   }
 }
-
 a.work--image.work--image--mini {
   div {
     padding: 1.2rem;
@@ -179,7 +188,6 @@ a.work--image.work--image--mini {
     }
   }
 }
-
 .featuredWork--img--container {
   padding: unset;
   display: grid;
@@ -218,8 +226,7 @@ a.work--image.work--image--mini {
     }
   }
 }
-
-.work--img--container {
+.work--img--container { // => Specific to 'work.html'
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;

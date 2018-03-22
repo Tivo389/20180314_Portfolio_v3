@@ -191,6 +191,15 @@
     }
   }
 }
+.button--container {
+  // align-items: center;
+  // display: flex;
+  justify-content: space-between;
+  margin: 4.5rem 0 0 0;
+  svg {
+    font-size: 4.2rem;
+  }
+}
 .profile--photo {
   background-image: url('../images/dummy_1x.png');
   background-repeat: no-repeat;

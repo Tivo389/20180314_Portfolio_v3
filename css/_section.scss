@@ -57,6 +57,11 @@ section.work--detail {
     p {
       font-family: $font--exo;
       font-size: 1.2rem;
+      line-height: 135%;
+      span {
+        display: inline-block;
+        width: 62px;
+      }
     }
   }
   .detail--body {
@@ -78,17 +83,12 @@ section.work--detail {
   }
 }
 
-
-
-
-
-
 @media (min-width: 1200px) {
 #about {
   display: flex;
   justify-content: center;
 }
-section {
+section, section.work--detail {
   padding: 6rem 16rem;
   &:not(#landing)::after {
     bottom: 0;
@@ -100,7 +100,7 @@ section {
     top: 0;
     width: 20px;
   }
-  &#featuredWork::after, &#work::after {
+  &#featuredWork::after, &#work::after, &#work--detail::after {
     background-color: $color--sub;
   }
   &#expertise::after {
@@ -132,5 +132,54 @@ section {
 }
 section.landingPage,section.landingPage:last-child {
   padding: 12rem 16rem;
+}
+section.work--detail {
+  position: relative;
+  div.desktop--div {
+    position: fixed;
+    width: calc((100% - 32rem)/2);
+    padding-right: calc((100% - 32rem)/12);
+  }
+  .work--img--container {
+    margin: unset;
+  }
+  .section--header {
+    align-items: unset;
+    margin-bottom: 3rem;
+    h2 {
+      font-size: 4rem;
+      color: $color--accent;
+    }
+    p {
+      color: $color--gray;
+      font-size: 1.8rem;
+    }
+  }
+  .section--container {
+    border-top: 2px solid $color--lightgray;
+    padding-top: 3.2rem;
+    display: inline-block;
+  }
+  .detail--list {
+    margin: 1.5rem 0 0 0;
+    p {
+      font-size: 1.4rem;
+      line-height: 135%;
+      span {
+        width: 80px;
+      }
+    }
+  }
+  .detail--body {
+    margin: 0 0 1.5rem 0;
+    &:last-child {
+    }
+    h4 {
+      margin: unset;
+    }
+    p {
+      margin-bottom: 1.5rem;
+    }
+  }
 }
 }
