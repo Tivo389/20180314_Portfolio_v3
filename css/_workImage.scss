@@ -8,6 +8,7 @@ a.work--image {
   display: block;
   overflow: hidden;
   position: relative;
+  padding-bottom: 100%;
   &::after {
     background-color: $color--gray;
     bottom: 0;
@@ -92,6 +93,46 @@ a.work--image {
       margin-bottom: 0;
     }
   }
+  a {
+    &.w--01 {
+      background-image: url('../images/dummy_1x.png');
+      background-size: cover;
+    }
+    &.w--02 {
+      background-image: url('../images/dummy_1x.png');
+      background-size: cover;
+    }
+    &.w--03 {
+      background-image: url('../images/dummy_1x.png');
+      background-size: cover;
+    }
+    &.w--04 {
+      background-image: url('../images/dummy_1x.png');
+      background-size: cover;
+    }
+    &.w--05 {
+      background-image: url('../images/dummy_1x.png');
+      background-size: cover;
+    }
+    &.w--06 {
+      background-image: url('../images/dummy_1x.png');
+      background-size: cover;
+    }
+    &.w--07 {} //.seeExperiments
+    &.w--08 {
+      background-image: url('../images/dummy_1x.png');
+      background-size: cover;
+    }
+    &.w--09 {
+      background-image: url('../images/dummy_1x.png');
+      background-size: cover;
+    }
+    &.w--10 {
+      background-image: url('../images/dummy_1x.png');
+      background-size: cover;
+    }
+  }
+
 }
 
 @media (min-width: 1200px) {
@@ -128,6 +169,7 @@ a.seeMore, a.seeExperiments {
 }
 a.work--image {
   margin: 1.5rem;
+  padding-bottom: calc(100% - 3rem);
   &::after {
     transition: $transition--s;
   }

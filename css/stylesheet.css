@@ -299,7 +299,7 @@ section.work--detail {
         margin-top: 0.8rem; }
 
 @media (min-width: 1200px) {
-  #about {
+  #landingAbout {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -319,9 +319,9 @@ section.work--detail {
       width: 20px; }
     section#featuredWork::after, section#work::after, section#work--detail::after, section.work--detail#featuredWork::after, section.work--detail#work::after, section.work--detail#work--detail::after {
       background-color: #EE86A8; }
-    section#expertise::after, section.work--detail#expertise::after {
+    section#expertise::after, section#experiments::after, section.work--detail#expertise::after, section.work--detail#experiments::after {
       background-color: #00A5D5; }
-    section#about::after, section.work--detail#about::after {
+    section#landingAbout::after, section#about::after, section.work--detail#landingAbout::after, section.work--detail#about::after {
       background-color: #404040; }
     section .section--header, section.work--detail .section--header {
       -webkit-box-pack: left;
@@ -346,10 +346,6 @@ section.work--detail {
     padding: 12rem 16rem; }
   section.work--detail {
     position: relative; }
-    section.work--detail div.desktop--div {
-      position: fixed;
-      width: calc((100% - 32rem)/2);
-      padding-right: calc((100% - 32rem)/12); }
     section.work--detail .work--img--container {
       margin: unset; }
     section.work--detail .section--header {
@@ -379,7 +375,11 @@ section.work--detail {
       section.work--detail .detail--body h4 {
         margin: unset; }
       section.work--detail .detail--body p {
-        margin-bottom: 1.5rem; } }
+        margin-bottom: 1.5rem; }
+  .desktop--div {
+    position: fixed;
+    width: calc((100% - 32rem)/2);
+    padding-right: calc((100% - 32rem)/12); } }
 
 .expertise--card {
   -webkit-box-align: center;
@@ -576,7 +576,8 @@ a.seeMore, a.seeExperiments {
 a.work--image {
   display: block;
   overflow: hidden;
-  position: relative; }
+  position: relative;
+  padding-bottom: 100%; }
   a.work--image::after {
     background-color: #808080;
     bottom: 0;
@@ -664,6 +665,42 @@ a.work--image {
   .work--img--container a:last-child, .work--img--container img:last-child {
     margin-bottom: 0; }
 
+.work--img--container a.w--01 {
+  background-image: url("../images/dummy_1x.png");
+  background-size: cover; }
+
+.work--img--container a.w--02 {
+  background-image: url("../images/dummy_1x.png");
+  background-size: cover; }
+
+.work--img--container a.w--03 {
+  background-image: url("../images/dummy_1x.png");
+  background-size: cover; }
+
+.work--img--container a.w--04 {
+  background-image: url("../images/dummy_1x.png");
+  background-size: cover; }
+
+.work--img--container a.w--05 {
+  background-image: url("../images/dummy_1x.png");
+  background-size: cover; }
+
+.work--img--container a.w--06 {
+  background-image: url("../images/dummy_1x.png");
+  background-size: cover; }
+
+.work--img--container a.w--08 {
+  background-image: url("../images/dummy_1x.png");
+  background-size: cover; }
+
+.work--img--container a.w--09 {
+  background-image: url("../images/dummy_1x.png");
+  background-size: cover; }
+
+.work--img--container a.w--10 {
+  background-image: url("../images/dummy_1x.png");
+  background-size: cover; }
+
 @media (min-width: 1200px) {
   #wImgContainerDesktop {
     display: block;
@@ -701,7 +738,8 @@ a.work--image {
       font-weight: bolder;
       line-height: 1; }
   a.work--image {
-    margin: 1.5rem; }
+    margin: 1.5rem;
+    padding-bottom: calc(100% - 3rem); }
     a.work--image::after {
       -webkit-transition: 0.3s;
       transition: 0.3s; }
@@ -909,17 +947,17 @@ a.work--image {
       max-width: 320px;
       margin-bottom: 4rem; }
 
-.about--text p {
-  font-family: "tribute", "Georgia", "Times New Roman", serif;
-  font-size: 2.2rem;
-  line-height: 135%; }
-  .about--text p + p {
-    margin-top: 0.8rem; }
-
-.about--text .callToAction {
-  margin-top: 24px; }
-  .about--text .callToAction span {
-    margin: 0.6rem; }
+.about--text {
+  padding: 0 1.5rem; }
+  .about--text p {
+    font-family: "tribute", "Georgia", "Times New Roman", serif;
+    font-size: 2.2rem; }
+    .about--text p + p {
+      margin-top: 2.2rem; }
+  .about--text .callToAction {
+    margin-top: 24px; }
+    .about--text .callToAction span {
+      margin: 0.6rem; }
 
 .button--container {
   -webkit-box-align: center;
@@ -950,6 +988,7 @@ a.work--image {
     .experiment--img--container a:last-child, .experiment--img--container a:nth-last-child(2) {
       margin-bottom: 0; }
   .experiment--img--container img {
+    display: block;
     height: 100%;
     width: 100%; }
 
@@ -1007,9 +1046,6 @@ a.work--image {
 .bcBlack {
   background-color: #404040; }
 
-/* BOOTSTRAP NOTES & RESOLUTION REFERENCE */
-/* Extra small devices (phones, less than 768px) */
-/* No media query since this is the default in Bootstrap */
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
 /* Large devices (large desktops, 1200px and up) */
@@ -1067,6 +1103,16 @@ a.work--image {
       #landing .visible-lg div img {
         min-width: 500px;
         max-width: 560px; }
+  .about--text {
+    display: block;
+    margin-top: 5rem;
+    margin-left: auto;
+    width: 50%;
+    padding: unset; }
+    .about--text p {
+      font-size: 1.8rem; }
+      .about--text p + p {
+        margin-top: 1.8rem; }
   .button--container {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
@@ -1074,6 +1120,20 @@ a.work--image {
     margin: 4.5rem 0 0 0; }
     .button--container svg {
       font-size: 4.2rem; }
+  .experiment--img--container {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: -1.5rem; }
+    .experiment--img--container a {
+      -webkit-box-flex: 1;
+      -ms-flex: 1 25%;
+      flex: 1 25%;
+      margin-bottom: unset;
+      padding: 1.5rem; }
+  .profile {
+    max-height: 360px;
+    min-height: 320px; }
   .profile--photo {
     background-image: url("../images/dummy_1x.png");
     background-repeat: no-repeat;

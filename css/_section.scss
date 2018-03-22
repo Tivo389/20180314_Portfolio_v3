@@ -84,7 +84,7 @@ section.work--detail {
 }
 
 @media (min-width: 1200px) {
-#about {
+#landingAbout {
   display: flex;
   justify-content: center;
 }
@@ -103,10 +103,10 @@ section, section.work--detail {
   &#featuredWork::after, &#work::after, &#work--detail::after {
     background-color: $color--sub;
   }
-  &#expertise::after {
+  &#expertise::after, &#experiments::after {
     background-color: $color--main;
   }
-  &#about::after {
+  &#landingAbout::after, &#about::after {
     background-color: $color--accent;
   }
   .section--header {
@@ -135,11 +135,6 @@ section.landingPage,section.landingPage:last-child {
 }
 section.work--detail {
   position: relative;
-  div.desktop--div {
-    position: fixed;
-    width: calc((100% - 32rem)/2);
-    padding-right: calc((100% - 32rem)/12);
-  }
   .work--img--container {
     margin: unset;
   }
@@ -181,5 +176,10 @@ section.work--detail {
       margin-bottom: 1.5rem;
     }
   }
+}
+.desktop--div {
+  position: fixed;
+  width: calc((100% - 32rem)/2);
+  padding-right: calc((100% - 32rem)/12);
 }
 }
