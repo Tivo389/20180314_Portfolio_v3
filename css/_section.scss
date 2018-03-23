@@ -38,32 +38,6 @@ section.landingPage {
 }
 section.work--detail {
   padding: 6rem 0 6rem 0;
-  .section--header {
-    flex-direction: column;
-    height: auto;
-    margin-bottom: 2rem;
-    overflow: unset;
-    h2 {
-      color: $color--black;
-      font-family: $font--serif;
-    }
-    p {
-      font-family: $font--serif;
-      font-size: 1.6rem;
-    }
-  }
-  .detail--list {
-    margin: 2rem 0 0 0;
-    p {
-      font-family: $font--exo;
-      font-size: 1.2rem;
-      line-height: 135%;
-      span {
-        display: inline-block;
-        width: 62px;
-      }
-    }
-  }
   .detail--body {
     margin: 0 0 2rem 0;
     &:last-child {
@@ -79,6 +53,32 @@ section.work--detail {
       + p {
         margin-top: 0.8rem;
       }
+    }
+  }
+  .detail--list {
+    margin: 2rem 0 0 0;
+    p {
+      font-family: $font--exo;
+      font-size: 1.2rem;
+      line-height: 135%;
+      span {
+        display: inline-block;
+        width: 62px;
+      }
+    }
+  }
+  .section--header {
+    flex-direction: column;
+    height: auto;
+    margin-bottom: 2rem;
+    overflow: unset;
+    h2 {
+      color: $color--black;
+      font-family: $font--serif;
+    }
+    p {
+      font-family: $font--serif;
+      font-size: 1.6rem;
     }
   }
 }
@@ -109,6 +109,9 @@ section, section.work--detail {
   &#landingAbout::after, &#about::after {
     background-color: $color--accent;
   }
+  .section--container {
+    padding: unset;
+  }
   .section--header {
     justify-content: left;
     overflow: unset;
@@ -126,17 +129,37 @@ section, section.work--detail {
       text-align: left;
     }
   }
-  .section--container {
-    padding: unset;
-  }
 }
 section.landingPage,section.landingPage:last-child {
   padding: 12rem 16rem;
 }
 section.work--detail {
   position: relative;
-  .work--img--container {
-    margin: unset;
+  .detail--body {
+    margin: 0 0 1.5rem 0;
+    &:last-child {
+    }
+    h4 {
+      margin: unset;
+    }
+    p {
+      margin-bottom: 1.5rem;
+    }
+  }
+  .detail--list {
+    margin: 1.5rem 0 0 0;
+    p {
+      font-size: 1.4rem;
+      line-height: 135%;
+      span {
+        width: 80px;
+      }
+    }
+  }
+  .section--container {
+    border-top: 2px solid $color--lightgray;
+    padding-top: 3.2rem;
+    display: inline-block;
   }
   .section--header {
     align-items: unset;
@@ -150,31 +173,8 @@ section.work--detail {
       font-size: 1.8rem;
     }
   }
-  .section--container {
-    border-top: 2px solid $color--lightgray;
-    padding-top: 3.2rem;
-    display: inline-block;
-  }
-  .detail--list {
-    margin: 1.5rem 0 0 0;
-    p {
-      font-size: 1.4rem;
-      line-height: 135%;
-      span {
-        width: 80px;
-      }
-    }
-  }
-  .detail--body {
-    margin: 0 0 1.5rem 0;
-    &:last-child {
-    }
-    h4 {
-      margin: unset;
-    }
-    p {
-      margin-bottom: 1.5rem;
-    }
+  .work--img--container {
+    margin: unset;
   }
 }
 .desktop--div {
