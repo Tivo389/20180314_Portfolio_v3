@@ -659,47 +659,53 @@ a.work--image {
     margin-bottom: 1.5rem; }
     .featuredWork--img--container a:last-child {
       margin-bottom: 0; }
+    .featuredWork--img--container a.fw--01, .featuredWork--img--container a.fw--02, .featuredWork--img--container a.fw--03, .featuredWork--img--container a.fw--05, .featuredWork--img--container a.fw--06 {
+      background-size: cover; }
+    .featuredWork--img--container a.fw--01 {
+      background-image: url("../images/dummy_1x.png"); }
+    .featuredWork--img--container a.fw--02 {
+      background-image: url("../images/dummy_1x.png"); }
+    .featuredWork--img--container a.fw--03 {
+      background-image: url("../images/dummy_1x.png"); }
+    .featuredWork--img--container a.fw--05 {
+      background-image: url("../images/dummy_1x.png"); }
+    .featuredWork--img--container a.fw--06 {
+      background-image: url("../images/dummy_1x.png"); }
 
 .work--img--container a, .work--img--container img {
   margin-bottom: 1.5rem; }
   .work--img--container a:last-child, .work--img--container img:last-child {
     margin-bottom: 0; }
 
-.work--img--container a.w--01 {
-  background-image: url("../images/dummy_1x.png");
+.work--img--container a.w--01, .work--img--container a.w--02, .work--img--container a.w--03, .work--img--container a.w--04, .work--img--container a.w--05, .work--img--container a.w--06, .work--img--container a.w--08, .work--img--container a.w--09, .work--img--container a.w--10 {
   background-size: cover; }
+
+.work--img--container a.w--01 {
+  background-image: url("../images/dummy_1x.png"); }
 
 .work--img--container a.w--02 {
-  background-image: url("../images/dummy_1x.png");
-  background-size: cover; }
+  background-image: url("../images/dummy_1x.png"); }
 
 .work--img--container a.w--03 {
-  background-image: url("../images/dummy_1x.png");
-  background-size: cover; }
+  background-image: url("../images/dummy_1x.png"); }
 
 .work--img--container a.w--04 {
-  background-image: url("../images/dummy_1x.png");
-  background-size: cover; }
+  background-image: url("../images/dummy_1x.png"); }
 
 .work--img--container a.w--05 {
-  background-image: url("../images/dummy_1x.png");
-  background-size: cover; }
+  background-image: url("../images/dummy_1x.png"); }
 
 .work--img--container a.w--06 {
-  background-image: url("../images/dummy_1x.png");
-  background-size: cover; }
+  background-image: url("../images/dummy_1x.png"); }
 
 .work--img--container a.w--08 {
-  background-image: url("../images/dummy_1x.png");
-  background-size: cover; }
+  background-image: url("../images/dummy_1x.png"); }
 
 .work--img--container a.w--09 {
-  background-image: url("../images/dummy_1x.png");
-  background-size: cover; }
+  background-image: url("../images/dummy_1x.png"); }
 
 .work--img--container a.w--10 {
-  background-image: url("../images/dummy_1x.png");
-  background-size: cover; }
+  background-image: url("../images/dummy_1x.png"); }
 
 @media (min-width: 1200px) {
   #wImgContainerDesktop {
@@ -815,7 +821,9 @@ a.work--image {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    margin: -15px; }
+    margin: -1.5rem; }
+    .work--img--container a:last-child {
+      margin-bottom: 1.5rem; }
     .work--img--container a.w--01 {
       grid-column: 1 / span 2;
       grid-row: 1 / span 2; }
