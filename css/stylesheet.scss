@@ -46,9 +46,9 @@
     }
   }
   .callToAction {
-    margin-top: 24px;
+    margin-top: 3rem;
     span {
-      margin: 0.6rem;
+      margin: 0 0 0 0.6rem;
     }
   }
 }
@@ -78,12 +78,15 @@
     width: 100%;
   }
 }
+.kern__adj--s {
+  letter-spacing: -0.05rem;
+}
 .number--container {
   align-items: center;
   color: $color--gray;
   display: flex;
   font-family: $font--exo;
-  margin: 0 4rem;
+  margin: 0 2rem;
   position: relative;
   .numerator {
     padding-bottom: 1.4rem;
@@ -103,9 +106,11 @@
   background-image: url("./../images/dummy_1x.png");
   background-size: cover;
   height: 35vh;
+  // margin: 0 auto 30px auto;
   margin-bottom: 30px;
   max-height: 250px;
   min-height: 200px;
+  // max-width: $container--maxWidth;
 }
 .visibleDesktop {
   display: none;

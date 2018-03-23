@@ -1,30 +1,36 @@
 .expertise--card {
-  align-items: center;
   background-color: $color--card;
-  border-radius: 0.2rem;
+  border-radius: 1rem;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 4rem 1.8rem 4rem 1.8rem;
+  justify-content: space-between;
+  padding: 4.4rem 1.5rem 4rem 1.5rem;
+  margin: auto;
+  max-width: $container--maxWidth;
   + .expertise--card {
-    margin-top: 1.5rem;
+    margin-top: 2rem;
   }
   span, p {
     color: $color--gray;
     font-family: $font--exo;
   }
+  div {
+    display: inline-block;
+    margin-left: 1rem;
+  }
   img {
-    margin-bottom: 1.6rem;
-    width: 6rem;
+    height: 100%;
+    width: 4.5rem;
   }
   p {
-    font-size: 1.6rem;
-    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 0.5rem;
+    text-align: left;
   }
   span {
     font-size: $font--p;
     font-weight: bolder;
-    margin-bottom: 0.6rem;
+    line-height: 0.65;
   }
 }
 
@@ -41,3 +47,49 @@
   }
 }
 }
+
+// VERSION 1 VERTICAL COLUMN
+// .expertise--card {
+//   align-items: center;
+//   background-color: $color--card;
+//   border-radius: 0.2rem;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   padding: 4rem 1.8rem 4rem 1.8rem;
+//   + .expertise--card {
+//     margin-top: 1.5rem;
+//   }
+//   span, p {
+//     color: $color--gray;
+//     font-family: $font--exo;
+//   }
+//   img {
+//     margin-bottom: 1.6rem;
+//     width: 6rem;
+//   }
+//   p {
+//     font-size: 1.6rem;
+//     font-weight: 400;
+//     text-align: center;
+//   }
+//   span {
+//     font-size: $font--p;
+//     font-weight: bolder;
+//     margin-bottom: 0.6rem;
+//   }
+// }
+
+// @media (min-width: 1200px) {
+// .expertiseCard--container {
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: space-between;
+// }
+// .expertise--card {
+//   width: calc((100% - 6rem) / 3);
+//   + .expertise--card {
+//     margin-top: unset;
+//   }
+// }
+// }
