@@ -262,6 +262,27 @@ section.landingPage {
 
 section.work--detail {
   padding: 6rem 0 6rem 0; }
+  section.work--detail .detail--body {
+    margin: 0 0 2rem 0; }
+    section.work--detail .detail--body:last-child {
+      margin: 0; }
+    section.work--detail .detail--body h4 {
+      margin: 2rem 0 0.2rem 0; }
+    section.work--detail .detail--body p {
+      font-family: "Exo 2", "helvetica", sans-serif;
+      font-size: 1.6rem;
+      line-height: 135%; }
+      section.work--detail .detail--body p + p {
+        margin-top: 0.8rem; }
+  section.work--detail .detail--list {
+    margin: 2rem 0 0 0; }
+    section.work--detail .detail--list p {
+      font-family: "Exo 2", "helvetica", sans-serif;
+      font-size: 1.2rem;
+      line-height: 135%; }
+      section.work--detail .detail--list p span {
+        display: inline-block;
+        width: 62px; }
   section.work--detail .section--header {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -276,27 +297,6 @@ section.work--detail {
     section.work--detail .section--header p {
       font-family: "tribute", "Georgia", "Times New Roman", serif;
       font-size: 1.6rem; }
-  section.work--detail .detail--list {
-    margin: 2rem 0 0 0; }
-    section.work--detail .detail--list p {
-      font-family: "Exo 2", "helvetica", sans-serif;
-      font-size: 1.2rem;
-      line-height: 135%; }
-      section.work--detail .detail--list p span {
-        display: inline-block;
-        width: 62px; }
-  section.work--detail .detail--body {
-    margin: 0 0 2rem 0; }
-    section.work--detail .detail--body:last-child {
-      margin: 0; }
-    section.work--detail .detail--body h4 {
-      margin: 2rem 0 0.2rem 0; }
-    section.work--detail .detail--body p {
-      font-family: "Exo 2", "helvetica", sans-serif;
-      font-size: 1.6rem;
-      line-height: 135%; }
-      section.work--detail .detail--body p + p {
-        margin-top: 0.8rem; }
 
 @media (min-width: 1200px) {
   #landingAbout {
@@ -323,6 +323,8 @@ section.work--detail {
       background-color: #00A5D5; }
     section#landingAbout::after, section#about::after, section.work--detail#landingAbout::after, section.work--detail#about::after {
       background-color: #404040; }
+    section .section--container, section.work--detail .section--container {
+      padding: unset; }
     section .section--header, section.work--detail .section--header {
       -webkit-box-pack: left;
       -ms-flex-pack: left;
@@ -340,14 +342,27 @@ section.work--detail {
         margin-bottom: 2rem;
         padding: unset;
         text-align: left; }
-    section .section--container, section.work--detail .section--container {
-      padding: unset; }
   section.landingPage, section.landingPage:last-child {
     padding: 12rem 16rem; }
   section.work--detail {
     position: relative; }
-    section.work--detail .work--img--container {
-      margin: unset; }
+    section.work--detail .detail--body {
+      margin: 0 0 1.5rem 0; }
+      section.work--detail .detail--body h4 {
+        margin: unset; }
+      section.work--detail .detail--body p {
+        margin-bottom: 1.5rem; }
+    section.work--detail .detail--list {
+      margin: 1.5rem 0 0 0; }
+      section.work--detail .detail--list p {
+        font-size: 1.4rem;
+        line-height: 135%; }
+        section.work--detail .detail--list p span {
+          width: 80px; }
+    section.work--detail .section--container {
+      border-top: 2px solid #E6E6E6;
+      padding-top: 3.2rem;
+      display: inline-block; }
     section.work--detail .section--header {
       -webkit-box-align: unset;
       -ms-flex-align: unset;
@@ -359,23 +374,8 @@ section.work--detail {
       section.work--detail .section--header p {
         color: #808080;
         font-size: 1.8rem; }
-    section.work--detail .section--container {
-      border-top: 2px solid #E6E6E6;
-      padding-top: 3.2rem;
-      display: inline-block; }
-    section.work--detail .detail--list {
-      margin: 1.5rem 0 0 0; }
-      section.work--detail .detail--list p {
-        font-size: 1.4rem;
-        line-height: 135%; }
-        section.work--detail .detail--list p span {
-          width: 80px; }
-    section.work--detail .detail--body {
-      margin: 0 0 1.5rem 0; }
-      section.work--detail .detail--body h4 {
-        margin: unset; }
-      section.work--detail .detail--body p {
-        margin-bottom: 1.5rem; }
+    section.work--detail .work--img--container {
+      margin: unset; }
   .desktop--div {
     position: fixed;
     width: calc((100% - 32rem)/2);
@@ -400,19 +400,19 @@ section.work--detail {
   padding: 4rem 1.8rem 4rem 1.8rem; }
   .expertise--card + .expertise--card {
     margin-top: 1.5rem; }
-  .expertise--card img {
-    margin-bottom: 1.6rem;
-    width: 6rem; }
   .expertise--card span, .expertise--card p {
     color: #808080;
     font-family: "Exo 2", "helvetica", sans-serif; }
+  .expertise--card img {
+    margin-bottom: 1.6rem;
+    width: 6rem; }
+  .expertise--card p {
+    font-size: 1.6rem;
+    text-align: center; }
   .expertise--card span {
     font-size: 2.2rem;
     font-weight: bolder;
     margin-bottom: 0.6rem; }
-  .expertise--card p {
-    font-size: 1.6rem;
-    text-align: center; }
 
 @media (min-width: 1200px) {
   .expertiseCard--container {
@@ -517,20 +517,20 @@ section.work--detail {
   display: -ms-flexbox;
   display: flex; }
 
-body.active, html.active {
-  overflow: hidden; }
-
 #main.active {
   -webkit-filter: blur(6px);
   filter: blur(6px); }
+
+body.active, html.active {
+  overflow: hidden; }
 
 @media (min-width: 1200px) {
   #menuBtn {
     background-color: unset;
     -webkit-box-shadow: unset;
     box-shadow: unset;
-    top: calc(0.8rem * 1.25);
-    right: calc(0.8rem * 1.75); }
+    right: calc(0.8rem * 1.75);
+    top: calc(0.8rem * 1.25); }
     #menuBtn:hover .icon-bar + .icon-bar {
       margin-top: 3px; }
     #menuBtn .icon-bar {

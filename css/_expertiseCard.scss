@@ -9,22 +9,22 @@
   + .expertise--card {
     margin-top: 1.5rem;
   }
+  span, p {
+    color: $color--gray;
+    font-family: $font--exo;
+  }
   img {
     margin-bottom: 1.6rem;
     width: 6rem;
   }
-  span, p {
-    color: $color--gray;
-    font-family: $font--exo;
+  p {
+    font-size: 1.6rem;
+    text-align: center;
   }
   span {
     font-size: $font--p;
     font-weight: bolder;
     margin-bottom: 0.6rem;
-  }
-  p {
-    font-size: 1.6rem;
-    text-align: center;
   }
 }
 
