@@ -5,9 +5,6 @@
   justify-content: center;
   &.column a {
     flex-direction: column;
-    svg {
-      margin-top: 0;
-    }
   }
   &.left {
     justify-content: left;
@@ -21,12 +18,11 @@
     display: block;
     font-family: $font--exo;
     font-size: 1.8rem;
-    margin: 0.6rem 0.6rem 0.6rem 0;
     text-align: center;
+    margin: 0 0.5rem;
   }
   svg {
     font-size: 1.8rem;
-    margin-top: 0.2rem;
   }
 }
 
@@ -37,7 +33,6 @@
     flex-direction: unset;
     svg {
       font-size: 1.6rem;
-      margin-top: 0.2rem;
     }
   }
   svg {

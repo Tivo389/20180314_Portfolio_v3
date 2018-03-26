@@ -4,6 +4,9 @@ $bg--sub: rgba(238,164,168,0.65);
 $bg--accent: rgba(64,64,64,0.65);
 $spaceFromEdge: 0.8rem;
 
+#main, #menu {
+  transition: $transition--s;
+}
 #menuBtn {
   align-items: center;
   background-color: $color--white;
@@ -16,19 +19,25 @@ $spaceFromEdge: 0.8rem;
   height: 4.6rem;
   justify-content: center;
   margin: 0;
+  opacity: 1;
   padding: 0;
   position: fixed;
   right: $spaceFromEdge;
   width: 4.6rem;
+  transition: $transition--s;
   z-index: 1000;
   &:active, &:hover, &:focus, &:visited {
     outline: none;
+  }
+  &.fade {
+    opacity: 0;
   }
   .icon-bar {
     background-color: $color--accent;
     border-radius: 10px;
     display: block;
     height: 3px;
+    transition: $transition--s;
     width: 24px;
     & + .icon-bar {
       margin-top: 5px;
@@ -39,12 +48,14 @@ $spaceFromEdge: 0.8rem;
   align-items: flex-end;
   background-color: $bg--main;
   bottom: 0;
-  display: none;
+  display: flex;
   height: 100vh;
   left: 0;
+  opacity: 0;
   position: fixed;
   right: 0;
   top: 0;
+  visibility: hidden;
   width: 100vw;
   z-index: 900;
   ul {
@@ -75,7 +86,8 @@ $spaceFromEdge: 0.8rem;
   }
 }
 #menu.active {
-  display: flex;
+  visibility: unset;
+  opacity: 1;
 }
 #main.active {
   filter: blur($blurAmount);
