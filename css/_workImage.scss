@@ -77,10 +77,10 @@ a.work--image {
 }
 .featuredWork--img--container {
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  max-width: calc(#{$container--maxWidth} + 3rem);
+  justify-content: center;
   margin: auto;
+  max-width: calc(#{$container--maxWidth} + 3rem);
   a {
     margin-bottom: 2rem;
     &:last-child {
@@ -247,11 +247,12 @@ a.work--image.work--image--mini {
   }
 }
 .featuredWork--img--container {
-  padding: unset;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   margin: -1.5rem;
+  max-width: unset;
+  padding: unset;
   a {
     &:last-child {
       margin-bottom:  1.5rem;
@@ -289,6 +290,7 @@ a.work--image.work--image--mini {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   margin: -1.5rem;
+  max-width: unset;
   a {
     &:last-child {
       margin-bottom: 1.5rem;

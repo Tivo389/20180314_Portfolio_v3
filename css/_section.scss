@@ -2,12 +2,7 @@ section {
   padding: 3rem 0 6rem 0;
   position: relative;
   .section--header {
-    // height: 2.4rem;
-    // align-items: center;
-    // display: flex;
-    // justify-content: left;
     margin-bottom: 2.2rem;
-    // overflow: hidden;
     padding: 0.65rem 1.5rem;
     width: 100vw;
     h2 {
@@ -33,7 +28,6 @@ section.landingPage {
   }
 }
 section.work--detail {
-  // padding: 6rem 0 6rem 0;
   .detail--body {
     margin: 0 0 2rem 0;
     &:last-child {
@@ -81,15 +75,13 @@ section.work--detail {
   .work--img--container {
     max-width: unset;
     margin: unset;
-    // max-width: calc(32rem + 3rem);
-    // margin: auto;
   }
 }
 
 @media (min-width: 1200px) {
 #landingAbout {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 section, section.work--detail {
   padding: 6rem 16rem;
@@ -102,6 +94,8 @@ section, section.work--detail {
     position: absolute;
     top: 0;
     width: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
   }
   &#featuredWork::after, &#work::after, &#work--detail::after {
     background-color: $color--sub;
@@ -119,22 +113,24 @@ section, section.work--detail {
     justify-content: left;
     overflow: unset;
     width: auto;
+    padding: unset;
     &.bcBlue,&.bcPink,&.bcBlack {
       background-color: unset;
     }
     h2 {
       color: $color--gray;
+      text-align: left;
     }
     + p {
       justify-content: left;
-      margin-bottom: 2rem;
+      margin-bottom: 2.5rem;
       padding: unset;
       text-align: left;
     }
   }
 }
 section.landingPage,section.landingPage:last-child {
-  padding: 12rem 16rem;
+  padding: 14rem 16rem;
 }
 section.work--detail {
   position: relative;

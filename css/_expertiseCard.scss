@@ -41,11 +41,42 @@
   justify-content: space-between;
 }
 .expertise--card {
-  width: calc((100% - 6rem) / 3);
+  border-radius: 0.5rem;
+  flex-direction: column;
+  align-items: center;
+  margin: unset;
+  max-width: 32rem;
+  padding: 3.5rem 2.5rem;
+  width: calc((100% - 4rem) / 3);
   + .expertise--card {
     margin-top: unset;
   }
+  div, p {
+    margin-left: unset;
+    text-align: center;
+  }
+  img {
+    height: unset;
+    margin: 0 0 2rem 0;
+  }
 }
+// VERSION 2 LEFT ALIGN
+// .expertiseCard--container {
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: space-between;
+// }
+// .expertise--card {
+//   margin: unset;
+//   width: calc((100% - 6rem) / 3);
+//   + .expertise--card {
+//     margin-top: unset;
+//   }
+//   img {
+//     height: unset;
+//     margin: 0 0 auto 0;
+//   }
+// }
 }
 
 // VERSION 1 VERTICAL COLUMN

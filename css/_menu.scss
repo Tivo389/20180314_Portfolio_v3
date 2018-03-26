@@ -66,10 +66,10 @@ $spaceFromEdge: 0.8rem;
     }
   }
   .homeIcon {
-    bottom: $spaceFromEdge;
+    bottom: calc(#{$spaceFromEdge} * 1.25);
     color: $color--white;
     font-size: 3.2rem;
-    left: $spaceFromEdge;
+    left: calc(#{$spaceFromEdge} * 1.35);
     line-height: 0;
     position: absolute;
   }
