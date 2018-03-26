@@ -46,9 +46,9 @@
     }
   }
   .callToAction {
-    margin-top: 24px;
+    margin-top: 3rem;
     span {
-      margin: 0.6rem;
+      margin: 0 0 0 0.6rem;
     }
   }
 }
@@ -78,12 +78,15 @@
     width: 100%;
   }
 }
+.kern__adj--s {
+  letter-spacing: -0.05rem;
+}
 .number--container {
   align-items: center;
   color: $color--gray;
   display: flex;
   font-family: $font--exo;
-  margin: 0 4rem;
+  margin: 0 2rem;
   position: relative;
   .numerator {
     padding-bottom: 1.4rem;
@@ -102,10 +105,9 @@
 .profile {
   background-image: url("./../images/dummy_1x.png");
   background-size: cover;
-  height: 35vh;
-  margin-bottom: 30px;
-  max-height: 250px;
-  min-height: 200px;
+  margin: 0 auto 30px auto;
+  padding-bottom: 65%;
+  width: calc(100% - 3rem);
 }
 .visibleDesktop {
   display: none;
@@ -162,14 +164,9 @@
     div {
       display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: flex-end;
       height: 100%;
     }
-  }
-  .visible-lg div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     img {
       min-width: 500px;
       max-width: 560px;
@@ -183,9 +180,9 @@
   width: 50%;
   padding: unset;
   p {
-    font-size: 1.8rem;
+    font-size: 2rem;
     + p {
-      margin-top: 1.8rem;
+      margin-top: 2rem;
     }
   }
 }
@@ -206,20 +203,25 @@
   }
 }
 .profile {
-  max-height: 360px;
-  min-height: 320px;
+  margin: unset;
+  padding-bottom: 100%;
+  width: unset;
 }
-.profile--photo {
+.profile--photo { // Specific to index.html
   background-image: url('../images/dummy_1x.png');
   background-repeat: no-repeat;
   background-size: cover;
-  max-height: 300px;
-  min-height: 280px;
-  margin-right: 6rem;
-  flex: 5;
+  flex: 7;
+  margin-right: 1.5rem;
+  max-height: 400px;
+  min-height: 320px;
 }
 .profile--text {
-  flex: 7;
+  flex: 5;
+  margin-left: 1.5rem;
+  p {
+    line-height: 135%;
+  }
 }
 .visibleDesktop {
   display: inline;
