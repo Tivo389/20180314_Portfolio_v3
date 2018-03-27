@@ -1,9 +1,29 @@
 @keyframes bounce {
-  0% {transform: translateY(-4px);}
-  50% {transform: translateY(0);}
-  100% {transform: translateY(-4px);}
+  0% {transform: translateY(0);}
+  50% {transform: translateY(-4px);}
+  100% {transform: translateY(0);}
 }
-
 .bounce {
   animation: $transition--xl bounce infinite;
+}
+
+@media (min-width: 1200px) {
+// --------------------------------
+@keyframes bounce {
+  0% {transform: translateY(0);}
+  50% {transform: translateY(-6px);}
+  100% {transform: translateY(0);}
+}
+@keyframes sway {
+  0% {transform: translateX(0);}
+  50% {transform: translateX(6px);}
+  100% {transform: translateX(0);}
+}
+.bounce:hover {
+  animation: $transition--m bounce infinite;
+}
+.sway:hover {
+  animation: $transition--m sway infinite;
+}
+// --------------------------------
 }

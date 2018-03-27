@@ -11,12 +11,15 @@
   .then(response => response.text())
   .then((data) => {
     $('#main').after(data);
-    const menuBtn = document.getElementById('menuBtn');
+    const menuBtn = document.querySelector('#menuBtn');
+    const menuUl = document.querySelector('#menu ul');
     const btnTop = menuBtn.getBoundingClientRect().top + window.scrollY;
     const onLandingView = btnTop < window.innerHeight;
     buttonColor();
     if(onLandingPage && onLandingView) menuBtn.classList.add('hidden');
     menuBtn.addEventListener('click', openMenu);
+    menuBtn.addEventListener('mouseenter', onMenuBtnMouseEnter);
+    menuUl.addEventListener('mouseleave', onMenuBtnMouseLeave);
     document.addEventListener('scroll', debounce(visibleButton));
   });
 })();
@@ -24,7 +27,7 @@
 
 
 // MOBILE & DESKTOP / DEBOUNCER
-function debounce(func, wait = 20, immediate = true) {
+function debounce(func, wait = 15, immediate = true) {
   var timeout;
   return function() {
     var context = this, args = arguments;
@@ -89,7 +92,7 @@ function buttonColor() {
 function findCurrentSectionColor(sections) {
   sections.forEach(colorPicker => {
     const detectTop = 0;
-    const detectBtm = window.innerHeight;
+    const detectBtm = window.innerHeight * 0.8;
     const sectTop = colorPicker.getBoundingClientRect().top;
     const sectBtm = colorPicker.getBoundingClientRect().bottom;
     const menuColor = colorPicker.dataset.color;
@@ -117,18 +120,27 @@ function handleMenuBackColor(menu) {
 
 // MOBILE & DESKTOP / ANIMATE SCROLL
 const onLandingPage = document.querySelector('#landing');
+const isHorizontalScreen = window.innerHeight < window.innerWidth;
 if(onLandingPage) {
   $('a[href=#featuredWork]')[0].addEventListener('click', function(e) {
-    $('html, body').animate({
-      scrollTop: $('#featuredWork').offset().top + 60
-    }, 800);
+    if(isHorizontalScreen) {
+      $('html, body').animate({
+        scrollTop: $('#featuredWork').offset().top + 120
+      }, 800);
+    } else {
+      $('html, body').animate({
+        scrollTop: $('#featuredWork').offset().top + 60
+      }, 800);
+    }
   });
 }
 
 
 
-// MOBILE ONLY / PSEUDO-HOVER FOR WORK IMAGE
+// MOBILE ONLY
 window.addEventListener('touchstart', function() {
+//--------------------------------------------------
+// WORK--IMAGE / PSEUDO-HOVER FOR WORK IMAGE
 function activateImage() {
   const detectTop = window.innerHeight * 0.15;
   const detectBtm = window.innerHeight * 0.85;
@@ -140,19 +152,30 @@ function activateImage() {
   });
 }
 document.addEventListener('scroll', debounce(activateImage));
+//--------------------------------------------------
 });
 
 
 
+// DESKTOP ONLY / MENU BUTTON / ONHOVER
+function onMenuBtnMouseEnter(e) {
+  const aria = e.currentTarget.attributes["aria-expanded"];
+  const ariaExpanded = (aria.value == 'true');
+  ariaExpanded ? aria.value = "false": aria.value = "true";
+  handleMenuBackColor(document.querySelector('#menu ul'));
+  document.querySelector('html').classList.toggle('active');
+  document.querySelector('body').classList.toggle('active');
+  document.querySelector('#main').classList.toggle('active');
+  document.querySelector('#menu').classList.toggle('active');
+}
+function onMenuBtnMouseLeave() {
+  const aria = document.querySelector('#menuBtn').attributes["aria-expanded"];
+  const ariaExpanded = (aria.value == 'true');
+  ariaExpanded ? aria.value = "false": aria.value = "true";
+  document.querySelector('html').classList.toggle('active');
+  document.querySelector('body').classList.toggle('active');
+  document.querySelector('#main').classList.toggle('active');
+  document.querySelector('#menu').classList.toggle('active');
+}
 
 
-
-
-
-// - index.html if you scroll past the landing page show the button
-// - *.html show it from the start
-// $.get("./../components/menuBtn.html", data => $('#main').after(data) );
-
-// - if the button aria-expanded is true, show this.
-// - also add .active to body, html, #main
-// $.get("./../components/menu.html", data => $('#main').before(data) );

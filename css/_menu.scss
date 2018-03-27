@@ -31,6 +31,7 @@ $spaceFromEdge: 0.8rem;
   }
   &.fade {
     opacity: 0;
+    visibility: hidden;
   }
   .icon-bar {
     background-color: $color--accent;
@@ -116,11 +117,13 @@ body.active, html.active {
     box-shadow: $box-shadow--default;
     padding-top: 6.6rem;
     position: absolute;
-    width: 22.5%;
+    right: 0;
+    top: 0;
+    width: auto;
   }
   a.listAnchor {
     border-bottom: 2px solid $color--white;
-    padding: 1.2rem;
+    padding: 1.2rem 8rem;
     &:first-child {
       border-top: 2px solid $color--white;
     }
@@ -133,12 +136,19 @@ body.active, html.active {
   }
   .homeIcon {
     top: calc(#{$spaceFromEdge} * 2);
-    left: calc(#{$spaceFromEdge} * 3.25);
+    left: 50%;
+    bottom: unset;
+    transform: translateX(-50%);
+    svg:hover {
+      color: rgba(0,0,0,0.5);
+    }
   }
 }
 #menuBtn[aria-expanded=true] {
+  pointer-events: none;
   .icon-bar {
-    background-color: $color--white;
+    // background-color: $color--white !important;
+    display: none;
   }
 }
 #menu.active {
