@@ -68,7 +68,7 @@
   justify-content: space-evenly;
   a {
     width: 42.5%;
-    margin-bottom: 5%;
+    margin-bottom: 1.5rem;
     &:last-child, &:nth-last-child(2) {
       margin-bottom: 0;
     }
@@ -103,11 +103,11 @@
     transform: translateX(-4px);
   }
 }
-.profile {
+.profile {  // Specific to about.html
   background-image: url("./../images/dummy_1x.png");
   background-size: cover;
   margin: 0 auto 30px auto;
-  padding-bottom: 65%;
+  padding-bottom: 35vh;
   width: calc(100% - 3rem);
 }
 .visibleDesktop {
@@ -203,7 +203,7 @@
     padding: 1.5rem;
   }
 }
-.profile {
+.profile { // Specific to about.html
   margin: unset;
   padding-bottom: 100%;
   width: unset;
