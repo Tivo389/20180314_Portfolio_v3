@@ -8,7 +8,7 @@ a.work--image {
   display: block;
   overflow: hidden;
   position: relative;
-  padding-bottom: 100%;
+  padding-bottom: 100%; // [confirmed] not a flex-item
   &::after {
     background-color: $color--black;
     bottom: 0;
@@ -74,9 +74,9 @@ a.work--image {
   }
 }
 .featuredWork--img--container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
   margin: auto;
   max-width: calc(#{$container--maxWidth} + 3rem);
   a {
@@ -183,7 +183,7 @@ a.seeMore, a.seeExperiments {
 }
 a.work--image {
   margin: 1.5rem;
-  padding-bottom: calc(100% - 3rem);
+  padding-bottom: 5rem; // 888
   &::after {
     transition: $transition--s;
   }

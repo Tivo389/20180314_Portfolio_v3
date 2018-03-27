@@ -250,6 +250,7 @@ a {
   animation: 1.5s bounce infinite; }
 
 section {
+  max-width: 1440px;
   padding: 3rem 0 6rem 0;
   position: relative; }
   section .section--header {
@@ -696,16 +697,6 @@ a.work--image {
         background-color: #FFFFFF; }
 
 .featuredWork--img--container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
   margin: auto;
   max-width: calc(32rem + 3rem); }
   .featuredWork--img--container a {
@@ -791,7 +782,7 @@ a.work--image {
       line-height: 1; }
   a.work--image {
     margin: 1.5rem;
-    padding-bottom: calc(100% - 3rem); }
+    padding-bottom: 5rem; }
     a.work--image::after {
       -webkit-transition: 0.3s;
       transition: 0.3s; }
@@ -1036,7 +1027,7 @@ a.work--image {
   justify-content: space-evenly; }
   .experiment--img--container a {
     width: 42.5%;
-    margin-bottom: 5%; }
+    margin-bottom: 1.5rem; }
     .experiment--img--container a:last-child, .experiment--img--container a:nth-last-child(2) {
       margin-bottom: 0; }
   .experiment--img--container img {
@@ -1076,7 +1067,7 @@ a.work--image {
   background-image: url("./../images/dummy_1x.png");
   background-size: cover;
   margin: 0 auto 30px auto;
-  padding-bottom: 65%;
+  padding-bottom: 35vh;
   width: calc(100% - 3rem); }
 
 .visibleDesktop {

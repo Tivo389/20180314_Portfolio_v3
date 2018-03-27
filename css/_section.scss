@@ -1,4 +1,5 @@
 section {
+  max-width: 1440px;
   padding: 3rem 0 6rem 0;
   position: relative;
   .section--header {
@@ -178,7 +179,7 @@ section.work--detail {
 }
 .desktop--div {
   position: fixed;
-  width: calc((100% - 32rem)/2);
-  padding-right: calc((100% - 32rem)/12);
+  width: calc((100% - 32rem)/2);  // [confirmed] not a flex-item
+  padding-right: calc((100% - 32rem)/12);  // [confirmed] not a flex-item
 }
 }
