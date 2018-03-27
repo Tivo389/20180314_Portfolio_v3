@@ -39,6 +39,7 @@ gulp.task('default', gulp.parallel('browserSync', function() {
   gulp.watch('css/*.scss', gulp.series('sass', 'autoprefixer'));
   gulp.watch('css/*.css').on('change', browserSync.reload);
   gulp.watch('js/*.js').on('change', browserSync.reload);
+  gulp.watch('components/*.html').on('change', browserSync.reload);
   gulp.watch('*.html').on('change', browserSync.reload);
 }));
 // END / DEFAULT

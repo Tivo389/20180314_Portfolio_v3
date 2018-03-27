@@ -4,24 +4,40 @@
 		"selected_items":
 		[
 			[
+				"padd",
+				"padding"
+			],
+			[
+				"curre",
+				"currentTarget"
+			],
+			[
+				"menu",
+				"menuBtn"
+			],
+			[
+				"query",
+				"querySelector"
+			],
+			[
+				"trans",
+				"transition--m\t _work_image.scss"
+			],
+			[
+				"colo",
+				"console_log"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
 				"colorPi",
 				"colorPickers"
 			],
 			[
-				"colo",
-				"colorPicker"
-			],
-			[
-				"curre",
-				"currentColor"
-			],
-			[
 				"dete",
 				"detectBtm"
-			],
-			[
-				"menu",
-				"menuColor"
 			],
 			[
 				"querysele",
@@ -38,10 +54,6 @@
 			[
 				"scro",
 				"scrollY"
-			],
-			[
-				"trans",
-				"transition--xl\t _animation.scss"
 			],
 			[
 				"tran",
@@ -78,10 +90,6 @@
 			[
 				"tra",
 				"transition--m\t _work_image.scss"
-			],
-			[
-				"padd",
-				"padding-bottom"
 			],
 			[
 				"max",
@@ -122,10 +130,6 @@
 			[
 				"sectio",
 				"section--container\t(_section.scss)"
-			],
-			[
-				"padding",
-				"padding-right\t(_section.scss)"
 			],
 			[
 				"backgroun",
@@ -510,20 +514,42 @@
 			[
 				"map",
 				"map\t( callbackfn: Function, thisArg?: any ): Array Array"
-			],
-			[
-				"forEach",
-				"forEach\t( callbackfn: Function, thisArg?: any ): Array Array"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "js/mainScript.js",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 5025,
+				"buffer_size": 6609,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "experiments.html",
+			"settings":
+			{
+				"buffer_size": 3611,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/stylesheet.scss",
+			"settings":
+			{
+				"buffer_size": 4292,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/_workImage.scss",
+			"settings":
+			{
+				"buffer_size": 5104,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -716,42 +742,44 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML"
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css"
 	],
 	"file_history":
 	[
-		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/work.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/stylesheet.scss",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/_workImage.scss",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/_section.scss",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/_variable.scss",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/stylesheet.css",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/js/mainScript.js",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/_menu.scss",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/components/menu.html",
 		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/index.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/gulpfile.js",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/components/menuBtn.html",
 		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/experiments.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/_callToAction.scss",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/_animation.scss",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/work.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/_reset.scss",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/_font.scss",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/_expertiseCard.scss",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/_debugger.scss",
 		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/about.html",
 		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/work_detail.html",
-		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/_menu.scss",
-		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/js/mainScript.js",
-		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/_variable.scss",
-		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/_animation.scss",
-		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/_workImage.scss",
 		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2016_0224-1009_HTML_LEARNING/00_PRACTICE_FILES/56_012218_UIUX_PREFECTURE_DROPDOWN/js/scrollOnOpen.js",
-		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/_callToAction.scss",
 		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2016_0224-1009_HTML_LEARNING/00_PRACTICE_FILES/48_072817_JS_PHOTO_BW_2_COLOR/js/gray_to_color.js",
 		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2016_0224-1009_HTML_LEARNING/99_TEMPLATE_SET/HTML/V7_JAN_2018/index.html",
-		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/stylesheet.scss",
 		"/Users/SHUN/Google Drive/00_TIVO/99_ARCHIVE/201708_2017XX_JAPAN/01_LE_WAGON_TOKYO/03_2017_0904_1103_LE_WAGON/PROJECT/03_TRANSROAD/02_PATTERN_LIBRARY/css/_grid.scss",
 		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2016_0224-1009_HTML_LEARNING/99_TEMPLATE_SET/HTML/V6_NOV_2017/index.html",
 		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2016_0224-1009_HTML_LEARNING/00_PRACTICE_FILES/60_022818_JS30_WES_BOS/13_SLIDE_ON_SCROLL/index-START.html",
-		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/gulpfile.js",
 		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/js/_menuBtn.js",
 		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/js/_loadComponent.js",
 		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/js/menuBtn.js",
 		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/_animation.css",
-		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/_section.scss",
-		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/_reset.scss",
-		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/_expertiseCard.scss",
-		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/_font.scss",
-		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/stylesheet.css",
 		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/_container.scss",
 		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/js/loadComponent.js",
-		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/components/menuBtn.html",
-		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/components/menu.html",
 		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/components/mobileMenu.html",
 		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/_work_image.scss",
 		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/_mobileMenu.scss",
@@ -763,7 +791,6 @@
 		"/Users/SHUN/Dropbox/00_メモ/00ADDRESS.txt",
 		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/.gitignore",
 		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/package-lock.json",
-		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/_debugger.scss",
 		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/_general.scss",
 		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2016_0224-1009_HTML_LEARNING/00_PRACTICE_FILES/57_013018_LEARN_GULP/gulpfile.js",
 		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/package.json",
@@ -870,6 +897,62 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"experiment",
+			"border",
+			"3px",
+			"whoMadeThese",
+			"unset",
+			"experiment",
+			"seeM",
+			"backToWork",
+			"9999",
+			"handleMenuBackColor",
+			"getElementById",
+			"querySelector",
+			"openMenu",
+			"isHover",
+			"onMenuBtnMouseEnter",
+			"onMenuBtnMouseLeave",
+			"Hover",
+			"active",
+			"menu",
+			"onMenuBtnHover",
+			"#menuBtn",
+			"onHover",
+			"onMenuBtnHover",
+			"--m",
+			"callt",
+			"bounce",
+			"isHorizontalScreen",
+			"const",
+			"window.",
+			"mobile",
+			"-4",
+			"visibleButton",
+			"<img src=\"images/logo.png\" alt=\"\">",
+			"Shun Miyaki Logo",
+			"=\"\">",
+			"Shun Miyaki Logo",
+			"href=\"work_detail",
+			"&",
+			"padding",
+			"margin",
+			"padding",
+			"margin",
+			"padding",
+			"margin",
+			"padding",
+			"margin",
+			"padding",
+			"margin",
+			"padding",
+			"margin",
+			"padding",
+			"specific",
+			".profile",
+			"padding",
+			"margin",
+			"experiment--im",
 			"iconBars",
 			"menuColor",
 			"Btm",
@@ -941,63 +1024,7 @@
 			"hidden",
 			"visibility",
 			"display",
-			"bottom: 0;",
-			"0",
-			"60%",
-			"70%",
-			"123",
-			"after",
-			"rgba",
-			"function",
-			"checkImg",
-			"-4",
-			"imgInDetect",
-			"inCenter",
-			"remove",
-			"detectTop",
-			"scrollDistY",
-			"scrollDistY + (",
-			"scrollDistY",
-			"scrollYDist",
-			"scroll",
-			"imgYCenter",
-			"imgTop",
-			"window.scrollY",
-			"scrollYDist",
-			"const",
-			"console",
-			"('===================')",
-			"imgYCenter",
-			");\n",
-			");",
-			"img",
-			"bottom",
-			"yDist",
-			"markerBtm",
-			"markerTop",
-			"yDist",
-			"imgYCenter",
-			"markerTop",
-			"imgYCenter",
-			"markerBtm",
-			"vpTop",
-			"markerBtm",
-			"markerTop",
-			"marker",
-			"imgYCenter",
-			"imgHCenter",
-			"const",
-			"console.log(",
-			"scrollTopDist",
-			"DESKTOP",
-			"menuBtn",
-			"2",
-			"6",
-			";transform: translateY();",
-			"-webkit-",
-			");}",
-			"scale",
-			" rel=\"stylesheet\""
+			"bottom: 0;"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1019,24 +1046,215 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "js/mainScript.js",
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5025,
+						"buffer_size": 6609,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4093,
-								4144
+								3334,
+								3244
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": 178,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"bs_sintax": "html",
+							"buffer_scroll_name": "9da22143",
+							"git_gutter_is_enabled": true,
+							"spell_check": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1148.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "experiments.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3611,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2478,
+								2478
 							]
 						],
 						"settings":
@@ -1058,12 +1276,27 @@
 							{
 								"close":
 								{
+									"1":
+									[
+										2553,
+										2554
+									]
 								},
 								"icon":
 								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"region.orangish"
+									]
 								},
 								"open":
 								{
+									"1":
+									[
+										2486,
+										2487
+									]
 								},
 								"unmatched":
 								{
@@ -1071,36 +1304,31 @@
 							},
 							"bracket_highlighter.clone_regions":
 							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -1111,21 +1339,26 @@
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
+								"bh_angle_content"
 							],
 							"bracket_highlighter.locations":
 							{
@@ -1133,8 +1366,141 @@
 								{
 									"1":
 									[
-										4666,
-										4667
+										2476,
+										2477
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"region.orangish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										2409,
+										2410
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"bs_sintax": "html",
+							"buffer_scroll_name": "e791c9b2",
+							"git_gutter_is_enabled": true,
+							"spell_check": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1131.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/stylesheet.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4292,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3650,
+								3650
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": 194,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										3834,
+										3835
 									]
 								},
 								"icon":
@@ -1149,46 +1515,41 @@
 								{
 									"1":
 									[
-										4142,
-										4143
+										3617,
+										3618
 									]
 								},
 								"unmatched":
 								{
 								}
 							},
-							"bracket_highlighter.regions":
+							"bracket_highlighter.clone_regions":
 							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -1199,33 +1560,316 @@
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
-								"bh_angle_content",
+								"bh_angle_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
-								"bh_tag_content"
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
 							],
-							"bs_sintax": "javascript (babel)",
-							"buffer_scroll_name": "f93c7eeb",
-							"git_gutter_is_enabled": true,
+							"bs_sintax": "scss",
+							"buffer_scroll_name": "da817e2b",
 							"spell_check": false,
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2342.0,
+						"translation.y": 3973.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/_workImage.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5104,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								303,
+								303
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": 195,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										510,
+										511
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										138,
+										139
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"bs_sintax": "scss",
+							"buffer_scroll_name": "afc4cb3f",
+							"git_gutter_is_enabled": true,
+							"spell_check": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -1296,28 +1940,124 @@
 		"selected_items":
 		[
 			[
-				"worhtm",
-				"work.html"
+				"styls",
+				"css/stylesheet.scss"
+			],
+			[
+				"var",
+				"css/_variable.scss"
+			],
+			[
+				"sect",
+				"css/_section.scss"
+			],
+			[
+				"varia",
+				"css/_variable.scss"
+			],
+			[
+				"stylesh",
+				"css/stylesheet.css"
 			],
 			[
 				"index",
 				"index.html"
 			],
 			[
-				"work",
-				"work.html"
+				"exper",
+				"experiments.html"
 			],
 			[
-				"menuscss",
+				"menuscs",
 				"css/_menu.scss"
+			],
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"gul",
+				"gulpfile.js"
+			],
+			[
+				"menuh",
+				"components/menu.html"
+			],
+			[
+				"menuht",
+				"components/menu.html"
+			],
+			[
+				"menub",
+				"components/menuBtn.html"
+			],
+			[
+				"menus",
+				"css/_menu.scss"
+			],
+			[
+				"experim",
+				"experiments.html"
+			],
+			[
+				"callt",
+				"css/_callToAction.scss"
+			],
+			[
+				"animat",
+				"css/_animation.scss"
+			],
+			[
+				"anima",
+				"css/_animation.scss"
 			],
 			[
 				"mainsc",
 				"js/mainScript.js"
 			],
 			[
-				"var",
-				"css/_variable.scss"
+				"work",
+				"css/_workImage.scss"
+			],
+			[
+				"workima",
+				"css/_workImage.scss"
+			],
+			[
+				"workim",
+				"css/_workImage.scss"
+			],
+			[
+				"maisc",
+				"js/mainScript.js"
+			],
+			[
+				"workscss",
+				"css/_workImage.scss"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"gulpf",
+				"gulpfile.js"
+			],
+			[
+				"style",
+				"css/stylesheet.scss"
+			],
+			[
+				"workimage",
+				"css/_workImage.scss"
+			],
+			[
+				"worhtm",
+				"work.html"
+			],
+			[
+				"menuscss",
+				"css/_menu.scss"
 			],
 			[
 				"call",
@@ -1328,20 +2068,8 @@
 				"css/_animation.scss"
 			],
 			[
-				"inde",
-				"index.html"
-			],
-			[
 				"workimages",
 				"css/_workImage.scss"
-			],
-			[
-				"styls",
-				"css/stylesheet.scss"
-			],
-			[
-				"gulp",
-				"gulpfile.js"
 			],
 			[
 				"stylscss",
@@ -1372,18 +2100,6 @@
 				"css/_section.scss"
 			],
 			[
-				"exper",
-				"css/_expertiseCard.scss"
-			],
-			[
-				"style",
-				"css/stylesheet.scss"
-			],
-			[
-				"sect",
-				"css/_section.scss"
-			],
-			[
 				"callto",
 				"css/_callToAction.scss"
 			],
@@ -1410,10 +2126,6 @@
 			[
 				"sty",
 				"css/stylesheet.scss"
-			],
-			[
-				"menuscs",
-				"css/_menu.scss"
 			],
 			[
 				"e",
@@ -1452,24 +2164,12 @@
 				"experiments.html"
 			],
 			[
-				"workim",
-				"css/_workImage.scss"
-			],
-			[
-				"workima",
-				"css/_workImage.scss"
-			],
-			[
 				"stylesscss",
 				"css/stylesheet.scss"
 			],
 			[
 				"css",
 				"css/stylesheet.css"
-			],
-			[
-				"workscss",
-				"css/_workImage.scss"
 			],
 			[
 				"styscs",
@@ -1636,10 +2336,6 @@
 				"transroad/app/assets/stylesheets/components/_form.scss"
 			],
 			[
-				"varia",
-				"transroad/app/assets/stylesheets/config/_variables.scss"
-			],
-			[
 				"bu",
 				"transroad/app/assets/stylesheets/components/_button.scss"
 			],
@@ -1754,58 +2450,6 @@
 			[
 				"asserb",
 				"transroad/config/initializers/assets.rb"
-			],
-			[
-				"appjs",
-				"transroad/app/assets/javascripts/application.js"
-			],
-			[
-				"vari",
-				"transroad/app/assets/stylesheets/config/_variables.scss"
-			],
-			[
-				"color",
-				"transroad/app/assets/stylesheets/config/_colors.scss"
-			],
-			[
-				"xml",
-				"transroad/db_schema/db_schema.xml"
-			],
-			[
-				"yml",
-				"transroad/config/locales/simple_form.en.yml"
-			],
-			[
-				"progre",
-				"transroad/app/assets/stylesheets/components/_form__progress.scss"
-			],
-			[
-				"vara",
-				"transroad/app/assets/stylesheets/config/_variables.scss"
-			],
-			[
-				"sectionscs",
-				"transroad/app/assets/stylesheets/layouts/_section.scss"
-			],
-			[
-				"formscs",
-				"transroad/app/assets/stylesheets/components/_form.scss"
-			],
-			[
-				"bootsta",
-				"transroad/app/assets/stylesheets/config/_bootstrap_variables.scss"
-			],
-			[
-				"appscss",
-				"transroad/app/assets/stylesheets/application.scss"
-			],
-			[
-				"indexscs",
-				"transroad/app/assets/stylesheets/components/_index.scss"
-			],
-			[
-				"shipregnew",
-				"transroad/app/views/shippers/registrations/new.html.erb"
 			]
 		],
 		"width": 0.0

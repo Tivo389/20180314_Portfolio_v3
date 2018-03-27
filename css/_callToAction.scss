@@ -38,6 +38,9 @@
       font-size: 1.6rem;
     }
   }
+  &:not(.bounce):hover {
+    transform: translateX(4px);
+  }
   svg {
     font-size: 1.6rem;
     margin-top: 0.4rem;
