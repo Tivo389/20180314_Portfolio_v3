@@ -9,6 +9,9 @@
   &.left {
     justify-content: left;
   }
+  &.visible-xs {
+    margin-top: 4rem;
+  }
   a {
     align-items: center;
     display: flex;

@@ -706,30 +706,10 @@ a.work--image {
 .work--img--container {
   max-width: calc(32rem + 3rem);
   margin: auto; }
-  .work--img--container a, .work--img--container img {
+  .work--img--container a {
     margin-bottom: 2rem; }
-    .work--img--container a:last-child, .work--img--container img:last-child {
+    .work--img--container a:last-child {
       margin-bottom: 0; }
-  .work--img--container a.w--01, .work--img--container a.w--02, .work--img--container a.w--03, .work--img--container a.w--04, .work--img--container a.w--05, .work--img--container a.w--06, .work--img--container a.w--08, .work--img--container a.w--09, .work--img--container a.w--10 {
-    background-size: cover; }
-  .work--img--container a.w--01 {
-    background-image: url("../images/dummy_1x.png"); }
-  .work--img--container a.w--02 {
-    background-image: url("../images/dummy_1x.png"); }
-  .work--img--container a.w--03 {
-    background-image: url("../images/dummy_1x.png"); }
-  .work--img--container a.w--04 {
-    background-image: url("../images/dummy_1x.png"); }
-  .work--img--container a.w--05 {
-    background-image: url("../images/dummy_1x.png"); }
-  .work--img--container a.w--06 {
-    background-image: url("../images/dummy_1x.png"); }
-  .work--img--container a.w--08 {
-    background-image: url("../images/dummy_1x.png"); }
-  .work--img--container a.w--09 {
-    background-image: url("../images/dummy_1x.png"); }
-  .work--img--container a.w--10 {
-    background-image: url("../images/dummy_1x.png"); }
 
 @media (min-width: 1200px) {
   #wImgContainerDesktop {
@@ -901,6 +881,8 @@ a.work--image {
     -webkit-box-pack: left;
     -ms-flex-pack: left;
     justify-content: left; }
+  .callToAction.visible-xs {
+    margin-top: 4rem; }
   .callToAction a {
     -webkit-box-align: center;
     -ms-flex-align: center;
