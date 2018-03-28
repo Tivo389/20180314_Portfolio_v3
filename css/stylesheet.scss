@@ -9,6 +9,7 @@
 @import "_menu";
 @import "_workImage";
 @import "_callToAction";
+@import "_linkBlock";
 
 #landing {
   min-height: 100vh;
@@ -33,7 +34,7 @@
     img {
       width: 68.75vw;
       max-width: 320px;
-      margin-bottom: 4rem;
+      margin: 0 auto 4rem auto;
     }
   }
 }
@@ -65,10 +66,11 @@
 .experiment--img--container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  a {
-    width: 42.5%;
-    margin-bottom: 1.5rem;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+  a:not(.link--block) {
+    margin: 0.75rem 0;
+    width: calc(50% - 0.75rem);
     &:last-child, &:nth-last-child(2) {
       margin-bottom: 0;
     }
@@ -132,11 +134,33 @@
   background-color: $color--accent;
 }
 
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991px) {}
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199px) {}
-/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 768px) and (max-width: 1199px) {
+.experiment--img--container {
+  margin: -1.5rem auto 0 auto;
+  max-width: vw;
+  a:not(.link--block) {
+    margin: 0.75rem;
+    width: unset;
+    flex: 1 25%;
+    max-width: calc(25% - 1.5rem);
+    &:last-child, &:nth-last-child(2) {
+      margin-bottom: 0.75rem;
+    }
+  }
+}
+.profile {  // Specific to about.html
+  margin: 0.5rem 1.5rem 1.5rem 18vw;
+  padding-bottom: 25vw;
+  width: 25vw;
+  float: left;
+}
+.about--text {
+  width: 64vw;
+  margin: 0 auto;
+  padding: unset;
+}
+}
+
 @media (min-width: 1200px) {
 #landing {
   display: flex;
@@ -156,7 +180,7 @@
     }
     img {
       max-width: 260px;
-      margin-bottom: 2rem;
+      margin: 0 auto 2rem 0;
     }
   }
   .landing--notebook {
@@ -197,16 +221,12 @@
 .experiment--img--container {
   justify-content: flex-start;
   margin: -1.5rem;
-  a {
+  padding: unset;
+  a:not(.link--block) {
     flex: 1 25%;
-    margin-bottom: unset;
+    margin: unset;
     padding: 1.5rem;
     max-width: 25%;
-    &.backToWork, &.whoMadeThese {
-      margin: 1.5rem;
-      max-width: calc(25% - 3rem);
-      padding: 1.5rem 1.75rem;
-    }
   }
 }
 .profile { // Specific to about.html

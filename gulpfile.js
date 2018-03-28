@@ -7,7 +7,7 @@ var autoprefixer = require('gulp-autoprefixer');
 gulp.task('sass', function() {
   return gulp.src('css/stylesheet.scss')
     .pipe(sass({
-      outputStyle: 'minified',
+      outputStyle: 'compressed',
     }).on('error', sass.logError))
     .pipe(gulp.dest('css'))
 });
@@ -27,8 +27,9 @@ gulp.task('browserSync', function() {
 gulp.task('autoprefixer', function() {
   return gulp.src('css/*.css')
   .pipe(autoprefixer({
-    browsers: ['last 2 versions'],
-    cascade: false
+    browsers: ['last 3 versions'],
+    cascade: false,
+    grid: true
   }))
   .pipe(gulp.dest('./css'))
 });
