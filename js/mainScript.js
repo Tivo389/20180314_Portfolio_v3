@@ -21,8 +21,8 @@
 
     // Works on desktop if here but causes problem for mobile
     const menuUl = document.querySelector('#menu ul');
-    menuBtn.addEventListener('mouseenter', onMenuBtnMouseEnter);
-    menuUl.addEventListener('mouseleave', onMenuBtnMouseLeave);
+    // [ TEMP DISABLED :) ] menuBtn.addEventListener('mouseenter', onMenuBtnMouseEnter);
+    // [ TEMP DISABLED :) ] menuUl.addEventListener('mouseleave', onMenuBtnMouseLeave);
 
   });
 })();

@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"transi",
+				"transition--m\t _work_image.scss"
+			],
+			[
+				"trans",
+				"transition--s\t _menu.scss"
+			],
+			[
+				"flex",
+				"flex-start"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
 				"vis",
 				"visible-sm"
 			],
@@ -22,10 +38,6 @@
 			[
 				"margin-",
 				"margin-top\t(stylesheet.scss)"
-			],
-			[
-				"flex",
-				"flex-direction"
 			],
 			[
 				"visib",
@@ -54,10 +66,6 @@
 			[
 				"query",
 				"querySelector"
-			],
-			[
-				"trans",
-				"transition--m\t _work_image.scss"
 			],
 			[
 				"colo",
@@ -166,10 +174,6 @@
 			[
 				"backgroun",
 				"background-size\t(stylesheet.scss)"
-			],
-			[
-				"background",
-				"background-image\t(stylesheet.scss)"
 			],
 			[
 				"exper",
@@ -510,10 +514,6 @@
 			[
 				"cr",
 				"criteria"
-			],
-			[
-				"per",
-				"permutations"
 			]
 		]
 	},
@@ -529,19 +529,28 @@
 			}
 		},
 		{
-			"file": "css/_section.scss",
+			"file": "components/menu.html",
 			"settings":
 			{
-				"buffer_size": 4179,
+				"buffer_size": 401,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "css/stylesheet.scss",
+			"file": "css/_menu.scss",
 			"settings":
 			{
-				"buffer_size": 4847,
+				"buffer_size": 4526,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/mainScript.js",
+			"settings":
+			{
+				"buffer_size": 6753,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -741,12 +750,15 @@
 	],
 	"file_history":
 	[
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/_menu.scss",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/components/menu.html",
 		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/_section.scss",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/js/mainScript.js",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/bootstrap.min.css",
 		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/stylesheet.scss",
 		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/_workImage.scss",
 		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/_linkBlock.scss",
 		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/work_detail.html",
-		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/_menu.scss",
 		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/index.html",
 		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/_expertiseCard.scss",
 		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/_reset.scss",
@@ -754,7 +766,6 @@
 		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/_animation.scss",
 		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/_variable.scss",
 		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2016_0224-1009_HTML_LEARNING/99_TEMPLATE_SET/HTML/V7_JAN_2018/css/stylesheet.scss",
-		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/js/mainScript.js",
 		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/_font.scss",
 		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/_debugger.scss",
 		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/work.html",
@@ -764,7 +775,6 @@
 		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/js/_loadComponent.js",
 		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/experiments.html",
 		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/stylesheet.css",
-		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/components/menu.html",
 		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/components/menuBtn.html",
 		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/about.html",
 		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2016_0224-1009_HTML_LEARNING/00_PRACTICE_FILES/56_012218_UIUX_PREFECTURE_DROPDOWN/js/scrollOnOpen.js",
@@ -867,8 +877,7 @@
 		"/Users/SHUN/code/Tivo389/transroad/app/views/shipments/show.html.erb",
 		"/Users/SHUN/code/Tivo389/transroad/config/initializers/assets.rb",
 		"/Users/SHUN/code/Tivo389/transroad/app/assets/javascripts/matchedCarriers_selectable.js",
-		"/Users/SHUN/code/Tivo389/transroad/app/assets/javascripts/jquery.jpostal.js",
-		"/Users/SHUN/code/Tivo389/transroad/app/assets/javascripts/application.js"
+		"/Users/SHUN/code/Tivo389/transroad/app/assets/javascripts/jquery.jpostal.js"
 	],
 	"find":
 	{
@@ -893,6 +902,25 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"left",
+			"// ",
+			"block",
+			"aria",
+			"pointer",
+			"homeIcon",
+			"listAnchor",
+			"25",
+			"right",
+			"::after",
+			"onMenuBtnMouseEnter",
+			"unset",
+			"onMenuBtnMouseEnter",
+			"handleMenuBackColor",
+			"space",
+			"left",
+			"calc(#{$spaceFromEdge} * 1.5)",
+			"$spaceFromEdge",
+			"spaceFromEdge",
 			".profile--text",
 			".profile--photo",
 			"landingAbout",
@@ -1001,26 +1029,7 @@
 			"padding",
 			"margin",
 			"padding",
-			"margin",
-			"padding",
-			"margin",
-			"padding",
-			"margin",
-			"padding",
-			"specific",
-			".profile",
-			"padding",
-			"margin",
-			"experiment--im",
-			"iconBars",
-			"menuColor",
-			"Btm",
-			"btm",
-			"Btm",
-			"btm",
-			"Top",
-			"top",
-			"Top"
+			"margin"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1042,7 +1051,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -1058,8 +1067,8 @@
 						"selection":
 						[
 							[
-								5469,
-								5469
+								638,
+								638
 							]
 						],
 						"settings":
@@ -1068,6 +1077,10 @@
 							[
 								{
 									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
 									"selector": "text.html"
 								},
 								{
@@ -1083,8 +1096,8 @@
 								{
 									"1":
 									[
-										6060,
-										6061
+										578,
+										582
 									]
 								},
 								"icon":
@@ -1099,8 +1112,8 @@
 								{
 									"1":
 									[
-										5935,
-										5936
+										578,
+										582
 									]
 								},
 								"unmatched":
@@ -1171,8 +1184,8 @@
 								{
 									"1":
 									[
-										5465,
-										5468
+										578,
+										582
 									]
 								},
 								"icon":
@@ -1187,8 +1200,8 @@
 								{
 									"1":
 									[
-										5163,
-										5166
+										578,
+										582
 									]
 								},
 								"unmatched":
@@ -1260,7 +1273,7 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2399.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -1268,19 +1281,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "css/_section.scss",
+					"file": "components/menu.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4179,
+						"buffer_size": 401,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2395,
-								2395
+								401,
+								401
 							]
 						],
 						"settings":
@@ -1304,8 +1317,141 @@
 								{
 									"1":
 									[
-										3083,
-										3084
+										397,
+										400
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"region.orangish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1,
+										4
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"bs_sintax": "html",
+							"buffer_scroll_name": "c37f1e9a",
+							"git_gutter_is_enabled": true,
+							"spell_check": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/_menu.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4526,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2259,
+								2259
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										2553,
+										2554
 									]
 								},
 								"icon":
@@ -1320,8 +1466,8 @@
 								{
 									"1":
 									[
-										2029,
-										2030
+										2165,
+										2166
 									]
 								},
 								"unmatched":
@@ -1387,39 +1533,33 @@
 								"bh_tag_content"
 							],
 							"bs_sintax": "scss",
-							"buffer_scroll_name": "478e843c",
+							"buffer_scroll_name": "8fb9cebe",
 							"git_gutter_is_enabled": true,
 							"spell_check": false,
 							"syntax": "Packages/SCSS/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2335.0,
+						"translation.y": 2349.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
+				},
 				{
-					"buffer": 2,
-					"file": "css/stylesheet.scss",
+					"buffer": 3,
+					"file": "js/mainScript.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4847,
+						"buffer_size": 6753,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								116,
-								116
+								970,
+								970
 							]
 						],
 						"settings":
@@ -1437,89 +1577,31 @@
 							],
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
 							"bracket_highlighter.locations":
 							{
 								"close":
 								{
+									"1":
+									[
+										1033,
+										1034
+									]
 								},
 								"icon":
 								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
 								},
 								"open":
 								{
+									"1":
+									[
+										315,
+										316
+									]
 								},
 								"unmatched":
 								{
@@ -1583,18 +1665,17 @@
 								"bh_tag_close",
 								"bh_tag_content"
 							],
-							"bs_sintax": "scss",
-							"buffer_scroll_name": "da817e2b",
+							"bs_sintax": "javascript (babel)",
+							"buffer_scroll_name": "f93c7eeb",
 							"git_gutter_is_enabled": true,
-							"history_list_is_closing": true,
 							"spell_check": false,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -1617,18 +1698,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":
@@ -1672,8 +1746,36 @@
 		"selected_items":
 		[
 			[
+				"menuscs",
+				"css/_menu.scss"
+			],
+			[
+				"menu",
+				"components/menu.html"
+			],
+			[
+				"main",
+				"js/mainScript.js"
+			],
+			[
+				"sec",
+				"css/_section.scss"
+			],
+			[
 				"section",
 				"css/_section.scss"
+			],
+			[
+				"menuscss",
+				"css/_menu.scss"
+			],
+			[
+				"mainsc",
+				"js/mainScript.js"
+			],
+			[
+				"boot",
+				"css/bootstrap.min.css"
 			],
 			[
 				"sectio",
@@ -1682,10 +1784,6 @@
 			[
 				"style",
 				"css/stylesheet.scss"
-			],
-			[
-				"sec",
-				"css/_section.scss"
 			],
 			[
 				"syl",
@@ -1698,10 +1796,6 @@
 			[
 				"index",
 				"index.html"
-			],
-			[
-				"menu",
-				"css/_menu.scss"
 			],
 			[
 				"link",
@@ -1752,14 +1846,6 @@
 				"work.html"
 			],
 			[
-				"menuscs",
-				"css/_menu.scss"
-			],
-			[
-				"mainsc",
-				"js/mainScript.js"
-			],
-			[
 				"anima",
 				"css/_animation.scss"
 			],
@@ -1774,10 +1860,6 @@
 			[
 				".js",
 				"js/_menuBtn.js"
-			],
-			[
-				"main",
-				"js/mainScript.js"
 			],
 			[
 				"stlcss",
@@ -1882,10 +1964,6 @@
 			[
 				"worhtm",
 				"work.html"
-			],
-			[
-				"menuscss",
-				"css/_menu.scss"
 			],
 			[
 				"call",
@@ -2178,10 +2256,6 @@
 			[
 				"shipmentshtmlerb",
 				"transroad/app/views/shipper/shipments/index.html.erb"
-			],
-			[
-				"colorscs",
-				"transroad/app/assets/stylesheets/config/_colors.scss"
 			]
 		],
 		"width": 0.0
@@ -2204,7 +2278,7 @@
 		],
 		"width": 392.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
