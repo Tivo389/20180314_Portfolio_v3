@@ -79,107 +79,131 @@ section.work--detail {
   }
 }
 
-@media (min-width: 1200px) {
-#landingAbout {
-  display: flex;
-  justify-content: space-between;
-}
-section, section.work--detail {
-  padding: 6rem 16rem;
-  &:not(#landing)::after {
-    bottom: 0;
-    content: " ";
-    display: block !important;
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 20px;
-    border-bottom-right-radius: 20px;
-    border-top-right-radius: 20px;
-  }
-  &#featuredWork::after, &#work::after, &#work--detail::after {
-    background-color: $color--sub;
-  }
-  &#expertise::after, &#experiments::after {
-    background-color: $color--main;
-  }
-  &#landingAbout::after, &#about::after {
-    background-color: $color--accent;
-  }
-  .section--container {
-    padding: unset;
-  }
-  .section--header {
-    justify-content: left;
-    overflow: unset;
-    width: auto;
-    padding: unset;
-    &.bcBlue,&.bcPink,&.bcBlack {
-      background-color: unset;
-    }
-    h2 {
-      color: $color--gray;
-      text-align: left;
-    }
-    + p {
-      justify-content: left;
-      margin-bottom: 2.5rem;
-      padding: unset;
-      text-align: left;
-    }
+// START / work_detail.html
+@media (min-width: 768px) and (max-width: 984px) {
+  #work--detail .desktop--div {
+    position: fixed;
+    margin: auto 1.5rem;
+    width: 40vw;
   }
 }
-section.landingPage,section.landingPage:last-child {
-  padding: 14rem 16rem;
-}
-section.work--detail {
-  position: relative;
-  .detail--body {
-    margin: 0 0 1.5rem 0;
-    &:last-child {
-    }
-    h4 {
-      margin: unset;
-    }
-    p {
-      margin-bottom: 1.5rem;
-    }
+@media (min-width: 984px) and (max-width: 1199px) {
+  #work--detail .desktop--div {
+    position: fixed;
+    margin: auto 3rem;
+    width: 35vw;
   }
-  .detail--list {
-    margin: 1.5rem 0 0 0;
-    p {
-      font-size: 1.4rem;
-      line-height: 135%;
-      span {
-        width: 80px;
+}
+// END / work_detail.html
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  section {
+    .section--header {
+      margin-bottom: 4.2rem;
+      + p {
+        margin-bottom: 4rem;
       }
     }
   }
-  .section--container {
-    border-top: 2px solid $color--lightgray;
-    padding-top: 3.2rem;
-    display: inline-block;
-  }
-  .section--header {
-    align-items: unset;
-    margin-bottom: 3rem;
-    h2 {
-      font-size: 4rem;
-      color: $color--accent;
-    }
-    p {
-      color: $color--gray;
-      font-size: 1.8rem;
-    }
-  }
-  .work--img--container {
-    margin: unset;
-  }
 }
-.desktop--div {
-  position: fixed;
-  width: calc((100% - 32rem)/2);  // [confirmed] not a flex-item
-  padding-right: calc((100% - 32rem)/12);  // [confirmed] not a flex-item
-}
+
+@media (min-width: 1200px) {
+  section, section.work--detail {
+    padding: 6rem 16rem;
+    &:not(#landing)::after {
+      bottom: 0;
+      content: " ";
+      display: block !important;
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 20px;
+      border-bottom-right-radius: 20px;
+      border-top-right-radius: 20px;
+    }
+    &#featuredWork::after, &#work::after, &#work--detail::after {
+      background-color: $color--main;
+    }
+    &#expertise::after, &#experiments::after {
+      background-color: $color--sub;
+    }
+    &#landingAbout::after, &#about::after {
+      background-color: $color--accent;
+    }
+    .section--container {
+      padding: unset;
+    }
+    .section--header {
+      justify-content: left;
+      overflow: unset;
+      width: auto;
+      padding: unset;
+      &.bcBlue,&.bcPink,&.bcBlack {
+        background-color: unset;
+      }
+      h2 {
+        color: $color--gray;
+        text-align: left;
+      }
+      + p {
+        justify-content: left;
+        margin-bottom: 2.5rem;
+        padding: unset;
+        text-align: left;
+      }
+    }
+  }
+  section.landingPage,section.landingPage:last-child {
+    padding: 14rem 16rem;
+  }
+  section.work--detail {
+    position: relative;
+    .detail--body {
+      margin: 0 0 1.5rem 0;
+      &:last-child {
+      }
+      h4 {
+        margin: unset;
+      }
+      p {
+        margin-bottom: 1.5rem;
+      }
+    }
+    .detail--list {
+      margin: 1.5rem 0 0 0;
+      p {
+        font-size: 1.4rem;
+        line-height: 135%;
+        span {
+          width: 80px;
+        }
+      }
+    }
+    .section--container {
+      border-top: 2px solid $color--lightgray;
+      padding-top: 3.2rem;
+      display: inline-block;
+    }
+    .section--header {
+      align-items: unset;
+      margin-bottom: 3rem;
+      h2 {
+        font-size: 4rem;
+        color: $color--accent;
+      }
+      p {
+        color: $color--gray;
+        font-size: 1.8rem;
+      }
+    }
+    .work--img--container {
+      margin: unset;
+    }
+  }
+  .desktop--div {
+    position: fixed;
+    width: calc((100% - 32rem)/2);  // [confirmed] not a flex-item
+    padding-right: calc((100% - 32rem)/12);  // [confirmed] not a flex-item
+  }
 }

@@ -1,0 +1,70 @@
+.link--block, a.backToWork, a.whoMadeThese {
+  align-items: left;
+  border-width: 5px;
+  border-style: solid;
+  display: none;
+  flex-direction: column-reverse;
+  justify-content: unset;
+  margin: 1.5rem;
+  padding: 1.25rem 2rem;
+  transition: $transition--s;
+  &:hover {
+    border-width: 10px;
+  }
+  &.work {
+    border-color: $color--main;
+    span {
+      color: $color--main;
+    }
+  }
+  &.experiments {
+    border-color: $color--sub;
+    span {
+      color: $color--sub;
+    }
+  }
+  &.about {
+    border-color: $color--accent;
+    span {
+      color: $color--accent;
+    }
+  }
+  span {
+    font-family: $font--azo;
+    font-size: 2.4rem;
+    font-weight: bolder;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .experiment--img--container {
+    a.link--block {
+      margin:0.75rem;
+      padding: 0.75rem 1.25rem;
+      span {
+        font-size: 2rem;
+        line-height: 1;
+      }
+    }
+  }
+  .link--block {
+    flex: 1;
+    display: flex;
+  }
+}
+
+@media (min-width: 1200px) {
+.experiment--img--container {
+  a.link--block {
+    max-width: calc(25% - 3rem);
+    padding: 1.5rem 1.75rem;
+  }
+}
+a.link--block {
+  display: flex;
+  margin: 1.5rem;
+}
+a.link--block.about { // To compnesate for a:nth-last-child(2)
+  margin-bottom: 1.5rem;
+}
+}

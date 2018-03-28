@@ -12,15 +12,18 @@
   .then((data) => {
     $('#main').after(data);
     const menuBtn = document.querySelector('#menuBtn');
-    const menuUl = document.querySelector('#menu ul');
     const btnTop = menuBtn.getBoundingClientRect().top + window.scrollY;
     const onLandingView = btnTop < window.innerHeight;
     buttonColor();
     if(onLandingPage && onLandingView) menuBtn.classList.add('hidden');
     menuBtn.addEventListener('click', openMenu);
+    document.addEventListener('scroll', debounce(visibleButton));
+
+    // Works on desktop if here but causes problem for mobile
+    const menuUl = document.querySelector('#menu ul');
     menuBtn.addEventListener('mouseenter', onMenuBtnMouseEnter);
     menuUl.addEventListener('mouseleave', onMenuBtnMouseLeave);
-    document.addEventListener('scroll', debounce(visibleButton));
+
   });
 })();
 
@@ -158,24 +161,32 @@ document.addEventListener('scroll', debounce(activateImage));
 
 
 // DESKTOP ONLY / MENU BUTTON / ONHOVER
-function onMenuBtnMouseEnter(e) {
-  const aria = e.currentTarget.attributes["aria-expanded"];
-  const ariaExpanded = (aria.value == 'true');
-  ariaExpanded ? aria.value = "false": aria.value = "true";
-  handleMenuBackColor(document.querySelector('#menu ul'));
-  document.querySelector('html').classList.toggle('active');
-  document.querySelector('body').classList.toggle('active');
-  document.querySelector('#main').classList.toggle('active');
-  document.querySelector('#menu').classList.toggle('active');
-}
-function onMenuBtnMouseLeave() {
-  const aria = document.querySelector('#menuBtn').attributes["aria-expanded"];
-  const ariaExpanded = (aria.value == 'true');
-  ariaExpanded ? aria.value = "false": aria.value = "true";
-  document.querySelector('html').classList.toggle('active');
-  document.querySelector('body').classList.toggle('active');
-  document.querySelector('#main').classList.toggle('active');
-  document.querySelector('#menu').classList.toggle('active');
+if(isHorizontalScreen) {
+//--------------------------------------------------
+  // const menuBtn = document.querySelector('#menuBtn');
+  // const menuUl = document.querySelector('#menu ul');
+  // menuBtn.addEventListener('mouseenter', onMenuBtnMouseEnter);
+  // menuUl.addEventListener('mouseleave', onMenuBtnMouseLeave);
+  function onMenuBtnMouseEnter(e) {
+    const aria = e.currentTarget.attributes["aria-expanded"];
+    const ariaExpanded = (aria.value == 'true');
+    ariaExpanded ? aria.value = "false": aria.value = "true";
+    handleMenuBackColor(document.querySelector('#menu ul'));
+    document.querySelector('html').classList.toggle('active');
+    document.querySelector('body').classList.toggle('active');
+    document.querySelector('#main').classList.toggle('active');
+    document.querySelector('#menu').classList.toggle('active');
+  }
+  function onMenuBtnMouseLeave() {
+    const aria = document.querySelector('#menuBtn').attributes["aria-expanded"];
+    const ariaExpanded = (aria.value == 'true');
+    ariaExpanded ? aria.value = "false": aria.value = "true";
+    document.querySelector('html').classList.toggle('active');
+    document.querySelector('body').classList.toggle('active');
+    document.querySelector('#main').classList.toggle('active');
+    document.querySelector('#menu').classList.toggle('active');
+  }
+//--------------------------------------------------
 }
 
 
