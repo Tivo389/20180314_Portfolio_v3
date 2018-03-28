@@ -70,18 +70,18 @@ $bg--accent: rgba(64,64,64,0.65);
     font-size: 1.8rem;
     font-weight: bolder;
     justify-content: center;
-    padding: 1.8rem;
-    &:first-child {
+    padding: 1.6rem;
+    &::first-child {
       border-top: 2px solid $color--white;
     }
-  }
-  .homeIcon {
-    bottom: 1rem;
-    color: $color--white;
-    font-size: 3.2rem;
-    left: 1.1rem;
-    line-height: 0;
-    position: absolute;
+    &.homeIcon {
+      // bottom: 1rem;
+      // color: $color--white;
+      font-size: 2.2rem;
+      // left: 1.1rem;
+      // line-height: 0;
+      // position: absolute;
+    }
   }
 }
 #menu.active {
@@ -104,55 +104,60 @@ body.active, html.active {
 
 @media (min-width: 1200px) {
   #menuBtn {
-    background-color: unset;
-    box-shadow: unset;
-    left: 2.65rem;
-    top: 0.5rem;
-    &:hover .icon-bar + .icon-bar {
-      margin-top: 3px;
-    }
-    .icon-bar {
-      transition: $transition--s;
-    }
+    display: none;
   }
   #menu {
-    background-color: unset;
+    bottom: unset;
+    height: unset;
+    left: unset;
+    opacity: 1;
+    right: unset;
+    top: unset;
+    visibility: unset;
+    width: unset;
     ul {
-      background-color: $bg--main;
-      box-shadow: $box-shadow--default;
-      padding-top: 6.6rem;
-      position: absolute;
+      opacity: 0;
+      display: none;
       left: 0;
+      margin: 1.5rem 3rem 1.5rem 2rem;
+      position: absolute;
       top: 0;
+      transition: $transition--m;
+      transform: translateX(-120%);
       width: auto;
+      &:hover a.listAnchor {
+        opacity: 1;
+      }
+      &.active {
+        transform: translateX(0);
+        opacity: 1;
+        display: unset;
+      }
     }
     a.listAnchor {
-      border-bottom: 2px solid $color--white;
-      padding: 1.2rem 8rem;
-      &:first-child {
-        border-top: 2px solid $color--white;
+      border: 0;
+      color: $color--black;
+      font-size: 1.6rem;
+      justify-content: flex-start;
+      line-height: 1;
+      opacity: 0.1;
+      padding: 0.5rem;
+      transition: $transition--s;
+      &::first-child {
+        border-top: 0;
       }
-      &:nth-last-child(2) {
-        border-bottom: none;
+      &:not(.homeIcon):hover {
+        font-size: 2rem;
       }
-      &:hover {
-        background-color: rgba(0,0,0,0.5);
+      &.active {
+        opacity: 0.5;
       }
-    }
-    .homeIcon {
-      top: 1.6rem;
-      left: 50%;
-      bottom: unset;
-      transform: translateX(-50%);
-      svg:hover {
-        color: rgba(0,0,0,0.5);
+      &.homeIcon {
+        transition: $transition--s;
+        svg:hover {
+          color: rgba(0,0,0,0.5);
+        }
       }
-    }
-  }
-  #menuBtn[aria-expanded=true] {
-    pointer-events: none;
-    .icon-bar {
-      display: none;
     }
   }
   #menu.active {
@@ -162,3 +167,65 @@ body.active, html.active {
     opacity: 0.5;
   }
 }
+
+// VERSION 1
+// @media (min-width: 1200px) {
+//   #menuBtn {
+//     background-color: unset;
+//     box-shadow: unset;
+//     left: 2.65rem;
+//     top: 0.5rem;
+//     &:hover .icon-bar + .icon-bar {
+//       margin-top: 3px;
+//     }
+//     .icon-bar {
+//       transition: $transition--s;
+//     }
+//   }
+//   #menu {
+//     background-color: unset;
+//     ul {
+//       background-color: $bg--main;
+//       box-shadow: $box-shadow--default;
+//       padding-top: 6.6rem;
+//       position: absolute;
+//       left: 0;
+//       top: 0;
+//       width: auto;
+//     }
+//     a.listAnchor {
+//       border-bottom: 2px solid $color--white;
+//       padding: 1.2rem 8rem;
+//       &:first-child {
+//         border-top: 2px solid $color--white;
+//       }
+//       &:nth-last-child(2) {
+//         border-bottom: none;
+//       }
+//       &:hover {
+//         background-color: rgba(0,0,0,0.5);
+//       }
+//     }
+//     .homeIcon {
+//       top: 1.6rem;
+//       left: 50%;
+//       bottom: unset;
+//       transform: translateX(-50%);
+//       svg:hover {
+//         color: rgba(0,0,0,0.5);
+//       }
+//     }
+//   }
+//   #menuBtn[aria-expanded=true] {
+//     pointer-events: none;
+//     .icon-bar {
+//       display: none;
+//     }
+//   }
+//   #menu.active {
+//     flex-direction: column;
+//   }
+//   #main.active {
+//     opacity: 0.5;
+//   }
+// }
