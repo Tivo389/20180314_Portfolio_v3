@@ -1,8 +1,6 @@
-// $bg--main: rgba(0,165,213,0.65);
 $bg--main: rgba(128,128,128,0.65);
 $bg--sub: rgba(238,164,168,0.65);
 $bg--accent: rgba(64,64,64,0.65);
-$spaceFromEdge: 0.8rem;
 
 #main, #menu {
   transition: $transition--s;
@@ -12,7 +10,7 @@ $spaceFromEdge: 0.8rem;
   background-color: $color--white;
   border-radius: 50%;
   border: 0;
-  bottom: $spaceFromEdge;
+  bottom: 0.8rem;
   box-shadow: $box-shadow--default;
   display: flex;
   flex-direction: column;
@@ -22,7 +20,7 @@ $spaceFromEdge: 0.8rem;
   opacity: 1;
   padding: 0;
   position: fixed;
-  right: $spaceFromEdge;
+  right: 0.8rem;
   width: 4.6rem;
   transition: $transition--s;
   z-index: 1000;
@@ -78,10 +76,10 @@ $spaceFromEdge: 0.8rem;
     }
   }
   .homeIcon {
-    bottom: calc(#{$spaceFromEdge} * 1.25);
+    bottom: 1rem;
     color: $color--white;
     font-size: 3.2rem;
-    left: calc(#{$spaceFromEdge} * 1.35);
+    left: 1.1rem;
     line-height: 0;
     position: absolute;
   }
@@ -99,8 +97,8 @@ body.active, html.active {
 
 @media (min-width: 768px) and (max-width: 1199px) {
   #menuBtn {
-    bottom: calc(#{$spaceFromEdge} * 1.5);
-    right: calc(#{$spaceFromEdge} * 1.5);
+    bottom: 1.2rem;
+    right: 1.2rem;
   }
 }
 
@@ -108,8 +106,8 @@ body.active, html.active {
   #menuBtn {
     background-color: unset;
     box-shadow: unset;
-    right: calc(#{$spaceFromEdge} * 1.75);
-    top: calc(#{$spaceFromEdge} * 1.25);
+    left: 2.65rem;
+    top: 0.5rem;
     &:hover .icon-bar + .icon-bar {
       margin-top: 3px;
     }
@@ -124,7 +122,7 @@ body.active, html.active {
       box-shadow: $box-shadow--default;
       padding-top: 6.6rem;
       position: absolute;
-      right: 0;
+      left: 0;
       top: 0;
       width: auto;
     }
@@ -142,7 +140,7 @@ body.active, html.active {
       }
     }
     .homeIcon {
-      top: calc(#{$spaceFromEdge} * 2);
+      top: 1.6rem;
       left: 50%;
       bottom: unset;
       transform: translateX(-50%);
@@ -154,7 +152,6 @@ body.active, html.active {
   #menuBtn[aria-expanded=true] {
     pointer-events: none;
     .icon-bar {
-      // background-color: $color--white !important;
       display: none;
     }
   }
