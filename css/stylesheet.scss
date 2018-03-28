@@ -162,95 +162,99 @@
 }
 
 @media (min-width: 1200px) {
-#landing {
-  display: flex;
-  padding: 0 12rem 1.5rem 12rem;
-  .landing--banner {
-    align-items: left;
-    flex: 5;
-    div {
-      text-align: left;
-      &:first-child {
-        flex: unset;
+  #landing {
+    display: flex;
+    padding: 0 12rem 1.5rem 12rem;
+    .landing--banner {
+      align-items: left;
+      flex: 5;
+      div {
+        text-align: left;
+        &:first-child {
+          flex: unset;
+        }
+      }
+      h1 {
+        text-align: left;
+        margin-bottom: 4rem;
+      }
+      img {
+        max-width: 260px;
+        margin: 0 auto 2rem 0;
       }
     }
-    h1 {
-      text-align: left;
-      margin-bottom: 4rem;
-    }
-    img {
-      max-width: 260px;
-      margin: 0 auto 2rem 0;
-    }
-  }
-  .landing--notebook {
-    height: 100%;
-    flex: 7;
-    div {
-      display: flex;
-      align-items: center;
-      justify-content: flex-end;
+    .landing--notebook {
       height: 100%;
-    }
-    img {
-      min-width: 500px;
-      max-width: 560px;
-    }
-  }
-}
-.about--text {
-  display: block;
-  margin-top: 5rem;
-  margin-left: auto;
-  width: 50%;
-  padding: unset;
-  p {
-    font-size: 2rem;
-    + p {
-      margin-top: 2rem;
+      flex: 7;
+      div {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        height: 100%;
+      }
+      img {
+        min-width: 500px;
+        max-width: 560px;
+      }
     }
   }
-}
-.button--container {
-  justify-content: space-between;
-  margin: 4.5rem 0 0 0;
-  svg {
-    font-size: 4.2rem;
+  #landingAbout {
+    display: flex;
+    justify-content: space-between;
+    .profile--photo { // Specific to index.html
+      background-image: url('../images/dummy_1x.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      flex: 7;
+      margin-right: 1.5rem;
+      max-height: 400px;
+      min-height: 320px;
+    }
+    .profile--text {
+      flex: 5;
+      margin-left: 1.5rem;
+      p {
+        line-height: 135%;
+      }
+    }
   }
-}
-.experiment--img--container {
-  justify-content: flex-start;
-  margin: -1.5rem;
-  padding: unset;
-  a:not(.link--block) {
-    flex: 1 25%;
+  .about--text {
+    display: block;
+    margin-top: 5rem;
+    margin-left: auto;
+    width: 50%;
+    padding: unset;
+    p {
+      font-size: 2rem;
+      + p {
+        margin-top: 2rem;
+      }
+    }
+  }
+  .button--container {
+    justify-content: space-between;
+    margin: 4.5rem 0 0 0;
+    svg {
+      font-size: 4.2rem;
+    }
+  }
+  .experiment--img--container {
+    justify-content: flex-start;
+    margin: -1.5rem;
+    padding: unset;
+    a:not(.link--block) {
+      flex: 1 25%;
+      margin: unset;
+      padding: 1.5rem;
+      max-width: 25%;
+    }
+  }
+  .profile { // Specific to about.html
     margin: unset;
-    padding: 1.5rem;
-    max-width: 25%;
+    padding-bottom: 100%;
+    width: unset;
   }
-}
-.profile { // Specific to about.html
-  margin: unset;
-  padding-bottom: 100%;
-  width: unset;
-}
-.profile--photo { // Specific to index.html
-  background-image: url('../images/dummy_1x.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  flex: 7;
-  margin-right: 1.5rem;
-  max-height: 400px;
-  min-height: 320px;
-}
-.profile--text {
-  flex: 5;
-  margin-left: 1.5rem;
-  p {
-    line-height: 135%;
+  .visibleDesktop {
+    display: inline;
   }
-}
-.visibleDesktop {
-  display: inline;
-}
 }

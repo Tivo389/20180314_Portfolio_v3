@@ -108,10 +108,6 @@ section.work--detail {
 }
 
 @media (min-width: 1200px) {
-  #landingAbout {
-    display: flex;
-    justify-content: space-between;
-  }
   section, section.work--detail {
     padding: 6rem 16rem;
     &:not(#landing)::after {
@@ -126,11 +122,11 @@ section.work--detail {
       border-bottom-right-radius: 20px;
       border-top-right-radius: 20px;
     }
-    &#expertise::after, &#experiments::after, &#work--detail::after {
-      background-color: $color--sub;
-    }
-    &#featuredWork::after, &#work::after {
+    &#featuredWork::after, &#work::after, &#work--detail::after {
       background-color: $color--main;
+    }
+    &#expertise::after, &#experiments::after {
+      background-color: $color--sub;
     }
     &#landingAbout::after, &#about::after {
       background-color: $color--accent;
