@@ -116,22 +116,23 @@ body.active, html.active {
     visibility: unset;
     width: unset;
     ul {
-      opacity: 0;
-      display: none;
       left: 0;
       margin: 1.5rem 3rem 1.5rem 2rem;
+      opacity: 0;
       position: absolute;
       top: 0;
-      transition: $transition--m;
       transform: translateX(-120%);
+      transition: $transition--m;
+      transition-timing-function: cubic-bezier(0.1, 0.1, 0.4, 1.5);
+      visibility: hidden;
       width: auto;
       &:hover a.listAnchor {
         opacity: 1;
       }
       &.active {
-        transform: translateX(0);
         opacity: 1;
-        display: unset;
+        transform: translateX(0);
+        visibility: unset;
       }
     }
     a.listAnchor {
@@ -140,7 +141,7 @@ body.active, html.active {
       font-size: 1.6rem;
       justify-content: flex-start;
       line-height: 1;
-      opacity: 0.1;
+      opacity: 0.2;
       padding: 0.5rem;
       transition: $transition--s;
       &::first-child {
