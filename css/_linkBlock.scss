@@ -1,4 +1,5 @@
-.link--block, a.backToWork, a.whoMadeThese {
+.link--block {
+  border-radius: $border--radius;
   align-items: left;
   border-width: 5px;
   border-style: solid;
@@ -6,7 +7,7 @@
   flex-direction: column-reverse;
   justify-content: unset;
   margin: 1.5rem;
-  padding: 1.25rem 2rem;
+  padding: 0.75rem 1.5rem;
   transition: $transition--s;
   &:hover {
     border-width: 10px;
@@ -56,15 +57,21 @@
 @media (min-width: 1200px) {
 .experiment--img--container {
   a.link--block {
+    width: calc(25% - 3rem);
     max-width: calc(25% - 3rem);
-    padding: 1.5rem 1.75rem;
+    padding: 0.75rem 1.5rem;
+    &.work {
+      min-width: calc(50% - 3rem);
+      max-width: calc(50% - 3rem);
+      flex: 1;
+    }
   }
 }
 a.link--block {
   display: flex;
   margin: 1.5rem;
 }
-a.link--block.about { // To compnesate for a:nth-last-child(2)
+a.link--block.about { // To compensate for a:nth-last-child(2)
   margin-bottom: 1.5rem;
 }
 }
