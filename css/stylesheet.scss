@@ -46,6 +46,23 @@
     + p {
       margin-top: $font--p;
     }
+    a {
+      font-size: inherit;
+      position: relative;
+      &:after {
+        background-color: $color--sub;
+        bottom: 6px;
+        content: '';
+        display: inline-block;
+        height: 3px;
+        left: 0;
+        opacity: 0.5;
+        position: absolute;
+        right: 0;
+        width: 100%;
+        z-index: -10;
+      }
+    }
   }
   .callToAction {
     margin-top: 3rem;
@@ -233,8 +250,13 @@
     padding: unset;
     p {
       font-size: 2rem;
+      line-height: 140%;
       + p {
-        margin-top: 2rem;
+        margin-top: 3.2rem;
+      }
+      a:hover::after {
+        height: 2.2rem;
+        border-radius: $border--radius;
       }
     }
   }
