@@ -5,7 +5,7 @@
 }
 #wImgContainerDesktop { // => Specific to *work_detail.html'
   display: none;
-  width: 50%;
+  width: 60%;
   padding-top: 2.5vh;
   img {
     margin-bottom: 3rem;
@@ -19,7 +19,6 @@ a.work--image {
   position: relative;
   &::before {
     border-radius: $border--radius;
-    box-shadow: $box-shadow--image;
     content: '';
     width: 100%;
     height: 100%;
@@ -48,7 +47,7 @@ a.work--image {
     right: 0;
     transition: $transition--s;
     &::after {
-      background-color: $color--black;
+      background-color: rgba(32,32,32,0.85);
       bottom: 0;
       content: "";
       height: 100%;

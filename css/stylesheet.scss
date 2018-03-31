@@ -72,14 +72,6 @@
     margin: 0.75rem 0;
     position: relative;
     width: calc(50% - 0.75rem);
-    &::before {
-      border-radius: $border--radius;
-      box-shadow: $box-shadow--image;
-      content: '';
-      width: 100%;
-      height: 100%;
-      position: absolute;
-    }
     &:last-child, &:nth-last-child(2) {
       margin-bottom: 0;
     }
@@ -261,10 +253,6 @@
       flex: 1 25%;
       margin: 1.5rem;
       max-width: calc(25% - 3rem);
-      &::before {
-        top: 0;
-        left: 0;
-      }
       &:hover {
         transform: translateY(-4px);
       }

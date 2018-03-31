@@ -203,7 +203,7 @@ section.work--detail {
   }
   .desktop--div {
     position: fixed;
-    width: calc((100% - 32rem)/2);  // [confirmed] not a flex-item
+    width: calc((100% - 32rem) * 0.4);  // [confirmed] not a flex-item
     padding-right: calc((100% - 32rem)/12);  // [confirmed] not a flex-item
   }
 }
