@@ -66,10 +66,12 @@
   }
   .callToAction {
     margin-top: 3rem;
-    span {
-      margin: 0 0 0 0.6rem;
-    }
   }
+}
+.aboutEmail:after {
+  content: attr(data-website) "\0040" attr(data-user);
+  unicode-bidi: bidi-override;
+  direction: rtl;
 }
 .button--container {
   align-items: center;

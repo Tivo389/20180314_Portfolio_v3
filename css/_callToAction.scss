@@ -24,6 +24,25 @@
     text-align: center;
     margin: 0;
   }
+  span.underline {
+    position: relative;
+    &:before {
+      background-color: $color--sub;
+      content: '';
+      bottom: 2px;
+      display: inline-block;
+      height: 3px;
+      left: 0;
+      opacity: 0.5;
+      position: absolute;
+      right: 0;
+      width: 100%;
+      z-index: -10;
+    }
+  }
+  span.aboutEmail.underline:before {
+    bottom: -4px;
+  }
   svg {
     font-size: 1.8rem;
   }
