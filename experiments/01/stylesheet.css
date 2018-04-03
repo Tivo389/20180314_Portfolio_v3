@@ -1,0 +1,158 @@
+/* RESET START */
+html, body, div, span, applet, object, iframe, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: "Poppins", "Helvetica", "Verdana", sans-serif;
+  font-variant-ligatures: none;
+}
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+div {
+  /*overflow: auto;*/
+  /* test this off, see if it causes any trbl*/
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* RESET END */
+
+
+
+
+
+html, body {
+     width: 100%;
+     height: 100%;
+     padding: 0;
+     margin: 0;
+     overflow-x: hidden;
+}
+
+#side {
+     z-index: 200;
+     position: absolute;
+     top: 0;
+     left: -300px;
+     width: 350px;
+     height: 100%;
+     transition: all 0.4s, all 0.4s ease;
+}
+
+#side:hover {
+     transform: translate(300px, 0);
+     transition: all 0.4s, all 0.4s ease;
+}
+
+#content {
+     background-color: #656565;
+     height: 100vh;
+     margin-left: 50px;
+     transition: all 0.4s, all 0.4s ease;
+     width: 100vw;
+}
+
+#side:hover ~ #content {
+     transform: translate(150px, 0);
+     transition: all 0.4s, all 0.4s ease;    
+}
+
+.panel {
+     width: 100%;
+     height: calc(100vh/6);
+     transition: all 0.4s, all 0.4s ease;
+}
+
+.panel:hover {
+     width: 110%;
+     transition: all 0.4s, all 0.4s ease;
+}
+
+.one {
+     background-color: #581845;
+}
+
+.two {
+     background-color:  #900C3F;
+}
+
+.three {
+     background-color:  #C70039;
+}
+
+.four {
+     background-color:  #FF5733;
+}
+
+.five {
+     background-color:  #FFC300;
+}
+
+.six {
+     background-color:  #DAF7A6;
+}
+
+.center_vh {
+
+}
+
+h1 {
+	color: #ffffff;
+	display: inline-block;
+	font-size: 4.0rem;
+	left: 50%;
+	position: relative;
+	text-align: center;
+	top: 50%;
+  line-height: 125%;      
+	transform: translate(-50%, -55%);
+}
+.note {
+  font-weight: 100;
+  letter-spacing: 0.5px;
+  font-size: 1.4rem;
+}
+h2 {
+	color: #ffffff;
+	display: inline-block;
+	font-size: 2.0rem;
+	left: 50%;
+	position: relative;
+	text-align: center;
+	top: 50%;
+	transform: translate(-50%, -65%);
+}

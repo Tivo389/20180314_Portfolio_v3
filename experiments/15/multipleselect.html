@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MultiSelect Dropdown</title>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<link href="stylesheet.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="section--full-view flex--center--center">
+  <div class="row">
+
+    <div class="col-xs-12">
+      <h3>Selecting multiple inputs from a categorised group.</h3>
+      <p>(e.g. "Please select the prefectures you have been to.")</p>
+    </div>
+
+    <div id="multiselect-dd__container" class="col-xs-12">
+      <div class="row">
+
+        <div class="form-group col-xs-4">
+          <label for="prefectures">default <span class="font-weight--light">(win: ctrl+click / mac: cmd+click)</span></label>
+          <select id="prefectures__default" class="form-control" name="prefectures" multiple="true" size="9">
+          <option class="hidden" value=""></option>
+          <optgroup label="Hokkaido & Tohoku">
+            <option value="Hokkaido">Hokkaido</option>
+            <option value="Aomori">Aomori</option>
+            <option value="Akita">Akita</option>
+            <option value="Iwate">Iwate</option>
+            <option value="Yamagata">Yamagata</option>
+            <option value="Miyagi">Miyagi</option>
+            <option value="Fukushima">Fukushima</option>
+          </optgroup>
+          <optgroup label="Koushinetsu & Hokuriku">
+            <option value="Yamanashi">Yamanashi</option>
+            <option value="Nagano">Nagano</option>
+            <option value="Niigata">Niigata</option>
+            <option value="Toyama">Toyama</option>
+            <option value="Ishikawa">Ishikawa</option>
+            <option value="Fukui">Fukui</option>
+          </optgroup>
+          <optgroup label="Kanto">
+            <option value="Ibaragi">Ibaragi</option>
+            <option value="Tochigi">Tochigi</option>
+            <option value="Gunma">Gunma</option>
+            <option value="Saitama">Saitama</option>
+            <option value="Chiba">Chiba</option>
+            <option value="Tokyo">Tokyo</option>
+            <option value="Kanagawa">Kanagawa</option>
+          </optgroup>
+          <optgroup label="Tokai">
+            <option value="Aichi">Aichi</option>
+            <option value="Shizuoka">Shizuoka</option>
+            <option value="Gifu">Gifu</option>
+            <option value="Mie">Mie</option>
+          </optgroup>
+          <optgroup label="Kansai">
+            <option value="Osaka">Osaka</option>
+            <option value="Hyogo">Hyogo</option>
+            <option value="Kyoto">Kyoto</option>
+            <option value="Shiga">Shiga</option>
+            <option value="Nara">Nara</option>
+            <option value="Wakayama">Wakayama</option>
+          </optgroup>
+          <optgroup label="Chugoku">
+            <option value="Okayama">Okayama</option>
+            <option value="Hiroshima">Hiroshima</option>
+            <option value="Tottori">Tottori</option>
+            <option value="Shimane">Shimane</option>
+            <option value="Yamaguchi">Yamaguchi</option>
+          </optgroup>
+          <optgroup label="Shikoku">
+            <option value="Tokushima">Tokushima</option>
+            <option value="Kagawa">Kagawa</option>
+            <option value="Ehime">Ehime</option>
+            <option value="Kochi">Kochi</option>
+          </optgroup>
+          <optgroup label="Kyushu & Okinawa">
+            <option value="Fukuoka">Fukuoka</option>
+            <option value="Saga">Saga</option>
+            <option value="Nagasaki">Nagasaki</option>
+            <option value="Kumamoto">Kumamoto</option>
+            <option value="Ooita">Ooita</option>
+            <option value="Miyazaki">Miyazaki</option>
+            <option value="Kagoshima">Kagoshima</option>
+            <option value="Okinawa">Okinawa</option>
+          </optgroup>
+          </select>
+        </div>
+
+        <div id="prefectures__ms-select--container" class="form-group col-xs-8">
+          <label for="prefectures">multiple-select.js</label>
+          <select id="prefectures__ms-select" class="form-control" name="prefectures" multiple="true">
+          <option class="hidden" value=""></option>
+          <optgroup label="Hokkaido & Tohoku">
+            <option value="Hokkaido">Hokkaido</option>
+            <option value="Aomori">Aomori</option>
+            <option value="Akita">Akita</option>
+            <option value="Iwate">Iwate</option>
+            <option value="Yamagata">Yamagata</option>
+            <option value="Miyagi">Miyagi</option>
+            <option value="Fukushima">Fukushima</option>
+          </optgroup>
+          <optgroup label="Koushinetsu & Hokuriku">
+            <option value="Yamanashi">Yamanashi</option>
+            <option value="Nagano">Nagano</option>
+            <option value="Niigata">Niigata</option>
+            <option value="Toyama">Toyama</option>
+            <option value="Ishikawa">Ishikawa</option>
+            <option value="Fukui">Fukui</option>
+          </optgroup>
+          <optgroup label="Kanto">
+            <option value="Ibaragi">Ibaragi</option>
+            <option value="Tochigi">Tochigi</option>
+            <option value="Gunma">Gunma</option>
+            <option value="Saitama">Saitama</option>
+            <option value="Chiba">Chiba</option>
+            <option value="Tokyo">Tokyo</option>
+            <option value="Kanagawa">Kanagawa</option>
+          </optgroup>
+          <optgroup label="Tokai">
+            <option value="Aichi">Aichi</option>
+            <option value="Shizuoka">Shizuoka</option>
+            <option value="Gifu">Gifu</option>
+            <option value="Mie">Mie</option>
+          </optgroup>
+          <optgroup label="Kansai">
+            <option value="Osaka">Osaka</option>
+            <option value="Hyogo">Hyogo</option>
+            <option value="Kyoto">Kyoto</option>
+            <option value="Shiga">Shiga</option>
+            <option value="Nara">Nara</option>
+            <option value="Wakayama">Wakayama</option>
+          </optgroup>
+          <optgroup label="Chugoku">
+            <option value="Okayama">Okayama</option>
+            <option value="Hiroshima">Hiroshima</option>
+            <option value="Tottori">Tottori</option>
+            <option value="Shimane">Shimane</option>
+            <option value="Yamaguchi">Yamaguchi</option>
+          </optgroup>
+          <optgroup label="Shikoku">
+            <option value="Tokushima">Tokushima</option>
+            <option value="Kagawa">Kagawa</option>
+            <option value="Ehime">Ehime</option>
+            <option value="Kochi">Kochi</option>
+          </optgroup>
+          <optgroup label="Kyushu & Okinawa">
+            <option value="Fukuoka">Fukuoka</option>
+            <option value="Saga">Saga</option>
+            <option value="Nagasaki">Nagasaki</option>
+            <option value="Kumamoto">Kumamoto</option>
+            <option value="Ooita">Ooita</option>
+            <option value="Miyazaki">Miyazaki</option>
+            <option value="Kagoshima">Kagoshima</option>
+            <option value="Okinawa">Okinawa</option>
+          </optgroup>
+          </select>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</body>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- START / JS for making <select> with <optgroup> into a dropdown with grouped checkboxes -->
+<script src="multiple-select.js"></script>
+<script src="scrollOnOpen.js"></script>
+<script>
+  $("#prefectures__ms-select").multipleSelect({
+      allSelected: 'All prefectures',
+      countSelected: '# prefectures are selected',
+      maxHeight: '',
+      minimumCountSelected: 1,
+      multiple: true,
+      multipleWidth: 150,
+      noMatchesFound: 'Please select the prefectures you have been to.',
+      placeholder: 'Please select the prefectures you have been to.',
+      selectAllDelimiter: ['', ''],
+      selectAllText: 'All prefectures',
+  });
+</script>
+<!-- END / JS for making <select> with <optgroup> into a dropdown with grouped checkboxes -->
+</html>

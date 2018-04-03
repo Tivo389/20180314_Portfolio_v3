@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GEOCODER</title>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<link href="reset.css" rel="stylesheet">
+<link href="stylesheet.css" rel="stylesheet">
+</head>
+<body>
+
+  <div class="section--full-view">
+
+    <div class="container-fluid">
+      <div class="row">
+        <div id="map"></div>
+      </div>
+    </div>
+
+    <div class="text__container">
+      <div class="container">
+        <ul id="coordinates" class="list-inline">
+          <li class="lat"></li>
+          <li class="lng"></li>
+        </ul>
+      </div>
+      <div class="container">
+        <form>
+          <div class="input--group col-xs-6 col-xs-offset-3">
+            <input id="address" class="col-xs-12" type="text" placeholder="type the name of a city and press enter" autocomplete="off">
+            <input id="submit" class="collapse" type="submit" value="search">
+          </div>
+        </form>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- TEMPLATE START -->
+  <p class="version">Ver.07112017.1a</p>
+  <div class="grid__container hidden">
+    <div class="grid__vertical--01"></div>
+    <div class="grid__vertical--02"></div>
+    <div class="grid__vertical--03"></div>
+    <div class="grid__vertical--04"></div>
+    <div class="grid__vertical--05"></div>
+    <div class="grid__vertical--06"></div>
+    <div class="grid__vertical--07"></div>
+    <div class="grid__vertical--08"></div>
+    <div class="grid__vertical--09"></div>
+    <div class="grid__vertical--10"></div>
+    <div class="grid__vertical--11"></div>
+    <div class="grid__horizontal--01"></div>
+    <div class="grid__horizontal--02"></div>
+    <div class="grid__horizontal--03"></div>
+  </div>
+  <!-- TEMPLATE END -->
+
+  <!-- The following line was just for the coordinates version so it didn't require the callback to initMap -->
+  <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDd21PzCdp98HxSSq3hu9BUrLHRm3Kf23A"></script> -->
+  <script>
+    function initMap() {
+      const tokyo = { lat: 35.6894875, lng: 139.6917064 };
+      const map = new google.maps.Map(document.getElementById('map'), { zoom: 5, center: tokyo });
+      const marker = new google.maps.Marker({ position: tokyo, map: map });
+    }
+  </script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDd21PzCdp98HxSSq3hu9BUrLHRm3Kf23A&callback=initMap"></script>
+</body>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="geocode.js"></script>
+</html>
