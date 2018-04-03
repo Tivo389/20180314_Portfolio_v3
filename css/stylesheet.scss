@@ -38,6 +38,26 @@
     }
   }
 }
+%extend extParaAnchor {
+  background-color: $color--sub;
+  content: '';
+  display: inline-block;
+  height: 3px;
+  left: 0;
+  opacity: 0.5;
+  position: absolute;
+  right: 0;
+  width: 100%;
+  z-index: -10;
+}
+p a {
+  font-size: inherit;
+  position:relative;
+  &:after {
+    @extend %extParaAnchor;
+    bottom: -2px;
+  }
+}
 .about--text {
   padding: 0 1.5rem;
   p {
@@ -50,17 +70,8 @@
       font-size: inherit;
       position: relative;
       &:after {
-        background-color: $color--sub;
+        @extend %extParaAnchor;
         bottom: 6px;
-        content: '';
-        display: inline-block;
-        height: 3px;
-        left: 0;
-        opacity: 0.5;
-        position: absolute;
-        right: 0;
-        width: 100%;
-        z-index: -10;
       }
     }
   }
@@ -264,9 +275,15 @@
   }
   .button--container {
     justify-content: space-between;
-    margin: 4.5rem 0 0 0;
+    margin: 7.2rem 0 0 0;
     svg {
       font-size: 4.2rem;
+      &.fa-chevron-circle-left:hover {
+        transform: translateX(-4px);
+      }
+      &.fa-chevron-circle-right:hover {
+        transform: translateX(4px);
+      }
     }
   }
   .experiment--img--container {

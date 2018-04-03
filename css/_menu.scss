@@ -130,16 +130,18 @@ body.active, html.active {
       }
       img {
         transition: $transition--s;
+        transform-origin: top left;
+        transform: scale(1);
         width: 100px;
         &:hover {
-          width: 125px;
+          transform: scale(1.25);
         }
       }
     }
     a.listAnchor {
       border: 0;
       color: $color--black;
-      font-size: 1.6rem;
+      font-size: 1.4rem;
       justify-content: flex-start;
       line-height: 1;
       opacity: 0.2;
@@ -149,7 +151,7 @@ body.active, html.active {
         border-top: 0;
       }
       &:not(.homeIcon):hover {
-        font-size: 2rem;
+        font-size: 1.75rem;
       }
       &.active {
         opacity: 0.5;

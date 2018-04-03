@@ -109,7 +109,7 @@ section.work--detail {
 
 @media (min-width: 1200px) {
   section, section.work--detail {
-    padding: 6rem 16rem;
+    padding: 6rem 6rem 6rem 18rem;
     &:not(#landing)::after {
       bottom: 0;
       content: " ";
@@ -137,8 +137,8 @@ section.work--detail {
     .section--header {
       justify-content: left;
       overflow: unset;
-      width: auto;
       padding: unset;
+      width: auto;
       &.bcBlue,&.bcPink,&.bcBlack {
         background-color: unset;
       }
@@ -160,36 +160,35 @@ section.work--detail {
   section.work--detail {
     position: relative;
     .detail--body {
-      margin: 0 0 1.5rem 0;
+      margin: 0 0 1.8rem 0;
       &:last-child {
+      }
+      h4, p {
+        line-height: 145%;
+        // font-size: 1.5rem;
       }
       h4 {
         margin: unset;
       }
       p {
-        margin-bottom: 1.5rem;
+        margin-bottom: 1.8rem;
       }
     }
     .detail--list {
-      margin: 1.5rem 0 0 0;
+      margin: 1.8rem 0 0 0;
       p {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         line-height: 135%;
         span {
           width: 80px;
         }
       }
     }
-    .section--container {
-      border-top: 2px solid $color--lightgray;
-      padding-top: 3.2rem;
-      display: inline-block;
-    }
     .section--header {
       align-items: unset;
-      margin-bottom: 3rem;
+      margin-bottom: 1.8rem;
       h2 {
-        font-size: 4rem;
+        font-size: 3.6rem;
         color: $color--accent;
       }
       p {
@@ -197,13 +196,18 @@ section.work--detail {
         font-size: 1.8rem;
       }
     }
+    .section--container {
+      border-top: 2px solid $color--lightgray;
+      padding-top: 1.8rem;
+      display: inline-block;
+    }
     .work--img--container {
       margin: unset;
     }
   }
   .desktop--div {
     position: fixed;
-    width: calc((100% - 32rem) * 0.4);  // [confirmed] not a flex-item
-    padding-right: calc((100% - 32rem)/12);  // [confirmed] not a flex-item
+    width: calc((100% - 24rem) * 0.4);  // [confirmed] not a flex-item
+    padding-right: 6rem;  // [confirmed] not a flex-item
   }
 }
