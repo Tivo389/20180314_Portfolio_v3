@@ -38,6 +38,38 @@
     }
   }
 }
+%extParagraphAnchor {
+  background-color: $color--sub;
+  content: '';
+  display: inline-block;
+  height: 3px;
+  left: 0;
+  opacity: 0.5;
+  position: absolute;
+  right: 0;
+  width: 100%;
+  z-index: -10;
+}
+p a {
+  font-size: inherit;
+  position: relative;
+  &:after {
+    @extend %extParagraphAnchor;
+    bottom: 6px;
+  }
+}
+div.detail--body p a {
+  font-size: inherit;
+  position: relative;
+  &:after {
+    @extend %extParagraphAnchor;
+    bottom: -1px;
+  }
+  &:hover::after {
+    height: 2rem;
+    border-radius: $border--radius;
+  }
+}
 .about--text {
   padding: 0 1.5rem;
   p {
@@ -45,23 +77,6 @@
     font-size: $font--p;
     + p {
       margin-top: $font--p;
-    }
-    a {
-      font-size: inherit;
-      position: relative;
-      &:after {
-        background-color: $color--sub;
-        bottom: 6px;
-        content: '';
-        display: inline-block;
-        height: 3px;
-        left: 0;
-        opacity: 0.5;
-        position: absolute;
-        right: 0;
-        width: 100%;
-        z-index: -10;
-      }
     }
   }
   .callToAction {
