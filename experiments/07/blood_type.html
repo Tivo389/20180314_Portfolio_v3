@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BLOOD TYPE</title>
+<link rel="home" href="index.html">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<link href="reset.css" rel="stylesheet">
+<link href="stylesheet.css" rel="stylesheet">
+</head>
+<body>
+<div class="jumbotron container-fluid dummy-height outer">
+	<div class="middle">
+		<h2>BLOOD TYPE COMPATIBILITY TEST</h2>
+		<form class="inner">
+			<div>
+				<fieldset>
+					<p>The DONOR blood type is</p>
+					<select id="donor" name="DONOR BLOOD TYPE">
+						<option value="A">A</option>
+						<option value="B">B</option>
+						<option value="AB">AB</option>
+						<option value="O">O</option>
+					</select>
+				</fieldset>
+			</div>
+			<div>
+				<fieldset>
+					<p>The RECIPIENT blood type is</p>
+					<select id="recipient" name="RECIPIENT BLOOD TYPE">
+						<option value="A">A</option>
+						<option value="B">B</option>
+						<option value="AB">AB</option>
+						<option value="O">O</option>
+					</select>
+				</fieldset>
+			</div>
+		</form>
+		<!-- Gave both id and class to test the code in js -->
+		<h3 id="result" class="result"></h3>
+		<!-- <button onclick="logAnswer()">test</button> -->
+	</div>
+</div>
+</body>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="logic.js"></script>
+</html>

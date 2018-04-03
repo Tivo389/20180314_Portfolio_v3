@@ -1,0 +1,973 @@
+/*************** THEME VARIABLES  ***************/
+/***************  STRUCTURE  ***************/
+#aquarium {
+  background-color: #FFFFF8;
+  height: 100vh;
+  overflow: hidden;
+  width: 100vw;
+  position: fixed;
+}
+.grid__vertical--01 {
+  border-left: 1px dashed #FF0000;
+  height: 100vh;
+  left: calc(1 * 10%);
+  position: absolute;
+}
+.grid__vertical--01:after {
+  color: #969696;
+  content: "1";
+  position: absolute;
+  transform: translate(3px, 10px);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.grid__vertical--02 {
+  border-left: 1px dashed #FF0000;
+  height: 100vh;
+  left: calc(2 * 10%);
+  position: absolute;
+}
+.grid__vertical--02:after {
+  color: #969696;
+  content: "2";
+  position: absolute;
+  transform: translate(3px, 10px);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.grid__vertical--03 {
+  border-left: 1px dashed #FF0000;
+  height: 100vh;
+  left: calc(3 * 10%);
+  position: absolute;
+}
+.grid__vertical--03:after {
+  color: #969696;
+  content: "3";
+  position: absolute;
+  transform: translate(3px, 10px);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.grid__vertical--04 {
+  border-left: 1px dashed #FF0000;
+  height: 100vh;
+  left: calc(4 * 10%);
+  position: absolute;
+}
+.grid__vertical--04:after {
+  color: #969696;
+  content: "4";
+  position: absolute;
+  transform: translate(3px, 10px);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.grid__vertical--05 {
+  border-left: 1px dashed #FF0000;
+  height: 100vh;
+  left: calc(5 * 10%);
+  position: absolute;
+}
+.grid__vertical--05:after {
+  color: #969696;
+  content: "5";
+  position: absolute;
+  transform: translate(3px, 10px);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.grid__vertical--06 {
+  border-left: 1px dashed #FF0000;
+  height: 100vh;
+  left: calc(6 * 10%);
+  position: absolute;
+}
+.grid__vertical--06:after {
+  color: #969696;
+  content: "6";
+  position: absolute;
+  transform: translate(3px, 10px);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.grid__vertical--07 {
+  border-left: 1px dashed #FF0000;
+  height: 100vh;
+  left: calc(7 * 10%);
+  position: absolute;
+}
+.grid__vertical--07:after {
+  color: #969696;
+  content: "7";
+  position: absolute;
+  transform: translate(3px, 10px);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.grid__vertical--08 {
+  border-left: 1px dashed #FF0000;
+  height: 100vh;
+  left: calc(8 * 10%);
+  position: absolute;
+}
+.grid__vertical--08:after {
+  color: #969696;
+  content: "8";
+  position: absolute;
+  transform: translate(3px, 10px);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.grid__vertical--09 {
+  border-left: 1px dashed #FF0000;
+  height: 100vh;
+  left: calc(9 * 10%);
+  position: absolute;
+}
+.grid__vertical--09:after {
+  color: #969696;
+  content: "9";
+  position: absolute;
+  transform: translate(3px, 10px);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.grid__horizontal--01 {
+  border-top: 1px dashed #FF0000;
+  position: absolute;
+  top: calc(1 * 10%);
+  width: 100vw;
+}
+.grid__horizontal--01:after {
+  color: #969696;
+  content: "1";
+  position: absolute;
+  transform: translate(3px, 10px);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.grid__horizontal--02 {
+  border-top: 1px dashed #FF0000;
+  position: absolute;
+  top: calc(2 * 10%);
+  width: 100vw;
+}
+.grid__horizontal--02:after {
+  color: #969696;
+  content: "2";
+  position: absolute;
+  transform: translate(3px, 10px);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.grid__horizontal--03 {
+  border-top: 1px dashed #FF0000;
+  position: absolute;
+  top: calc(3 * 10%);
+  width: 100vw;
+}
+.grid__horizontal--03:after {
+  color: #969696;
+  content: "3";
+  position: absolute;
+  transform: translate(3px, 10px);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.grid__horizontal--04 {
+  border-top: 1px dashed #FF0000;
+  position: absolute;
+  top: calc(4 * 10%);
+  width: 100vw;
+}
+.grid__horizontal--04:after {
+  color: #969696;
+  content: "4";
+  position: absolute;
+  transform: translate(3px, 10px);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.grid__horizontal--05 {
+  border-top: 1px dashed #FF0000;
+  position: absolute;
+  top: calc(5 * 10%);
+  width: 100vw;
+}
+.grid__horizontal--05:after {
+  color: #969696;
+  content: "5";
+  position: absolute;
+  transform: translate(3px, 10px);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.grid__horizontal--06 {
+  border-top: 1px dashed #FF0000;
+  position: absolute;
+  top: calc(6 * 10%);
+  width: 100vw;
+}
+.grid__horizontal--06:after {
+  color: #969696;
+  content: "6";
+  position: absolute;
+  transform: translate(3px, 10px);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.grid__horizontal--07 {
+  border-top: 1px dashed #FF0000;
+  position: absolute;
+  top: calc(7 * 10%);
+  width: 100vw;
+}
+.grid__horizontal--07:after {
+  color: #969696;
+  content: "7";
+  position: absolute;
+  transform: translate(3px, 10px);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.grid__horizontal--08 {
+  border-top: 1px dashed #FF0000;
+  position: absolute;
+  top: calc(8 * 10%);
+  width: 100vw;
+}
+.grid__horizontal--08:after {
+  color: #969696;
+  content: "8";
+  position: absolute;
+  transform: translate(3px, 10px);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.grid__horizontal--09 {
+  border-top: 1px dashed #FF0000;
+  position: absolute;
+  top: calc(9 * 10%);
+  width: 100vw;
+}
+.grid__horizontal--09:after {
+  color: #969696;
+  content: "9";
+  position: absolute;
+  transform: translate(3px, 10px);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/***************  TYPOGRAPHY  ***************/
+#title {
+  height: 100vh;
+  width: 100vw;
+}
+
+.title__position {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+}
+
+.inspired-by {
+  color: #505050;
+  font-size: 1.6rem;
+  letter-spacing: 0;
+  position: absolute;
+  bottom: 16px;
+  right: 20px;
+  text-align: right;
+  z-index: 100;
+}
+
+.inspired-by > a {
+  color: #505050;
+  text-decoration: underline;
+}
+
+h1 {
+  color: #777777;
+  display: inline-block;
+  font-family: "Cinzel", serif;
+  font-size: 10vw;
+  margin: 0;
+  padding: 0;
+}
+h1.alphabet_A {
+  transform: translate(1vw, -3vh);
+  z-index: 20;
+}
+h1.alphabet_Q {
+  transform: translate(0.45vw, -3vh);
+}
+h1.alphabet_U {
+  transform: translate(0.25vw, -3vh);
+  z-index: 20;
+}
+h1.alphabet_A-2 {
+  transform: translate(-0.25vw, -3vh);
+}
+h1.alphabet_R {
+  transform: translate(-0.25vw, -3vh);
+  z-index: 20;
+}
+h1.alphabet_I {
+  transform: translate(-0.6vw, -3vh);
+  z-index: -20;
+}
+h1.alphabet_U-2 {
+  transform: translate(-0.65vw, -3vh);
+  z-index: -20;
+}
+h1.alphabet_M {
+  transform: translate(-0.95vw, -3vh);
+}
+
+h2 {
+  font-family: "Cinzel", serif;
+  font-size: 15vw;
+  opacity: 0.3;
+  display: inline-block;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -55%);
+}
+
+
+
+
+
+
+
+
+
+
+/***************  FAUNA  ***************/
+.fish--xs {
+  height: 30px;
+  width: 60px;
+}
+
+.fish--sm {
+  height: 45px;
+  width: 90px;
+}
+
+.fish--md {
+  height: 60px;
+  width: 120px;
+}
+
+.fish--lg {
+  height: 90px;
+  width: 180px;
+}
+
+.fish--a1, .fish--a2, .fish--a3, .fish--a4, .fish--a5, .fish--a6, .fish--a7 {
+  background: url(FISH-1.png) no-repeat center;
+  background-size: contain;
+  display: inline-block;
+  position: absolute;
+  transform: scaleX(-1);
+}
+
+.fish--a1 {
+  animation: fish__movement--a1 15s infinite linear;
+  -moz-animation: fish__movement--a1 15s infinite linear;
+  -webkit-animation: fish__movement--a1 15s infinite linear;
+}
+
+@keyframes fish__movement--a1 {
+  0% {
+    top: 85%;
+    left: -200px;
+  }
+  20% {
+    top: 90%;
+    left: 15%;
+  }
+  40% {
+    top: 86%;
+    left: 25%;
+  }
+  60% {
+    top: 95%;
+    left: 56%;
+  }
+  80% {
+    top: 80%;
+    left: 76%;
+  }
+  100% {
+    top: 65%;
+    left: calc(100% + 200px);
+  }
+}
+.fish--a2 {
+  animation: fish__movement--a2 15s infinite linear;
+  -moz-animation: fish__movement--a2 15s infinite linear;
+  -webkit-animation: fish__movement--a2 15s infinite linear;
+}
+
+@keyframes fish__movement--a2 {
+  0% {
+    top: 68%;
+    left: -200px;
+  }
+  35% {
+    top: 70%;
+    left: 36%;
+  }
+  45% {
+    top: 75%;
+    left: 40%;
+  }
+  55% {
+    top: 80%;
+    left: 60%;
+  }
+  75% {
+    top: 78%;
+    left: 76%;
+  }
+  100% {
+    top: 83%;
+    left: calc(100% + 200px);
+  }
+}
+.fish--a3 {
+  animation: fish__movement--a3 15s infinite linear;
+  -moz-animation: fish__movement--a3 15s infinite linear;
+  -webkit-animation: fish__movement--a3 15s infinite linear;
+}
+
+@keyframes fish__movement--a3 {
+  0% {
+    top: 63%;
+    left: -200px;
+  }
+  30% {
+    top: 68%;
+    left: 20%;
+  }
+  50% {
+    top: 70%;
+    left: 32%;
+  }
+  65% {
+    top: 76%;
+    left: 48%;
+  }
+  80% {
+    top: 83%;
+    left: 60%;
+  }
+  100% {
+    top: 75%;
+    left: calc(100% + 200px);
+  }
+}
+.fish--a4 {
+  animation: fish__movement--a4 20s infinite linear;
+  -moz-animation: fish__movement--a4 20s infinite linear;
+  -webkit-animation: fish__movement--a4 20s infinite linear;
+  transform: scaleX(1);
+}
+
+@keyframes fish__movement--a4 {
+  0% {
+    top: 65%;
+    left: calc(100% + 200px);
+  }
+  30% {
+    top: 60%;
+    left: 100%;
+  }
+  40% {
+    top: 58%;
+    left: 70%;
+  }
+  60% {
+    top: 55%;
+    left: 40%;
+  }
+  80% {
+    top: 50%;
+    left: 10%;
+  }
+  100% {
+    top: 58%;
+    left: -200px;
+  }
+}
+.fish--a5 {
+  animation: fish__movement--a5 20s infinite linear;
+  -moz-animation: fish__movement--a5 20s infinite linear;
+  -webkit-animation: fish__movement--a5 20s infinite linear;
+  transform: scaleX(1);
+}
+
+@keyframes fish__movement--a5 {
+  0% {
+    top: 60%;
+    left: calc(100% + 200px);
+  }
+  35% {
+    top: 55%;
+    left: 100%;
+  }
+  50% {
+    top: 50%;
+    left: 70%;
+  }
+  65% {
+    top: 45%;
+    left: 40%;
+  }
+  85% {
+    top: 50%;
+    left: 10%;
+  }
+  100% {
+    top: 50%;
+    left: -200px;
+  }
+}
+.fish--a6 {
+  animation: fish__movement--a6 22s infinite linear;
+  -moz-animation: fish__movement--a6 22s infinite linear;
+  -webkit-animation: fish__movement--a6 22s infinite linear;
+  transform: scaleX(1);
+}
+
+@keyframes fish__movement--a6 {
+  0% {
+    top: 68%;
+    left: calc(100% + 200px);
+  }
+  35% {
+    top: 62%;
+    left: 85%;
+  }
+  45% {
+    top: 54%;
+    left: 70%;
+  }
+  55% {
+    top: 64%;
+    left: 45%;
+  }
+  75% {
+    top: 58%;
+    left: 25%;
+  }
+  100% {
+    top: 56%;
+    left: -200px;
+  }
+}
+.fish--a7 {
+  animation: fish__movement--a7 25s infinite linear;
+  -moz-animation: fish__movement--a7 25s infinite linear;
+  -webkit-animation: fish__movement--a7 25s infinite linear;
+}
+
+@keyframes fish__movement--a7 {
+  0% {
+    top: 30%;
+    left: 34%;
+    transform: scaleX(-1);
+  }
+  25% {
+    top: 34%;
+    left: 45%;
+    transform: scaleX(-1);
+  }
+  40% {
+    top: 40%;
+    left: 50%;
+    transform: scaleX(-1);
+  }
+  60% {
+    top: 35%;
+    left: 65%;
+    transform: scaleX(-1);
+  }
+  62% {
+    transform: scaleX(1);
+  }
+  75% {
+    top: 30%;
+    left: 50%;
+    transform: scaleX(1);
+  }
+  98% {
+    top: 33%;
+    left: 32%;
+    transform: scaleX(1);
+  }
+  100% {
+    top: 30%;
+    left: 34%;
+    transform: scaleX(-1);
+  }
+}
+.fish--b {
+  animation: fish__movement--b 17s infinite linear;
+  -moz-animation: fish__movement--b 17s infinite linear;
+  -webkit-animation: fish__movement--b 17s infinite linear;
+  background: url(FISH-2.png) no-repeat center;
+  background-size: contain;
+  position: absolute;
+}
+
+@keyframes fish__movement--b {
+  0% {
+    top: 76%;
+    left: calc(100% + 200px);
+    transform: scaleX(1);
+  }
+  20% {
+    top: 80%;
+    left: 90%;
+    transform: scaleX(1);
+  }
+  50% {
+    top: 85%;
+    left: 65%;
+    transform: scaleX(1);
+  }
+  52% {
+    transform: scaleX(-1);
+  }
+  60% {
+    top: 80%;
+    left: 64%;
+    transform: scaleX(-1);
+  }
+  80% {
+    top: 75%;
+    left: 80%;
+    transform: scaleX(-1);
+  }
+  100% {
+    top: 60%;
+    left: calc(100% + 200px);
+    transform: scaleX(-1);
+  }
+}
+.fish--c {
+  animation: fish__movement--c 25s infinite linear;
+  -moz-animation: fish__movement--c 25s infinite linear;
+  -webkit-animation: fish__movement--c 25s infinite linear;
+  background: url(FISH-3.png) no-repeat center;
+  background-size: contain;
+  position: absolute;
+  z-index: -20;
+  transform: scaleX(-1);
+}
+
+@keyframes fish__movement--c {
+  0% {
+    top: 15%;
+    left: -200px;
+  }
+  30% {
+    top: 18%;
+    left: 20%;
+  }
+  40% {
+    top: 12%;
+    left: 35%;
+  }
+  60% {
+    top: 20%;
+    left: 50%;
+  }
+  80% {
+    top: 25%;
+    left: 85%;
+  }
+  100% {
+    top: -10%;
+    left: calc(100% + 200px);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/***************  FLORA  ***************/
+.flora--a {
+  background: url(FLORA-1.png) no-repeat center;
+  background-size: contain;
+  bottom: -1%;
+  height: 85%;
+  left: -32%;
+  opacity: 0.6;
+  position: absolute;
+  transform: scaleX(-1);
+  width: 85%;
+}
+
+.flora--b1, .flora--b2 {
+  bottom: -5%;
+  height: 70%;
+  opacity: 0.6;
+  position: absolute;
+  right: -22%;
+  width: 70%;
+}
+
+.flora--b1 {
+  background: url(FLORA-2.png) no-repeat center;
+  background-size: contain;
+  z-index: 10;
+}
+
+.flora--b2 {
+  animation: fauna__movement--b2 15s infinite linear;
+  -moz-animation: fauna__movement--b2 15s infinite linear;
+  -webkit-animation: fauna__movement--b2 15s infinite linear;
+  background: url(FLORA-3.png) no-repeat center;
+  background-size: contain;
+  z-index: -10;
+}
+
+@keyframes fauna__movement--b2 {
+  0% {
+    transform: rotate(0deg);
+    transform-origin: 57.5% 71.3%;
+  }
+  20% {
+    transform: rotate(3deg);
+    transform-origin: 57.5% 71.3%;
+  }
+  40% {
+    transform: rotate(1deg);
+    transform-origin: 57.5% 71.3%;
+  }
+  60% {
+    transform: rotate(-2deg);
+    transform-origin: 57.5% 71.3%;
+  }
+  80% {
+    transform: rotate(3deg);
+    transform-origin: 57.5% 71.3%;
+  }
+  100% {
+    transform: rotate(0deg);
+    transform-origin: 57.5% 71.3%;
+  }
+}
+.flora--c {
+  background: url(FLORA-4.png) no-repeat center;
+  background-size: contain;
+  bottom: -10%;
+  height: 125%;
+  left: -25%;
+  opacity: 0.2;
+  position: absolute;
+  transform: scaleX(-1);
+  width: 100%;
+  z-index: -30;
+}
+.flora--d {
+  background: url(FLORA-5.png) no-repeat center;
+  background-size: contain;
+  bottom: -20%;
+  height: 140%;
+  right: -5%;
+  opacity: 0.2;
+  position: absolute;
+  width: 40%;
+  z-index: -30;
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.flora--d {
+		bottom: -15%;
+		height: 100%;
+		right: -20%;
+		width: 80%;
+	}
+	.flora--c {
+		bottom: 10%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+	h1 {
+		font-size: 13vw;
+	}
+	.inspired-by {
+		font-size: 1.4rem;
+		bottom: 8px;
+		right: 8px;
+	}
+	.flora--a {
+		bottom: -18%;
+		height: 100%;
+		left: -14%;
+		width: 85%;
+	}
+	.flora--b1, .flora--b2 {
+		bottom: 27%;
+		height: 100%;
+		right: -27%;
+		width: 75%;
+	}
+	.flora--c {
+		bottom: 30%;
+		height: 100%;
+		left: -40%;
+		width: 80%;
+	}
+	.flora--d {
+		bottom: -17%;
+		height: 100%;
+		right: -20%;
+		width: 100%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+/* SNIPPETS & NOTES */
+.center__vh--css {
+  display: inline-block;
+  left: 50%;
+  position: relative;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.center__vh--flex {
+  align-items: center;
+  /* VERTICAL ALIGNMENT */
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  /* HORIZONTAL ALIGNMENT */
+  margin: 0px;
+  padding: 0px;
+}
+
+.debug {
+  border: 1px dashed #FF0000 !important;
+}
+
+.debug--nullify {
+  border: 1px dashed #00C8FF !important;
+  font-size: 0;
+  line-height: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  padding: 0;
+}
+
+.dummy-height {
+  height: 100px;
+}
+
+.fill--c {
+  background-color: #BCE2EE;
+}
+.fill--m {
+  background-color: #F3C7D4;
+}
+.fill--y {
+  background-color: #FFFCC8;
+}
+.fill--k {
+  background-color: #C0C1BF;
+}
+
+.margin__all--none {
+  margin: 0px;
+}
+
+.margin__vertical--none {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.margin__horizontal--none {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.margin__horizontal--auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.padding__all--none {
+  padding: 0px;
+}
+
+.padding__vertical--none {
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+.padding__horizontal--none {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.display--inline {
+  display: inline;
+}
+
+.display--block {
+  display: block;
+}
+
+.display--none {
+  display: none;
+}

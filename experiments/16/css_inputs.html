@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CSS Checkboxes &amp; Radio Buttons</title>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<link href="stylesheet.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container-fluid">
+
+  <div class="row">
+    <div class="col-xs-6 half--block flex--center--center">
+      <div class="">
+        <h4 class="text-left">Default Checkbox</h4>
+        <div class="input--group">
+          <input id="checkBox1" name="check1" type="checkbox"/>
+          <label for="checkBox1">Default Checkbox</label>
+        </div>
+        <div class="input--group">
+          <input id="checkBox2" name="check2" type="checkbox" checked="checked">
+          <label for="checkBox2">Checked</label>
+        </div>
+        <div class="input--group">
+          <input id="checkBox3" name="check3" type="checkbox" disabled="disabled">
+          <label for="checkBox3">Disabled</label>
+        </div>
+        <div class="input--group">
+          <input id="checkBox4" name="check4" type="checkbox" disabled="disabled" checked="checked">
+          <label for="checkBox4">Checked &amp; Disabled</label>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-6 half--block flex--center--center">
+      <div class="">
+        <h4 class="text-left">CSS Checkbox</h4>
+        <div class="input--group">
+          <input id="checkBoxCss1" class="input--nullify" name="check1" type="checkbox"/>
+          <label class="css--label css--checkbox" for="checkBoxCss1">Styled Checkbox</label>
+        </div>
+        <div class="input--group">
+          <input id="checkBoxCss2" class="input--nullify" name="check2" type="checkbox" checked="checked">
+          <label class="css--label css--checkbox" for="checkBoxCss2">Checked</label>
+        </div>
+        <div class="input--group">
+          <input id="checkBoxCss3" class="input--nullify" name="check3" type="checkbox" disabled="disabled">
+          <label class="css--label css--checkbox" for="checkBoxCss3">Disabled</label>
+        </div>
+        <div class="input--group">
+          <input id="checkBoxCss4" class="input--nullify" name="check4" type="checkbox" disabled="disabled" checked="checked">
+          <label class="css--label css--checkbox" for="checkBoxCss4">Checked &amp; Disabled</label>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-6 half--block flex--center--center">
+      <div class="">
+        <h4 class="text-left">Default Radio Button</h4>
+        <div class="input--group">
+          <input id="radio1a" name="radio1" type="radio">
+          <label for="radio1a">Option 1a</label>
+        </div>
+        <div class="input--group">
+          <input id="radio1b" name="radio1" type="radio">
+          <label for="radio1b">Option 1b</label>
+        </div>
+        <hr>
+        <div class="input--group">
+          <input id="radio2" name="radio2" type="radio" checked="checked">
+          <label for="radio2">Checked</label>
+        </div>
+        <div class="input--group">
+          <input id="radio3" name="radio3" type="radio" disabled="disabled">
+          <label for="radio3">Disabled</label>
+        </div>
+        <div class="input--group">
+          <input id="radio4" name="radio4" type="radio" disabled="disabled" checked="checked">
+          <label for="radio4">Checked &amp; Disabled</label>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-6 half--block flex--center--center">
+      <div class="">
+        <h4 class="text-left">CSS Radio Button</h4>
+        <div class="input--group">
+          <input id="radioCss1a" class="input--nullify" name="radio_1" type="radio"/>
+          <label class="css--label css--radioBtn" for="radioCss1a">Option 1a</label>
+        </div>
+        <div class="input--group">
+          <input id="radioCss1b" class="input--nullify" name="radio_1" type="radio"/>
+          <label class="css--label css--radioBtn" for="radioCss1b">Option 1b</label>
+        </div>
+        <hr>
+        <div class="input--group">
+          <input id="radioCss2" class="input--nullify" name="radio_2" type="radio" checked="checked">
+          <label class="css--label css--radioBtn" for="radioCss2">Checked</label>
+        </div>
+        <div class="input--group">
+          <input id="radioCss3" class="input--nullify" name="radio_3" type="radio" disabled="disabled">
+          <label class="css--label css--radioBtn" for="radioCss3">Disabled</label>
+        </div>
+        <div class="input--group">
+          <input id="radioCss4" class="input--nullify" name="radio_4" type="radio" disabled="disabled" checked="checked">
+          <label class="css--label css--radioBtn" for="radioCss4">Checked &amp; Disabled</label>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-6 half--block flex--center--center">
+      <div class="">
+        <h4 class="text-left">Default Spinner</h4>
+        <div class="input--group">
+          <input id="spinner" name="spinner" type="number" value="0" min="0">
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-6 half--block flex--center--center">
+      <div class="">
+        <h4 class="text-left">CSS Spinner</h4>
+        <div class="input--group--spinner">
+          <input id="spinnerCss" class="spinner--nullify" name="spinnerCss" type="number" value="0" min="0">
+          <div class="spinner--down"></div>
+          <div class="spinner--up"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-6 half--block flex--center--center">
+      <div class="">
+        <p class="mini">HTML &lt;select&gt;</p>
+        <h4 class="text-left">Default Select</h4>
+        <select id="selectDefault">
+          <option value="value1">Value 1</option>
+          <option value="value2">Value 2</option>
+          <option value="value3">Value 3</option>
+        </select>
+      </div>
+    </div>
+    <div class="col-xs-6 half--block flex--center--center">
+      <div class="">
+        <p class="mini">Modified HTML &lt;select&gt;</p>
+        <h4 class="text-left">CSS Select</h4>
+        <div class="input--group--select">
+          <select id="selectCss" class="select--nullify">
+            <option value="value1">Value 1</option>
+            <option value="value2">Value 2</option>
+            <option value="value3">Value 3</option>
+          </select>
+          <div class="select--arrow"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-6 half--block flex--center--center">
+      <div class="">
+        <p class="mini">HTML &lt;select&gt;</p>
+        <h4 class="text-left">Default Select</h4>
+        <select id="selectDefault">
+          <option value="BR">Brasil</option>
+          <option value="FR">France</option>
+          <option value="DE">Germany</option>
+          <option value="IN">India</option>
+          <option value="JP">Japan</option>
+          <option value="RS">Serbia</option>
+          <option value="UK">United Kingdom</option>
+          <option value="US">United States</option>
+        </select>
+      </div>
+    </div>
+    <div class="col-xs-6 half--block flex--center--center">
+      <div class="input--pseudo--select">
+        <p class="mini">Pseudo &lt;select&gt;</p>
+        <h4 class="text-left">CSS Select</h4>
+        <select id="source">
+          <option value="BR" selected="selected">Brasil</option>
+          <option value="FR">France</option>
+          <option value="DE">Germany</option>
+          <option value="IN">India</option>
+          <option value="JP">Japan</option>
+          <option value="RS">Serbia</option>
+          <option value="UK">United Kingdom</option>
+          <option value="US">United States</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</body>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="spinner.js"></script>
+<script src="pseudoSelect.js"></script>
+</html>
