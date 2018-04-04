@@ -51,6 +51,7 @@
 @media (min-width: 1200px) {
 .callToAction {
   justify-content: left;
+  transition: $transition--s;
   &.column a {
     flex-direction: unset;
     svg {
