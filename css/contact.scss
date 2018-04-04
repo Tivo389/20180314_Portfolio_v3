@@ -1,0 +1,34 @@
+@charset "utf-8";
+@import "_variable";
+@import "_contact_default";
+@import "_contact_component";
+
+body {
+  background-color: unset;
+  color: $color--main;
+  // background-color: $color--main;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  max-height: 100vh;
+  width: 100vw;
+}
+
+.nl-field-toggle {
+  color: $color--sub;
+  border-bottom: 1px dashed $color--sub;
+}
+
+.nl-form {
+  font-size: 1.8rem;
+  .nl-submit {
+    background-color: $color--main;
+    padding: 0 1em;
+    &::before {
+      display: none;
+    }
+  }
+}
