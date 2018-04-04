@@ -18,45 +18,36 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Exo+2:400,500,700">
   <link rel="stylesheet" href="https://use.typekit.net/pau5vzj.css">
   <link rel="stylesheet" type="text/css" href="css/contact.css" />
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 </head>
-	<body class="nl-blurred">
+	<body id="contact" class="nl-blurred">
 		<div class="container">
 			<div class="main clearfix">
-				<form id="nl-form" class="nl-form">
-					I feel to eat
-					<select>
-						<option value="1" selected>any food</option>
-						<option value="2">Indian</option>
-						<option value="3">French</option>
-						<option value="4">Japanese</option>
-						<option value="2">Italian</option>
+				<form id="nl-form" class="nl-form" action="php/mail.php" method="POST">
+					Hello Shun,
+          <br>
+          I would like to
+					<select id="actionSelect" name="action">
+						<option selected>{ action }</option>
+						<option value="get in touch">get in touch</option>
+            <option value="meetup">meetup</option>
+            <option value="see your resume">see your resume</option>
 					</select>
-					<br />in a
-					<select>
-						<option value="1" selected>standard</option>
-						<option value="2">fancy</option>
-						<option value="3">hip</option>
-						<option value="4">traditional</option>
-						<option value="2">romantic</option>
-					</select>
-					restaurant
-					<br />at
-					<select>
-						<option value="1" selected>anytime</option>
-					 	<option value="1">7 p.m.</option>
-					 	<option value="2">8 p.m.</option>
-					 	<option value="3">9 p.m.</option>
-					</select>
-					in <input type="text" value="" placeholder="any city" data-subline="For example: <em>Los Angeles</em> or <em>New York</em>"/>
+          <span class="exclusion">with you</span>.
+          <br><span class="optionA">Would you mind contacting me at</span><span class="optionB">Would you mind sending me a copy to</span>
+					<input type="text" value="" placeholder="{ address }" name="contact" size="20"/>
+          .
 					<div class="nl-submit-wrap">
-						<button class="nl-submit" type="submit">Find a restaurant</button>
+						<button class="nl-submit" type="submit"><i class="fas fa-paper-plane"></i>&ensp;Deliver!</button>
 					</div>
 					<div class="nl-overlay"></div>
 				</form>
 			</div>
 		</div>
-    <script src="js/modernizr.custom.js"></script>
-		<script src="js/nlform.js"></script>
-		<script>var nlform = new NLForm( document.getElementById('nl-form'));</script>
-	</body>
+    <a class="credit" href="https://tympanus.net/codrops/2013/05/21/natural-language-form-with-custom-input-elements/">"Natural Input Form" by Mary Lou at codrops</a>
+  </body>
+  <script src="js/modernizr.custom.js"></script>
+  <script src="js/nlform.js"></script>
+  <script>var nlform = new NLForm( document.getElementById('nl-form'));</script>
+  <script src="js/nlform_extend.js"></script>
 </html>

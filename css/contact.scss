@@ -3,32 +3,100 @@
 @import "_contact_default";
 @import "_contact_component";
 
-body {
+body#contact {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
   background-color: unset;
   color: $color--main;
-  // background-color: $color--main;
-}
-
-.container {
-  align-items: center;
-  display: flex;
-  height: 100vh;
-  max-height: 100vh;
-  width: 100vw;
-}
-
-.nl-field-toggle {
-  color: $color--sub;
-  border-bottom: 1px dashed $color--sub;
-}
-
-.nl-form {
-  font-size: 1.8rem;
+  font-family: $font--exo;
+  font-weight: 400;
+  input {
+    border-bottom: 1px dashed $color--sub;
+    color: $color--sub;
+    line-height: 1;
+    width: 95%;
+  }
+  .container {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    max-height: 100vh;
+    width: 100vw;
+  }
+  .credit {
+    bottom: 10px;
+    color: $color--gray;
+    font-size: 0.8rem;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+  }
+  .main {
+    padding: 2rem;
+    max-width: 30em;
+  }
+  .nl-dd-checked {
+    color: $color--white;
+    opacity: 0.5;
+    &:before {
+      display: none;
+    }
+  }
+  .nl-field-toggle {
+    color: $color--sub;
+    border-bottom: 0;
+  }
+  .nl-field ul {
+    background: $color--main;
+    padding: 0.5rem 0;
+    border-radius: $border--radius;
+  }
+  .nl-field-go {
+    display: none;
+  }
+  .nl-dd ul li {
+    padding: 0.25rem 1rem;
+  }
+  .nl-form {
+    margin: 0;
+    font-size: 1.6rem;
+  }
+  .nl-overlay {
+    background-color: rgba(0,0,0,0.65);
+  }
   .nl-submit {
     background-color: $color--main;
-    padding: 0 1em;
+    padding: 0 1.5rem;
+    font-size: 50%;
     &::before {
       display: none;
+    }
+  }
+  .nl-submit-wrap {
+    margin-top: 4rem;
+  }
+  .nl-ti-example {
+    display: none;
+  }
+  .optionB {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  body#contact {
+    .credit {
+      bottom: 14px;
+    }
+    .main {
+      max-width: 40em;
+    }
+    .nl-form {
+      font-size: 1.8rem;
+    }
+    .nl-submit:hover {
+      background-color: darken($color--main, 5%);
     }
   }
 }
