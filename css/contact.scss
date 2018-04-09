@@ -47,6 +47,11 @@ body#contact {
     color: $color--sub;
     border-bottom: 0;
   }
+  .nl-field {
+    border-bottom: 2px solid $color--sub;
+    line-height: 1;
+    padding: 0 0 0.4rem 0;
+  }
   .nl-field ul {
     background: $color--main;
     padding: 0.5rem 0;
