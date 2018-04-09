@@ -157,27 +157,28 @@ section.work--detail {
   section.landingPage,section.landingPage:last-child {
     padding: 14rem 16rem;
   }
+  $detailSpacer: 1.4rem;
   section.work--detail {
     position: relative;
     .detail--body {
-      margin: 0 0 1.8rem 0;
+      margin: 0 0 $detailSpacer 0;
       &:last-child {
       }
       h4, p {
-        line-height: 145%;
-        // font-size: 1.5rem;
+        line-height: 135%;
+        font-size: 1.5rem;
       }
       h4 {
         margin: unset;
       }
       p {
-        margin-bottom: 1.8rem;
+        margin-bottom: $detailSpacer;
       }
     }
     .detail--list {
       margin: 1.8rem 0 0 0;
       p {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         line-height: 135%;
         span {
           width: 80px;
@@ -186,9 +187,9 @@ section.work--detail {
     }
     .section--header {
       align-items: unset;
-      margin-bottom: 1.8rem;
+      margin-bottom: calc(#{$detailSpacer} * .857);
       h2 {
-        font-size: 3.6rem;
+        font-size: 3.2rem;
         color: $color--accent;
       }
       p {
@@ -198,7 +199,7 @@ section.work--detail {
     }
     .section--container {
       border-top: 2px solid $color--lightgray;
-      padding-top: 1.8rem;
+      padding-top: $detailSpacer;
       display: inline-block;
     }
     .work--img--container {
