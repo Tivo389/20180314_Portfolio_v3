@@ -49,21 +49,30 @@
 }
 
 @media (min-width: 1200px) {
-.callToAction {
-  justify-content: left;
-  transition: $transition--s;
-  &.column a {
-    flex-direction: unset;
-    svg {
-      font-size: 1.6rem;
+  #about .callToAction--container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-bottom: 3rem;
+    .callToAction {
+      display: inline-flex;
     }
   }
-  &:not(.bounce):hover {
-    transform: translateX(4px);
+  .callToAction {
+    justify-content: left;
+    transition: $transition--s;
+    &.column a {
+      flex-direction: unset;
+      svg {
+        font-size: 1.6rem;
+      }
+    }
+    &:not(.bounce):hover {
+      transform: translateX(4px);
+    }
+    svg {
+      font-size: 1.6rem;
+      margin-top: 0.4rem;
+    }
   }
-  svg {
-    font-size: 1.6rem;
-    margin-top: 0.4rem;
-  }
-}
 }
