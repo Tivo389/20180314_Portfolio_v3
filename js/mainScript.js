@@ -230,35 +230,3 @@ window.addEventListener("touchstart", function() {
 });
 
 
-
-// // DESKTOP ONLY / SHOW MENU ON HOVER
-// const isHorizontalScreen = window.innerHeight < window.innerWidth;
-// if(isHorizontalScreen) {
-// //--------------------------------------------------
-//   const menuBtn = document.querySelector("#menuBtn");
-//   const menuUl = document.querySelector("#menu ul");
-//   menuBtn.addEventListener("mouseenter", onMenuBtnMouseEnter);
-//   menuUl.addEventListener("mouseleave", onMenuBtnMouseLeave);
-//   function onMenuBtnMouseEnter(e) {
-//     const aria = e.currentTarget.attributes["aria-expanded"];
-//     const ariaExpanded = (aria.value == "true");
-//     ariaExpanded ? aria.value = "false": aria.value = "true";
-//     setMenuBackColor(document.querySelector("#menu ul"));
-//     document.querySelector("html").classList.toggle("active");
-//     document.querySelector("body").classList.toggle("active");
-//     document.querySelector("#main").classList.toggle("active");
-//     document.querySelector("#menu").classList.toggle("active");
-//   }
-//   function onMenuBtnMouseLeave() {
-//     const aria = document.querySelector("#menuBtn").attributes["aria-expanded"];
-//     const ariaExpanded = (aria.value == "true");
-//     ariaExpanded ? aria.value = "false": aria.value = "true";
-//     document.querySelector("html").classList.toggle("active");
-//     document.querySelector("body").classList.toggle("active");
-//     document.querySelector("#main").classList.toggle("active");
-//     document.querySelector("#menu").classList.toggle("active");
-//   }
-// //--------------------------------------------------
-// }
-
-

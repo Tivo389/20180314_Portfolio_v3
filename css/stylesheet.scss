@@ -123,6 +123,9 @@ div.detail--body p a {
     font-size: 3.2rem;
   }
 }
+.experiments--category {
+  display: none;
+}
 .experiment--img--container {
   display: flex;
   flex-wrap: wrap;
@@ -357,6 +360,20 @@ div.detail--body p a {
       }
       .fa-chevron-circle-left, .fa-chevron-circle-right {
         transition: $transition--xs;
+      }
+    }
+  }
+  .experiments--category {
+    display: inline-block;
+    font-family: $font--exo;
+    font-weight: bolder;
+    font-size: 1.6rem;
+    margin: 2.5rem 0 1.25rem 0;
+    span {
+      font-weight: normal;
+      &:hover {
+        cursor: pointer;
+        text-decoration: underline;
       }
     }
   }
