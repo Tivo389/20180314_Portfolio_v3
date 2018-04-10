@@ -108,6 +108,9 @@ section.work--detail {
 }
 
 @media (min-width: 1200px) {
+  #experiments {
+    min-height: 100vh;
+  }
   section, section.work--detail {
     padding: 6rem 6rem 6rem 18rem;
     &:not(#landing)::after {
