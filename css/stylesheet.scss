@@ -123,6 +123,30 @@ div.detail--body p a {
     font-size: 3.2rem;
   }
 }
+.emailAlert {
+  &:before {
+    background-color: $color--main;
+    border-bottom-left-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    box-shadow: $box-shadow--default;
+    color: $color--white;
+    content: "Copied to clipboard :)";
+    display: inline-block;
+    font-size: 1.6rem;
+    font-weight: bold;
+    left: 50%;
+    letter-spacing: 0.05rem;
+    padding: 5rem 1.65rem 1.25rem 1.65rem;
+    position: fixed;
+    top: 0;
+    transform: translate(-50%, -110%);
+    transition: $transition--s;
+    z-index: 100;
+  }
+  &.active:before {
+    transform: translate(-50%, -3.85rem);
+  }
+}
 .experiments--category {
   display: none;
 }

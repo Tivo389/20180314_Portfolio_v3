@@ -174,6 +174,7 @@ if(onLandingPage) {
 function copyToClipBoard() {
   const emailUser = document.querySelector('.aboutEmail').dataset.user;
   const emailWeb = document.querySelector('.aboutEmail').dataset.website;
+  const emailAlert = document.querySelector('.emailAlert');
   const textArea = document.createElement('textarea');
   // *** This styling is an extra step which is likely not required. ***
   // Why is it here? To ensure:
@@ -204,7 +205,10 @@ function copyToClipBoard() {
   try {
     const successful = document.execCommand('copy');
     const msg = successful ? 'successful' : 'unsuccessful';
-    alert('Address copied to clipboard :)');
+    emailAlert.classList.add('active');
+    emailAlert.addEventListener('transitionend', () => {
+      setTimeout(() => emailAlert.classList.remove('active'), 1500);
+    });
   } catch (err) {
     alert("Sorry, seems I can't copy the address...");
   }
