@@ -52,7 +52,7 @@
   #about .callToAction--container {
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: flex-start;
     margin-bottom: 3rem;
     .callToAction {
       display: inline-flex;

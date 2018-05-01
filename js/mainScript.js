@@ -8,31 +8,35 @@ let btnTop;
 
 
 // IIFE FOR COMPONENT LOADING
-(function() {
-  return fetch("./../components/menu.html")
-  .then((response) => response.text())
-  .then((data) => {
-    $("#main").before(data);
-  });
-})();
-(function() {
-  return fetch("./../components/menuBtn.html")
-  .then((response) => response.text())
-  .then((data) => {
-    $("#main").after(data);
-    // ONCE THE 2 COMPONENTS ARE LOADED DO THE FOLLOWING
-    menuBtn = document.querySelector("#menuBtn");
-    menuUl = document.querySelector("#menu ul");
-    setButtonDisplay();
-    setButtonColor();
-    setMenuListDisplay();
-    setMenuListActive();
-    menuBtn.addEventListener("click", handleMenuClick);
-    document.addEventListener("scroll", debounce(setMenuListDisplay));
-    document.addEventListener("scroll", debounce(setButtonDisplay));
-    document.addEventListener("scroll", debounce(setButtonColor));
-  });
-})();
+document.addEventListener("DOMContentLoaded", function(event) {
+  loadMenu();
+  loadBtn();
+  function loadMenu() {
+    return fetch("./../components/menu.html")
+    .then((response) => response.text())
+    .then((data) => {
+      $("#main").before(data);
+    });
+  };
+  function loadBtn() {
+    return fetch("./../components/menuBtn.html")
+    .then((response) => response.text())
+    .then((data) => {
+      $("#main").after(data);
+      // ONCE THE 2 COMPONENTS ARE LOADED DO THE FOLLOWING
+      menuBtn = document.querySelector("#menuBtn");
+      menuUl = document.querySelector("#menu ul");
+      setButtonDisplay();
+      setButtonColor();
+      setMenuListDisplay();
+      setMenuListActive();
+      menuBtn.addEventListener("click", handleMenuClick);
+      document.addEventListener("scroll", debounce(setMenuListDisplay));
+      document.addEventListener("scroll", debounce(setButtonDisplay));
+      document.addEventListener("scroll", debounce(setButtonColor));
+    }).catch(() => console.log('loadBth().error'));
+  };
+});
 
 
 

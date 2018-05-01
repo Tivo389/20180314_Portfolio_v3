@@ -261,7 +261,7 @@ div.detail--body p a {
     display: flex;
     padding: 0 14rem 1.5rem 14rem;
     .landing--banner {
-      align-items: left;
+      align-items: flex-start;
       flex: 5;
       div {
         text-align: left;
