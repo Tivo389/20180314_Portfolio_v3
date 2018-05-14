@@ -165,11 +165,9 @@ section.work--detail {
     position: relative;
     .detail--body {
       margin: 0 0 $detailSpacer 0;
-      &:last-child {
-      }
       h4, p {
-        line-height: 135%;
-        font-size: 1.5rem;
+        line-height: 142.5%;
+        font-size: 1.6rem;
       }
       h4 {
         margin: unset;

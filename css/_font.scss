@@ -34,3 +34,12 @@ a {
     text-decoration: none;
   }
 }
+span.hl {
+  border-bottom: 2px solid lighten($color--sub, 12.5%);
+  margin: 0 -0.15em;
+  padding: 0 0.15em;
+}
+span.ul {
+  text-decoration: underline;
+  text-decoration-color: $color--sub;
+}
