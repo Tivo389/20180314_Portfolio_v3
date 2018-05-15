@@ -112,7 +112,7 @@ section.work--detail {
     min-height: 100vh;
   }
   section, section.work--detail {
-    padding: 6rem 6rem 6rem 18rem;
+    padding: 3rem 6rem 6rem 18rem;
     &:not(#landing)::after {
       bottom: 0;
       content: " ";
@@ -160,7 +160,7 @@ section.work--detail {
   section.landingPage,section.landingPage:last-child {
     padding: 14rem 16rem;
   }
-  $detailSpacer: 1.4rem;
+  $detailSpacer: 1.5em;
   section.work--detail {
     position: relative;
     .detail--body {
@@ -209,7 +209,8 @@ section.work--detail {
   }
   .desktop--div {
     position: fixed;
-    width: calc((100% - 24rem) * 0.4);  // [confirmed] not a flex-item
+    width: calc((100% - 24rem) * 0.45);  // [confirmed] not a flex-item
     padding-right: 6rem;  // [confirmed] not a flex-item
+    height: 88vh;
   }
 }

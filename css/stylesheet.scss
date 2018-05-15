@@ -86,8 +86,8 @@ p a {
   }
 }
 div.detail--body p a {
-  font-size: inherit;
-  position: relative;
+  // font-size: inherit;
+  // position: relative;
   &:after {
     @extend %extParagraphAnchor;
     bottom: -1px;
@@ -352,6 +352,11 @@ div.detail--body p a {
   .button--container {
     justify-content: space-between;
     margin: 3.2rem 0 0 0;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding-right: 6rem;
+    bottom: 0;
     a {
       font-size: 4.2rem;
       line-height: 0;
