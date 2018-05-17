@@ -470,3 +470,11 @@ div.detail--body p a {
     display: inline;
   }
 }
+
+@media (min-width: 1440px) {
+  .about--text {
+    padding: 0;
+    margin-right: auto;
+    margin-left: calc(400px);
+  }
+}
