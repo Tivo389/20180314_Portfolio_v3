@@ -1,5 +1,6 @@
 section {
   max-width: 1440px;
+  margin: 0 auto;
   padding: 3rem 0 6rem 0;
   position: relative;
   .section--header {
@@ -111,20 +112,23 @@ section.work--detail {
   #experiments {
     min-height: 100vh;
   }
+  section.landingPage, section.landingPage:last-child {
+    padding: 14rem 16rem;
+  }
+  section:not(#landing)::after {
+    bottom: 0;
+    content: " ";
+    display: block !important;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+  }
   section, section.work--detail {
     padding: 3rem 6rem 6rem 18rem;
-    &:not(#landing)::after {
-      bottom: 0;
-      content: " ";
-      display: block !important;
-      height: 100%;
-      left: 0;
-      position: absolute;
-      top: 0;
-      width: 20px;
-      border-bottom-right-radius: 20px;
-      border-top-right-radius: 20px;
-    }
     &#featuredWork::after, &#work::after, &#work--detail::after {
       background-color: $color--main;
     }
@@ -156,9 +160,6 @@ section.work--detail {
         text-align: left;
       }
     }
-  }
-  section.landingPage,section.landingPage:last-child {
-    padding: 14rem 16rem;
   }
   $detailSpacer: 1.5em;
   section.work--detail {
@@ -212,5 +213,19 @@ section.work--detail {
     width: calc((100% - 24rem) * 0.45);  // [confirmed] not a flex-item
     padding-right: 6rem;  // [confirmed] not a flex-item
     height: 88vh;
+  }
+}
+
+@media (min-width: 1440px) {
+  #about {
+    min-height: 100vh;
+  }
+  section:not(#landing)::after {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+  }
+  .desktop--div {
+    max-width: 400px;
+    max-height: 660px;
   }
 }
