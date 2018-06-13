@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+<title>Long Press</title>
+<link href="css/stylesheet.css" rel="stylesheet">
+<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<span id="timeDisplay"></span>
+
+<div class="modal">
+  <div class="notMobile">
+    <i class="fas fa-mobile-alt"></i>
+    <p>Mobile Only</p>
+  </div>
+</div>
+
+<div class="mainWrapper">
+  <div class="notes">
+    <h5>Long Press Experiment</h5>
+    <ul>
+      <li>
+        - Using long press on main button to activate additional functions.
+      </li>
+      <li>
+        - Due to it being a common gesture, high conflict probability. Best to avoid on touch-device. Might have less conflict for click-device?
+      </li>
+      <li class="prompter"></li>
+    </ul>
+  </div>
+  <ul class="btnMenu">
+    <li class="btn">
+      <i class="fas fa-paint-brush"></i>
+    </li>
+    <li class="btn">
+      <i class="fas fa-cog"></i>
+    </li>
+    <li class="btn inactive" data-level="1">
+      <svg class="progressMeter" width="50" height="50" viewBox="0 0 50 50">
+        <circle cx="25" cy="25" r="23" fill="none" stroke="#00A5D5" stroke-width="4" stroke-dasharray="144.513" stroke-dashoffset="144.513" />
+      </svg>
+      <i class="fas fa-trash-alt"></i>
+    </li>
+    <li class="btn inactive" data-level="2">
+      <svg class="progressMeter" width="50" height="50" viewBox="0 0 50 50">
+        <circle cx="25" cy="25" r="23" fill="none" stroke="#00A5D5" stroke-width="4" stroke-dasharray="144.513" stroke-dashoffset="144.513" />
+      </svg>
+     <i class="fas fa-user-secret"></i>
+    </li>
+  </ul>
+  <div class="btn btnMain">
+    <i class="fas fa-plus"></i>
+  </div>
+</div>
+
+</body>
+<script src="js/script.js"></script>
+</html>

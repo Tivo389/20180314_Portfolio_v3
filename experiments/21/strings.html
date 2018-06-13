@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Text Variety Experiment</title>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+<link href="css/stylesheet.css" rel="stylesheet">
+</head>
+<body>
+
+
+
+<div class="wrapper">
+  <div>
+    <h3>SELECT AN INPUT</h3>
+    <span class="imgInput" data-name="inputStr">
+      <code>String</code>
+      <img src="inputStr.png">
+    </span>
+    <hr>
+    <span class="imgInput" data-name="inputStrNw">
+      <code>String + /n</code>
+      <img src="inputStrNw.png">
+    </span>
+    <hr>
+    <span class="imgInput" data-name="inputStrHtml">
+      <code>String + HTML</code>
+      <img src="inputStrHtml.png">
+    </span>
+    <hr>
+    <span class="imgInput" data-name="inputStrArray">
+      <code>Array of Strings + .join('\n')</code>
+      <img src="inputStrArray.png">
+    </span>
+  </div>
+
+  <div>
+    <h3>SELECT A METHOD</h3>
+    <div class="btnCase">
+      <button class="btnMethod" data-name="nodeValue"><code>.nodeValue</code></button>
+      <div class="btnInfo">
+        <code>Supported in effectively all browsers (since IE6+, Firefox 2+, Chrome 1+ etc)</code>
+        <a class="methodLink" href="https://developer.mozilla.org/en-US/docs/Web/API/Node/nodeValue" target="_blank">
+          <i class="fas fa-external-link-alt"></i>
+        </a>
+      </div>
+    </div>
+    <hr>
+    <div class="btnCase">
+      <button class="btnMethod" data-name="textContent"><code>.textContent</code></button>
+      <div class="btnInfo">
+        <code>Tends to have better performance because the text is not parsed as HTML but plain text. Moreover, using textContent can prevent XSS attacks.</code>
+        <a class="methodLink" href="https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent" target="_blank">
+          <i class="fas fa-external-link-alt"></i>
+        </a>
+      </div>
+    </div>
+    <hr>
+    <div class="btnCase">
+      <button class="btnMethod" data-name="innerText"><code>.innerText</code></button>
+      <div class="btnInfo">
+        <code>Represents the "rendered" text content of a node and its descendants.</code>
+        <a class="methodLink" href="https://developer.mozilla.org/en-US/docs/Web/API/Node/innerText" target="_blank">
+          <i class="fas fa-external-link-alt"></i>
+        </a>
+      </div>
+    </div>
+    <hr>
+    <div class="btnCase">
+      <button class="btnMethod" data-name="innerHTML"><code>.innerHTML</code></button>
+      <div class="btnInfo">
+        <code>Potential security risk whenever you use innerHTML to set strings over which you have no control.</code>
+        <a class="methodLink" href="https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML" target="_blank">
+          <i class="fas fa-external-link-alt"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <h3>SELECT AN OUTPUT</h3>
+    <code id="outputMethod">Method: </code>
+    <p id="outputTarget"></p>
+    <div id="cssOptions">
+      <code>CSS white-space Settings:</code>
+      <button class="wsSetting" data-name="normal">
+        <code>white-space: normal;</code>
+      </button>
+      <button class="wsSetting" data-name="nowrap">
+        <code>white-space: nowrap;</code>
+      </button>
+      <button class="wsSetting" data-name="pre">
+        <code>white-space: pre;</code>
+      </button>
+      <button class="wsSetting" data-name="pre-wrap">
+        <code>white-space: pre-wrap;</code>
+      </button>
+      <button class="wsSetting" data-name="pre-line">
+        <code>white-space: pre-line;</code>
+      </button>
+    </div>
+  </div>
+</div>
+
+
+
+</body>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script>
+// GLOBAL VARIABLES
+const strOptions = {
+  inputStr: "On Monday he ate through 1 apple. On Tuesday he ate through 2 pears. On Wednesday he ate through 3 plums.",
+  inputStrNw: "On Monday he ate through 1 apple.\nOn Tuesday he ate through 2 pears.\nOn Wednesday he ate through 3 plums.",
+  inputStrHtml: "<p>On Monday he ate through 1 apple.<br>On Tuesday he ate through 2 pears.<br>On Wednesday he ate through 3 plums.</p>",
+  inputStrArray: [
+    "On Monday he ate through 1 apple.",
+    "On Tuesday he ate through 2 pears.",
+    "On Wednesday he ate through 3 plums."
+  ]
+}
+
+
+
+// INPUT SECTION
+const inputImgs = document.querySelectorAll('.imgInput');
+inputImgs.forEach(img => img.addEventListener('click', handleImgClick));
+let inputSel, methodSel;
+function handleImgClick(e) {
+  inputSel = strOptions[e.currentTarget.dataset.name];
+  inputImgs.forEach(img => img.classList.remove('selected'));
+  e.currentTarget.classList.toggle('selected');
+}
+
+
+
+// METHOD SECTION
+const outputTarget = document.querySelector('#outputTarget');
+const outputMethod = document.querySelector('#outputMethod');
+const methodBtns = document.querySelectorAll('.btnMethod');
+
+methodBtns.forEach(btn => btn.addEventListener('click', handleBtnClick));
+
+const nodeValue = () => {
+  const textNode = document.createTextNode('');
+  while (outputTarget.firstChild) outputTarget.removeChild(outputTarget.firstChild);
+  outputTarget.appendChild(textNode);
+  outputTarget.firstChild.nodeValue = inputSel;
+};
+const innerHTML = () => outputTarget.innerHTML = inputSel;
+const textContent = () => outputTarget.textContent = inputSel;;
+const innerText = () => outputTarget.innerText = inputSel;;
+
+function handleBtnClick(e) {
+  methodSel = e.currentTarget.dataset.name;
+  if(Array.isArray(inputSel)) inputSel = inputSel.join('\n');
+  if(inputSel === undefined) {
+    outputMethod.textContent = "Please select in an Input first.";
+  } else {
+    outputMethod.textContent = "Method: ";
+    outputMethod.textContent += `.${methodSel}`;
+    methodBtns.forEach(btn => btn.classList.remove('selected'));
+    e.currentTarget.classList.toggle('selected');
+    switch (methodSel) {
+      case 'nodeValue' :
+        nodeValue();
+        break;
+      case 'innerHTML' :
+        innerHTML();
+        break;
+      case 'textContent' :
+        textContent();
+        break;
+      case 'innerText' :
+        innerText();
+        break;
+    }
+  }
+}
+
+
+
+// WHITE SPACE SETTINGS
+const cssBtns = document.querySelectorAll('.wsSetting');
+cssBtns.forEach(btn => btn.addEventListener('click', handleCss));
+function handleCss(e) {
+  const cssSel = e.currentTarget.dataset.name;
+  if(inputSel === undefined || methodSel === undefined) {
+    outputMethod.textContent = "Please select in an Input/Method first.";
+  } else {
+    cssBtns.forEach(btn => btn.classList.remove('selected'));
+    e.currentTarget.classList.toggle('selected');
+    outputTarget.style.whiteSpace = cssSel;
+  }
+}
+</script>
+</html>
