@@ -115,29 +115,8 @@ section.work--detail {
   section.landingPage, section.landingPage:last-child {
     padding: 14rem 16rem;
   }
-  section:not(#landing)::after {
-    bottom: 0;
-    content: " ";
-    display: block !important;
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 20px;
-    border-bottom-right-radius: 20px;
-    border-top-right-radius: 20px;
-  }
   section, section.work--detail {
     padding: 3rem 6rem 6rem 18rem;
-    &#featuredWork::after, &#work::after, &#work--detail::after {
-      background-color: $color--main;
-    }
-    &#expertise::after, &#experiments::after {
-      background-color: $color--sub;
-    }
-    &#landingAbout::after, &#about::after {
-      background-color: $color--accent;
-    }
     .section--container {
       padding: unset;
     }
@@ -219,10 +198,6 @@ section.work--detail {
 @media (min-width: 1440px) {
   #about {
     min-height: 100vh;
-  }
-  section:not(#landing)::after {
-    border-bottom-right-radius: 0;
-    border-top-right-radius: 0;
   }
   .desktop--div {
     max-width: 400px;
