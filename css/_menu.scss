@@ -79,7 +79,7 @@ $bg--accent: rgba(64,64,64,0.65);
   }
 }
 #menu.active {
-  visibility: unset;
+  visibility: initial;
   opacity: 1;
 }
 #main.active {
@@ -101,14 +101,14 @@ body.active, html.active {
     display: none;
   }
   #menu {
-    bottom: unset;
-    height: unset;
-    left: unset;
+    bottom: 0;
+    height: 0;
+    left: 0;
     opacity: 1;
-    right: unset;
-    top: unset;
-    visibility: unset;
-    width: unset;
+    right: 0;
+    top: 0;
+    visibility: initial;
+    width: 0;
     ul {
       left: 0;
       margin: 1.5rem 3rem 1.5rem 1.25rem;
@@ -126,7 +126,7 @@ body.active, html.active {
       &.active {
         opacity: 1;
         transform: translateX(0);
-        visibility: unset;
+        visibility: initial;
       }
       img {
         transition: $transition--s;

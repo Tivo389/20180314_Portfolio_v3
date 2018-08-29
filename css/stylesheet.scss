@@ -230,32 +230,32 @@ div.detail--body p a {
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
-.experiment--img--container {
-  margin: -1.5rem auto 0 auto;
-  max-width: 70rem;
-  a:not(.link--block) {
-    margin: 0.75rem;
-    width: unset;
-    flex: 1 25%;
-    max-width: calc(25% - 1.5rem);
-    &:last-child, &:nth-last-child(2) {
-      margin-bottom: 0.75rem;
+  .experiment--img--container {
+    margin: -1.5rem auto 0 auto;
+    max-width: 70rem;
+    a:not(.link--block) {
+      margin: 0.75rem;
+      width: initial;
+      flex: 1 25%;
+      max-width: calc(25% - 1.5rem);
+      &:last-child, &:nth-last-child(2) {
+        margin-bottom: 0.75rem;
+      }
     }
   }
-}
-.profile {  // Specific to about.html
-  background-position: left center;
-  background-size: 168%;
-  margin: 0.5rem 1.5rem 1.5rem 18vw;
-  padding-bottom: 25vw;
-  width: 25vw;
-  float: left;
-}
-.about--text {
-  width: 64vw;
-  margin: 0 auto;
-  padding: unset;
-}
+  .profile {  // Specific to about.html
+    background-position: left center;
+    background-size: 168%;
+    margin: 0.5rem 1.5rem 1.5rem 18vw;
+    padding-bottom: 25vw;
+    width: 25vw;
+    float: left;
+  }
+  .about--text {
+    width: 64vw;
+    margin: 0 auto;
+    padding: initial;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -268,7 +268,7 @@ div.detail--body p a {
       div {
         text-align: left;
         &:first-child {
-          flex: unset;
+          flex: initial;
         }
       }
       h1 {
@@ -412,7 +412,7 @@ div.detail--body p a {
   .experiment--img--container {
     justify-content: flex-start;
     margin: -1.5rem;
-    padding: unset;
+    padding: initial;
     a:not(.link--block) {
       flex: 1 25%;
       margin: 1.5rem;
@@ -463,9 +463,9 @@ div.detail--body p a {
   .profile { // Specific to about.html
     background-size: 170%;
     background-position: 0px 35%;
-    margin: unset;
+    margin: initial;
     padding-bottom: 100%;
-    width: unset;
+    width: initial;
   }
   .visibleDesktop {
     display: inline;
