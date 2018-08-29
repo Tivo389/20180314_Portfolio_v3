@@ -62,7 +62,7 @@
     justify-content: left;
     transition: $transition--s;
     &.column a {
-      flex-direction: unset;
+      flex-direction: initial;
       svg {
         font-size: 1.6rem;
       }

@@ -57,22 +57,22 @@ $color--card: rgba(238,134,168,0.075); // Pink
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  margin: unset;
+  margin: 0;
   max-width: 32rem;
   padding: 3.5rem 2.5rem;
   width: calc((100% - 4rem) / 3);
   + .expertise--card {
-    margin-top: unset;
+    margin-top: 0;
   }
   div, p {
-    margin-left: unset;
+    margin-left: 0;
     text-align: center;
   }
   p {
     font-size: 1.6rem;
   }
   img {
-    height: unset;
+    height: initial;
     margin: 0 0 2rem 0;
   }
 }

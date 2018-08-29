@@ -62,7 +62,7 @@ section.work--detail {
   .section--header {
     flex-direction: column;
     height: auto;
-    overflow: unset;
+    overflow: initial;
     margin-bottom: 1rem;
     h2 {
       color: $color--black;
@@ -75,8 +75,8 @@ section.work--detail {
     }
   }
   .work--img--container {
-    max-width: unset;
-    margin: unset;
+    max-width: initial;
+    margin: 0;
   }
 }
 
@@ -118,15 +118,15 @@ section.work--detail {
   section, section.work--detail {
     padding: 3rem 6rem 6rem 18rem;
     .section--container {
-      padding: unset;
+      padding: 0;
     }
     .section--header {
       justify-content: left;
-      overflow: unset;
-      padding: unset;
+      overflow: initial;
+      padding: 0;
       width: auto;
       &.bcBlue,&.bcPink,&.bcBlack {
-        background-color: unset;
+        background-color: initial;
       }
       h2 {
         color: $color--gray;
@@ -135,7 +135,7 @@ section.work--detail {
       + p {
         justify-content: left;
         margin-bottom: 2.5rem;
-        padding: unset;
+        padding: initial;
         text-align: left;
       }
     }
@@ -150,7 +150,7 @@ section.work--detail {
         font-size: 1.6rem;
       }
       h4 {
-        margin: unset;
+        margin: initial;
       }
       p {
         margin-bottom: $detailSpacer;
@@ -167,7 +167,7 @@ section.work--detail {
       }
     }
     .section--header {
-      align-items: unset;
+      align-items: initial;
       margin-bottom: calc(#{$detailSpacer} * .857);
       h2 {
         font-size: 3.2rem;
@@ -184,7 +184,7 @@ section.work--detail {
       display: inline-block;
     }
     .work--img--container {
-      margin: unset;
+      margin: initial;
     }
   }
   .desktop--div {
