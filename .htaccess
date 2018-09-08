@@ -1,8 +1,9 @@
 ErrorDocument 404 /404.html
 
 RewriteEngine On
-RewriteCond %{HTTPS} off
-RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-RewriteCond %{HTTP_HOST} !^www\. [NC]
-RewriteRule .* https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteCond %{HTTP_HOST} ^shunmiyaki\.com
+RewriteRule ^(.*) https://www.shunmiyaki\.com/$1 [R=301,L]
