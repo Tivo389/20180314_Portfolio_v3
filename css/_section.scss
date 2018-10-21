@@ -14,7 +14,7 @@ section {
       & a {
         line-height: 1;
         &:hover {
-          color: darken($color--black, 30%);
+          color: darken($color--black, 25%);
         }
         & svg {
           font-size: 70%;
