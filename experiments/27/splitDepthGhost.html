@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NAME HERE</title>
+<link href="css/stylesheet.css" rel="stylesheet">
+<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+<!-- ✓ (7:30) Coding Practice (#80_062118) -->
+<div class="mainWrapper">
+  <div class="viewPort">
+    <div class="ghostMove inactive">
+      <div class="ghostFloat">
+        <object data="images/ghost_sideSprite.svg" type="image/svg+xml"></object>
+      </div>
+    </div>
+    <div class="ghostAll">
+      <div class="escapeGhost">
+        <div class="ghostFloat">
+          <object data="images/ghost_frontSprite.svg" type="image/svg+xml"></object>
+        </div>
+      </div>
+      <div class="escapeGhost">
+        <div class="ghostFloat">
+          <object data="images/ghost_frontSprite.svg" type="image/svg+xml"></object>
+        </div>
+      </div>
+      <div class="escapeGhost">
+        <div class="ghostFloat">
+          <object data="images/ghost_frontSprite.svg" type="image/svg+xml"></object>
+        </div>
+      </div>
+      <div class="escapeGhost">
+        <div class="ghostFloat">
+          <object data="images/ghost_frontSprite.svg" type="image/svg+xml"></object>
+        </div>
+      </div>
+      <div class="escapeGhost">
+        <div class="ghostFloat">
+          <object data="images/ghost_frontSprite.svg" type="image/svg+xml"></object>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bellHover">
+    <div class="shakeBell inactive" data-key="01">
+      <object data="images/bellSprite.svg" type="image/svg+xml"></object>
+      <object class="hidden" data="images/bellBroken.svg" type="image/svg+xml"></object>
+    </div>
+  </div>
+  <div class="textWrapper">
+    <p class="message">Ring the bell...</p>
+    <p class="volWarning">(...maybe check your volume first)</p>
+  </div>
+</div>
+
+
+<audio src="audio/bell.mp3"></audio>
+<audio src="audio/crack.mp3"></audio>
+<script src="js/script.js"></script>
+</body>
+</html>

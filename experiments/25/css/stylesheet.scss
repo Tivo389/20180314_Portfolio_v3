@@ -1,0 +1,103 @@
+@charset 'utf-8';
+@import '_normalize';
+@import '_normalizeCustomConfig';
+@import '_variable';
+@import '_font';
+@import '_debugger';
+
+html {
+  background-color: #F1F1F1;
+}
+
+a {
+  font-size: 1.2rem;
+  color: $colorLightGray;
+  text-decoration: none;
+  margin-top: 1em;
+  &:visited {
+    color: $colorLightGray;
+  }
+  &:hover {
+    color: $colorGray;
+  }
+}
+
+.mainWrapper {
+  width: 100vw;
+  height: 100vh;
+  padding: 2.5vw;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+
+.boxWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.boxContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  + .boxContainer {
+    margin-left: 6rem;
+  }
+}
+
+.imgBox {
+  margin-top: 1rem;
+}
+
+.box {
+  width: 160px;
+  height: 160px;
+  border-radius: 6px;
+  background-color: $colorWhite;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.30);
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 5rem;
+}
+
+.boxTransitionShadow:hover {
+  transform: scale(1.2, 1.2);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.30), 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.boxTransitionOpacity {
+  position: relative;
+  &:hover {
+    transform: scale(1.2, 1.2);
+  }
+  &::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    transition: opacity 0.3s ease-in-out;
+  }
+}
+
+.boxTransitionOpacity:hover::after {
+  opacity: 1;
+}
+
+
+
+// BOOTSTRAP NOTES & RESOLUTION REFERENCE
+// iPhone SE = 320 * 568px
+// iPhone 7 = 375 * 667px
+// iPhone 7 Plus = 414 * 736px
+// iPad & iPad mini = 768 * 1024px
+// iPad Pro = 1024 * 1366px
+// Macbook Air 13-inch = 1440 * 900px
+// Macbook Pro 15-inch = 2560 * 1600px
+// ----------------------------------
+@media (min-width: 768px) and (max-width: 1024px) {}
+@media (min-width: 1025px) {}
