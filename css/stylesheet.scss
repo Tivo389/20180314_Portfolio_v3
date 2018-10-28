@@ -152,7 +152,7 @@ div.detail--body p a {
 .experiments--category {
   display: none;
 }
-.experiment--img--container {
+.experiment__img--container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -230,7 +230,7 @@ div.detail--body p a {
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
-  .experiment--img--container {
+  .experiment__img--container {
     margin: -1.5rem auto 0 auto;
     max-width: 70rem;
     a:not(.link--block) {
@@ -395,6 +395,52 @@ div.detail--body p a {
       }
     }
   }
+  .experiment__detail {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    transition-duration: $transition--s;
+    transform: translateX(-101%);
+    background-color: $color--black--transparent;
+    padding: 1rem;
+    & .experiment__detail--header {
+      font-weight: bolder;
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+    & .experiment__detail--header:not(:first-of-type) {
+      margin-top: 1.4em;
+    }
+    & p {
+      letter-spacing: 0.02em;
+      color: $color--white;
+      font-family: $font--exo;
+      font-size: 1.6rem;
+    }
+  }
+  .experiment__img--container {
+    justify-content: flex-start;
+    margin: -1.5rem;
+    padding: initial;
+    a:not(.link--block) {
+      overflow: hidden;
+      flex: 1 25%;
+      margin: 1.5rem;
+      max-width: calc(25% - 3rem);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &:hover .experiment__detail {
+        transform: translateX(0);
+      }
+      &:last-child, &:nth-last-child(2) {
+        margin-bottom: 1.5rem;
+      }
+    }
+  }
   .filter--container {
     margin: 2.5rem 0 1.25rem 0;
     & p {
@@ -413,22 +459,6 @@ div.detail--body p a {
           cursor: pointer;
           text-decoration: underline;
         }
-      }
-    }
-  }
-  .experiment--img--container {
-    justify-content: flex-start;
-    margin: -1.5rem;
-    padding: initial;
-    a:not(.link--block) {
-      flex: 1 25%;
-      margin: 1.5rem;
-      max-width: calc(25% - 3rem);
-      &:hover {
-        transform: translateY(-4px);
-      }
-      &:last-child, &:nth-last-child(2) {
-        margin-bottom: 1.5rem;
       }
     }
   }
