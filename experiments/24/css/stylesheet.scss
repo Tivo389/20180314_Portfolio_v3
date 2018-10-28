@@ -1,0 +1,134 @@
+@charset 'utf-8';
+@import '_normalize';
+@import '_normalizeCustomConfig';
+@import '_variable';
+@import '_font';
+@import '_debugger';
+@import '_table';
+
+$aniDuration: 4s;
+$animationWidth: 100px;
+$aniObjectWidth: 12px;
+
+@keyframes aniXAxis {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(calc(#{$animationWidth} - #{$aniObjectWidth})); }
+  100% { transform: translateX(0); }
+}
+
+@keyframes aniYAxis {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(calc(#{$animationWidth} - #{$aniObjectWidth})); }
+  100% { transform: translateY(0); }
+}
+
+a {
+  font-size: 1.2rem;
+  color: $colorLightGray;
+  text-decoration: none;
+  margin-top: 1em;
+  &:hover {
+    color: $colorGray;
+  }
+}
+
+code {
+  display: block;
+  color: $colorDarkGray;
+  + code {
+    margin: 0.25em 0;
+  }
+  &:last-of-type {
+    margin-bottom: 1em;
+  }
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-color: $colorLightGray;
+  width: 100%;
+  margin: 4rem 0;
+}
+
+.mainWrapper {
+  width: 100vw;
+  height: 100vh;
+  padding: 2.5vw;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.animationCanvas {
+  width: $animationWidth;
+  height: $animationWidth;
+  background-color: $colorWhite;
+  margin: 0 auto;
+}
+
+.aniObject {
+  width: $aniObjectWidth;
+  height: $aniObjectWidth;
+  background-color: $colorMain;
+  border-radius: calc(#{$aniObjectWidth} / 2);
+  &.red {
+    background-color: $colorAccent;
+  }
+}
+
+.aniAxis {
+  display: inline-block;
+  animation-duration: $aniDuration;
+  animation-iteration-count: infinite;
+  line-height: 0;
+}
+
+.aniXAxis {
+  animation-name: aniXAxis;
+}
+
+.aniYAxis {
+  animation-name: aniYAxis;
+}
+
+.linear {
+  animation-timing-function: linear;
+}
+
+.easeIn {
+  animation-timing-function: ease-in;
+}
+
+.easeOut {
+  animation-timing-function: ease-out;
+}
+
+.easeInOut {
+  animation-timing-function: ease-in-out;
+}
+
+.cubic {
+  animation-timing-function: cubic-bezier(0.92, 0.64, 0, 1.27);
+}
+
+.cubicX {
+  animation-timing-function: cubic-bezier(0.75, 0, 0.25, 1);
+}
+
+.cubicY {
+  animation-timing-function: cubic-bezier(0, 0.75, 1, 0.25);
+}
+
+// BOOTSTRAP NOTES & RESOLUTION REFERENCE
+// iPhone SE = 320 * 568px
+// iPhone 7 = 375 * 667px
+// iPhone 7 Plus = 414 * 736px
+// iPad & iPad mini = 768 * 1024px
+// iPad Pro = 1024 * 1366px
+// Macbook Air 13-inch = 1440 * 900px
+// Macbook Pro 15-inch = 2560 * 1600px
+// ----------------------------------
+@media (min-width: 768px) and (max-width: 1024px) {}
+@media (min-width: 1025px) {}

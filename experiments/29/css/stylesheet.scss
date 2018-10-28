@@ -1,0 +1,195 @@
+@charset 'utf-8';
+@import '_normalize';
+@import '_normalizeCustomConfig';
+@import '_variable';
+@import '_font';
+@import '_debugger';
+@import '_mediaQuery';
+
+
+
+// ID LEVEL ------------------------------------------------------------------------------------
+
+
+
+// ELEMENT LEVEL ----------------------------------------------------------------------------------
+code {
+  background-color: #dfe0e0;
+  border-radius: 0.25rem;
+  color: $colorDarkGray;
+  font-family: Monaco, Menlo, "Ubuntu Mono", "Droid Sans Mono", Consolas, monospace;
+  margin: 0 0.05rem;
+  padding: 0 0.35rem;
+  vertical-align: baseline;
+  white-space: normal;
+  font-size: 85%;
+}
+
+h3 {
+  padding: 1.5rem 3rem;
+  color: $colorGray;
+  text-align: initial;
+  width: 100%;
+}
+
+h3 > p {
+
+}
+
+h5 {
+  color: $colorGray;
+  font-size: 1.6rem;
+  margin-bottom: 1em;
+}
+
+p {
+  color: $colorDarkGray;
+  text-indent: -0.65em;
+  margin-left: 0.65em;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  border-top: 1px solid $colorLightGray;
+  width: 100%;
+  padding: 3rem;
+  &:last-child {
+    border-bottom: 1px solid $colorLightGray;
+  }
+  &.flexLeft {
+    justify-content: initial;
+  }
+  > div:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 140px;
+    object {
+      width: 90%;
+    }
+  }
+  > div:last-child {
+    display: none;
+    margin-left: 2em;
+    flex: 1 0;
+    @include tablet {
+      display: initial;
+    }
+    @include desktop {
+      display: initial;
+    }
+  }
+}
+
+ul {
+  padding: 0 0 0 20px;
+}
+
+
+
+// CLASS LEVEL ------------------------------------------------------------------------------------
+.mainWrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  @include tablet {
+    // flex-direction: initial;
+  }
+  @include desktop {
+    // flex-direction: initial;
+  }
+}
+
+
+
+// GHOST  -----------------------------------------------------------------------------------------
+@keyframes ghostFloat {
+  0% { transform: translate(0%, 0%); }
+  33% { transform: translate(0%, 15%); }
+  66% { transform: translate(0%, -15%); }
+  100% { transform: translate(0%, 0%); }
+}
+
+@keyframes ghostSprite {
+  100% { transform: translateX(-100%); }
+}
+
+section > div.ghostCanvas:first-child object {
+  width: 200%;
+}
+
+object[data="images/05_ghostSprite.svg"] {
+  animation: 0.35s infinite ghostSprite steps(2);
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 200%;
+}
+
+object[data="images/05a_ghostPath.svg"], object[data="images/05_ghostPath.svg"] {
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+}
+
+.ghostCanvas {
+  position: relative;
+}
+
+.ghostFloat {
+  width: 50%;
+  height: 50%;
+  overflow: hidden;
+  animation: 1.5s ease-in-out infinite ghostFloat;
+}
+
+
+
+// GHOST2 -----------------------------------------------------------------------------------------
+@keyframes ghostSprite2 {
+  100% { transform: translate(0, 93px); }
+}
+
+#svgG2:hover #path {
+  opacity: 0.35;
+  transition-duration: 0.35s;
+}
+
+#ghosts {
+  animation: 0.35s infinite ghostSprite2 steps(2);
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+#ghostCanvas2, #ghostCanvas3 {
+  position: relative;
+  width: 280px;
+  height: 280px;
+}
+
+
+
+// GHOST3 -----------------------------------------------------------------------------------------
+@keyframes ghostSprite3 {
+  100% { transform: translate(-478px, 2px); }
+}
+
+#svgG3:hover #canvas3, #svgG3:hover #path3 {
+  opacity: 0;
+}
+
+#ghosts3 {
+  animation: 0.35s infinite ghostSprite3 steps(2);
+  left: 0;
+  position: absolute;
+  top: 0;
+}

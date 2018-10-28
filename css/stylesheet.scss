@@ -395,17 +395,24 @@ div.detail--body p a {
       }
     }
   }
-  .experiments--category {
-    display: inline-block;
-    font-family: $font--exo;
-    font-weight: bolder;
-    font-size: 1.6rem;
+  .filter--container {
     margin: 2.5rem 0 1.25rem 0;
-    span {
-      font-weight: normal;
-      &:hover {
-        cursor: pointer;
-        text-decoration: underline;
+    & p {
+      font-family: $font--exo;
+      font-weight: bolder;
+      font-size: 1.6rem;
+      & + p {
+        margin-top: 0.25em;
+      }
+    }
+    & .experiments--category {
+      display: inline-block;
+      & span {
+        font-weight: normal;
+        &:hover {
+          cursor: pointer;
+          text-decoration: underline;
+        }
       }
     }
   }

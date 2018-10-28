@@ -1,0 +1,266 @@
+@charset 'utf-8';
+@import url('https://fonts.googleapis.com/css?family=Cute+Font');
+@import '_normalize';
+@import '_normalizeCustomConfig';
+@import '_variable';
+@import '_font';
+@import '_debugger';
+
+p {
+  font-family: 'Cute Font', cursive;
+  font-size: 3.0rem;
+  color: $colorLightGray;
+  text-align: center;
+  & + p {
+    margin-top: 0;
+  }
+  &:first-child {
+    margin-top: 0.25em;
+  }
+}
+
+object {
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.mainWrapper {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+  overflow: hidden;
+  flex-direction: column;
+  background-color: #150831;
+}
+
+.hidden {
+  display: none;
+}
+
+.viewPort {
+  width: 15vw;
+  height: 15vw;
+  min-height: 100px;
+  min-width: 100px;
+  max-height: 150px;
+  max-width: 150px;
+  background-color: #270F5C;
+  border-radius: 2.5%;
+  overflow: hidden;
+  &.showOverflow {
+    overflow: initial;
+  }
+}
+
+.volWarning {
+  font-family: $ffBody;
+  font-weight: lighter;;
+  font-size: 1.4rem;
+  letter-spacing: 0.1em;
+}
+
+
+// START GHOST STYLES
+@keyframes ghostFloat {
+  0% { transform: translate(0%, 0%); }
+  33% { transform: translate(0%, 15%); }
+  66% { transform: translate(0%, -15%); }
+  100% { transform: translate(0%, 0%); }
+}
+@keyframes ghostMove {
+  0% { transform: translate(0%, 0%); }
+  100% { transform: translate(-250%, 0%); }
+}
+@keyframes ghostSprite {
+  100% { transform: translateX(-100%); }
+}
+@keyframes ghostOne {
+  85% {
+    transform: translate(-20vw, -25vh) scale(2.5);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-100vw, -20vh) scale(8);
+    opacity: 0;
+  }
+}
+@keyframes ghostTwo {
+  75% {
+    transform: translate(15vw, 20vh) scale(3.5);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(40vw, 60vh) scale(5);
+    opacity: 0;
+  }
+}
+@keyframes ghostThree {
+  85% {
+    transform: translate(10vw, -15vh) scale(3.5);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-5vw, 25vh) scale(7);
+    opacity: 0;
+  }
+}
+@keyframes ghostFour {
+  70% {
+    transform: translate(-10vw, 15vh) scale(4);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-30vw, 40vh) scale(9);
+    opacity: 0;
+  }
+}
+@keyframes ghostFive {
+  80% {
+    transform: translate(5vw, 5vh) scale(5);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(60vw, -90vh) scale(8);
+    opacity: 0;
+  }
+}
+object[data="images/ghost_sideSprite.svg"],
+object[data="images/ghost_frontSprite.svg"] {
+  animation: 0.35s infinite ghostSprite steps(2);
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 200%;
+  opacity: 0.85;
+}
+.ghostMove {
+  position: relative;
+  top: 12.5%;
+  left: 112.5%;
+  width: 75%;
+  height: 75%;
+  animation: 0.75s ease-in-out ghostMove;
+  &.inactive {
+    animation: initial;
+  }
+}
+.ghostFloat {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  animation: 1.5s ease-in-out infinite ghostFloat;
+}
+.ghostAll {
+  position: relative;
+  top: 12.5%;
+  left: 12.5%;
+  width: 75%;
+  height: 75%;
+  z-index: 1000;
+}
+.escapeGhost {
+  position: absolute;
+  top: 12.5%;
+  left: 12.5%;
+  width: 100%;
+  height: 100%;
+  animation-play-state: paused;
+  opacity: 0;
+}
+.ghostAll > .escapeGhost.active {
+  &:nth-child(1) {
+    animation: 1s ease-in-out 2 ghostOne;
+  }
+  &:nth-child(2) {
+    animation: 1s ease-in-out 2 ghostTwo;
+    animation-delay: 1.0s;
+  }
+  &:nth-child(3) {
+    animation: 1s ease-in-out 2 ghostThree;
+    animation-delay: 1.5s;
+  }
+  &:nth-child(4) {
+    animation: 1s ease-in-out 2 ghostFour;
+    animation-delay: 2.0s;
+  }
+  &:nth-child(5) {
+    animation: 1s ease-in-out 2 ghostFive;
+    animation-delay: 2.5s;
+  }
+}
+// END GHOST STYLES
+
+
+
+// // START BELL STYLES
+@keyframes shakeBell {
+  0% { transform: rotate(0deg); }
+  16% { transform: rotate(-5deg); }
+  32% { transform: rotate(5deg); }
+  48% { transform: rotate(-5deg); }
+  48% { transform: rotate(5deg); }
+  64% { transform: rotate(-5deg); }
+  80% { transform: rotate(5deg); }
+  100% { transform: rotate(0deg); }
+}
+@keyframes bellSprite {
+  100% { transform: translateX(-100%); }
+}
+.shakeBell {
+  animation: 0.25s shakeBell linear;
+  animation-play-state: paused;
+  height: 50px;
+  overflow: hidden;
+  position: relative;
+  transform-origin: 50% 12.5%;
+  width: 50px;
+  &.inactive {
+    animation: initial;
+    object[data="images/bellSprite.svg"] {
+      animation: initial;
+    }
+  }
+  &.active {
+    animation-play-state: initial;
+  }
+}
+object[data="images/bellSprite.svg"] {
+  animation: 0.25s bellSprite steps(4);
+  animation-play-state: inherit;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 400%;
+}
+object[data="images/bellBroken.svg"] {
+  width: 100%;
+}
+.bellHover {
+  margin-top: 50px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  &:hover {
+    transform-origin: center;
+    transform: scale(1.1);
+  }
+}
+// // END BELL STYLES
+
+
+
+// BOOTSTRAP NOTES & RESOLUTION REFERENCE
+// iPhone SE = 320 * 568px
+// iPhone 7 = 375 * 667px
+// iPhone 7 Plus = 414 * 736px
+// iPad & iPad mini = 768 * 1024px
+// iPad Pro = 1024 * 1366px
+// Macbook Air 13-inch = 1440 * 900px
+// Macbook Pro 15-inch = 2560 * 1600px
+// ----------------------------------
+@media (min-width: 768px) and (max-width: 1024px) {}
+@media (min-width: 1025px) {}

@@ -1,0 +1,2639 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"A",
+				"Animation"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"padd",
+				"padding-right\t(_section.scss)"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"inlin",
+				"inline"
+			],
+			[
+				"flex-",
+				"flex-start"
+			],
+			[
+				"alert",
+				"alert\t( message?: DOMString ): void Window"
+			],
+			[
+				"colo",
+				"color--sub\t _linkBlock.scss"
+			],
+			[
+				"ransi",
+				"transition--l\t _animation.scss"
+			],
+			[
+				"transi",
+				"transition-duration"
+			],
+			[
+				"tran",
+				"translateY"
+			],
+			[
+				"box",
+				"box-shadow--default\t _mobileMenu.scss"
+			],
+			[
+				"font-",
+				"font--p\t stylesheet.scss"
+			],
+			[
+				"translate",
+				"translateX"
+			],
+			[
+				"min",
+				"min-height\t(stylesheet.scss)"
+			],
+			[
+				"ex",
+				"experiment_01.png\tw:843 h:842"
+			],
+			[
+				"i",
+				"images/"
+			],
+			[
+				"backg",
+				"background-image\t(stylesheet.scss)"
+			],
+			[
+				"link",
+				"linkBlock"
+			],
+			[
+				"cate",
+				"category"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"ali",
+				"align-items"
+			],
+			[
+				"trans",
+				"transition--s\t _workImage.scss"
+			],
+			[
+				"tool",
+				"tooltip-arrow\t bootstrap.min.css"
+			],
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"flex",
+				"flex-shrink"
+			],
+			[
+				"font",
+				"font--azo\t _mobileMenu.scss"
+			],
+			[
+				"class",
+				"classList\t: DOMTokenList Element"
+			],
+			[
+				"query",
+				"querySelector\t( selectors: DOMString ): Element Element"
+			],
+			[
+				"action",
+				"actionItems"
+			],
+			[
+				"actio",
+				"actionSelect"
+			],
+			[
+				"vis",
+				"visible-sm \tBootstrap 3 Class"
+			],
+			[
+				"bor",
+				"border--radius\t _workImage.scss"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"bacgkrou",
+				"background-color"
+			],
+			[
+				"nl-fie",
+				"nl-field-toggle\t contact_component.css"
+			],
+			[
+				"c",
+				"css/"
+			],
+			[
+				"ext",
+				"extWorkDetailButton"
+			],
+			[
+				"color",
+				"color--gray\t _expertiseCard.scss"
+			],
+			[
+				"trn",
+				"translateX"
+			],
+			[
+				"transf",
+				"transform"
+			],
+			[
+				"tra",
+				"transition--s\t _workImage.scss"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"exp",
+				"experiments/"
+			],
+			[
+				"e",
+				"experiments/"
+			],
+			[
+				"counsell",
+				"counsellor_detail.html"
+			],
+			[
+				"mos",
+				"mos_01.jpg\tw:840 h:840"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"gg",
+				"gg_2015_detail.html\t(work.html)"
+			],
+			[
+				"fonts",
+				"font-size"
+			],
+			[
+				"transform-",
+				"transform-origin"
+			],
+			[
+				"hidden",
+				"hidden-lg \tBootstrap 3 Class"
+			],
+			[
+				"clip",
+				"clipboard"
+			],
+			[
+				"trna",
+				"transition"
+			],
+			[
+				"undp_",
+				"undp_05.jpg\tw:842 h:842"
+			],
+			[
+				"un",
+				"undp_01.jpg\tw:842 h:842"
+			],
+			[
+				"couns",
+				"counsellor_01.jpg\tw:842 h:842"
+			],
+			[
+				"image",
+				"images/"
+			],
+			[
+				"man",
+				"mangosteen_detail.html\t(index.html)"
+			],
+			[
+				"und",
+				"undp_detail.html\t(index.html)"
+			],
+			[
+				"auckland_",
+				"auckland_detail.html\t(index.html)"
+			],
+			[
+				"background",
+				"background-image"
+			],
+			[
+				"exper",
+				"experiments\t _linkBlock.scss"
+			],
+			[
+				"no",
+				"notebook.jpg\tw:900 h:643"
+			],
+			[
+				"transl",
+				"translateY"
+			],
+			[
+				"Ex",
+				"experiment_02.jpg\tw:842 h:842"
+			],
+			[
+				"pro",
+				"profile.jpg\tw:3678 h:2443"
+			],
+			[
+				"curr",
+				"currentPage"
+			],
+			[
+				"acti",
+				"activateList"
+			],
+			[
+				"menu",
+				"menuUl"
+			],
+			[
+				"btnT",
+				"btnTopScrollY"
+			],
+			[
+				"wor",
+				"work--detail"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"visib",
+				"visible-md \tBootstrap 3 Class"
+			],
+			[
+				"experi",
+				"experiments\t(_section.scss)"
+			],
+			[
+				"curre",
+				"currentTarget"
+			],
+			[
+				"colorPi",
+				"colorPickers"
+			],
+			[
+				"dete",
+				"detectBtm"
+			],
+			[
+				"querysele",
+				"querySelectorAll"
+			],
+			[
+				"detec",
+				"detectBtm"
+			],
+			[
+				"scro",
+				"scrollY"
+			],
+			[
+				"land",
+				"landingPage"
+			],
+			[
+				"imgY",
+				"imgYCenter"
+			],
+			[
+				"scroll",
+				"scrollYDist"
+			],
+			[
+				"img",
+				"imgYCenter"
+			],
+			[
+				"mark",
+				"markerBtm"
+			],
+			[
+				"marke",
+				"markerTop"
+			],
+			[
+				"main",
+				"mainScript.js"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"space",
+				"space-between"
+			],
+			[
+				"see",
+				"seeMore"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"work",
+				"work--detail\t(_section.scss)"
+			],
+			[
+				"co",
+				"column"
+			],
+			[
+				"sectio",
+				"section--container\t(_section.scss)"
+			],
+			[
+				"backgroun",
+				"background-size\t(stylesheet.scss)"
+			],
+			[
+				"spac",
+				"space-between"
+			],
+			[
+				"cl",
+				"color--lightgray\t _section.scss"
+			],
+			[
+				"lin",
+				"line-height"
+			],
+			[
+				"sec",
+				"section--container\t stylesheet.css"
+			],
+			[
+				"rev",
+				"column-reverse"
+			],
+			[
+				"fw",
+				"fw--02\t(index.html)"
+			],
+			[
+				"fel",
+				"flex-end"
+			],
+			[
+				"js",
+				"justify-content"
+			],
+			[
+				"dumm",
+				"dummy_1x.png\tw:150 h:150"
+			],
+			[
+				"backgroud",
+				"background-image"
+			],
+			[
+				"visi",
+				"visible-lg\t stylesheet.css"
+			],
+			[
+				"algi",
+				"align-items"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"spa",
+				"space-between"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"justi",
+				"justify-content"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"colo-",
+				"color--sub\t stylesheet.scss"
+			],
+			[
+				"jc",
+				"jc\tjustify-content"
+			],
+			[
+				"visible",
+				"visible-lg \tBootstrap 3 Class"
+			],
+			[
+				"col-",
+				"col-lg-1 \tBootstrap 3 Class"
+			],
+			[
+				"line",
+				"line-height\t(stylesheet.scss)"
+			],
+			[
+				"list",
+				"listAnchor\t(mobileMenu.html)"
+			],
+			[
+				"about",
+				"about.html\t(index.html)"
+			],
+			[
+				"aria",
+				"ariaValue"
+			],
+			[
+				"quer",
+				"querySelector"
+			],
+			[
+				"getEleme",
+				"getElementsByTagName\t( localName: DOMString ): HTMLCollection Document"
+			],
+			[
+				"get",
+				"getButton"
+			],
+			[
+				"assig",
+				"assignButton"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "experiments.html",
+			"settings":
+			{
+				"buffer_size": 0,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "auckland_detail.html",
+			"settings":
+			{
+				"buffer_size": 5358,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "counsellor_detail.html",
+			"settings":
+			{
+				"buffer_size": 5268,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "transroad_detail.html",
+			"settings":
+			{
+				"buffer_size": 5283,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/_section.scss",
+			"settings":
+			{
+				"buffer_size": 0,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 357.0,
+		"last_filter": "esl",
+		"selected_items":
+		[
+			[
+				"esl",
+				"ESLint"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"removepac",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"pacl",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"renae",
+				"File: Rename"
+			],
+			[
+				"rename",
+				"ANF: Rename File"
+			],
+			[
+				"relo",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"scheme",
+				"UI: Select Theme"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"Box",
+				"Boxy Theme: Activation"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"color ",
+				"UI: Select Color Scheme"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"open",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"pacla",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Packlist",
+				"Package Control: List Packages"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"reload",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"reloa",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"live",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"LiveReload: Enable/disable plugins",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"r",
+				"Package Control: Remove Package"
+			],
+			[
+				"ackali",
+				"Package Control: List Packages"
+			],
+			[
+				"livereload",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"livere",
+				"Snippet: Create new LiveReload plugin"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Install Packa",
+				"Package Control: Install Package"
+			],
+			[
+				"Install Package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 494.0
+	},
+	"console":
+	{
+		"height": 204.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_SHUNS_PORTFOLIO/04_HTML"
+	],
+	"file_history":
+	[
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_SHUNS_PORTFOLIO/04_HTML/experiments/28/js/main.js",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_SHUNS_PORTFOLIO/04_HTML/css/stylesheet.scss",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_SHUNS_PORTFOLIO/04_HTML/css/_variable.scss",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_SHUNS_PORTFOLIO/04_HTML/auckland_detail.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_SHUNS_PORTFOLIO/04_HTML/counsellor_detail.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_SHUNS_PORTFOLIO/04_HTML/gg_2015_detail.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_SHUNS_PORTFOLIO/04_HTML/mos_detail.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_SHUNS_PORTFOLIO/04_HTML/mangosteen_detail.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_SHUNS_PORTFOLIO/04_HTML/transroad_detail.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_SHUNS_PORTFOLIO/04_HTML/undp_detail.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_SHUNS_PORTFOLIO/00_PORTFOLIO.txt",
+		"/Users/SHUN/Dropbox/CANADA/08_ACCOMMODATION/20180824_LONG_TERM_RESIDENCE/01_EN_TEMPLATE_1024.txt",
+		"/Users/SHUN/Dropbox/CANADA/08_ACCOMMODATION/20180824_LONG_TERM_RESIDENCE/01_EN_TEMPLATE.txt",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_SHUNS_PORTFOLIO/04_HTML/css/contact.scss",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_SHUNS_PORTFOLIO/04_HTML/css/_menu.scss",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_SHUNS_PORTFOLIO/04_HTML/css/_workImage.scss",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_SHUNS_PORTFOLIO/04_HTML/css/_thankyou.scss",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_SHUNS_PORTFOLIO/04_HTML/css/_section.scss",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_SHUNS_PORTFOLIO/04_HTML/css/_linkBlock.scss",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_SHUNS_PORTFOLIO/04_HTML/css/_expertiseCard.scss",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_SHUNS_PORTFOLIO/04_HTML/css/_debugger.scss",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_SHUNS_PORTFOLIO/04_HTML/css/_callToAction.scss",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_SHUNS_PORTFOLIO/04_HTML/about.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_SHUNS_PORTFOLIO/04_HTML/index.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_SHUNS_PORTFOLIO/04_HTML/php/mail.php",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_SHUNS_PORTFOLIO/04_HTML/contact.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_SHUNS_PORTFOLIO/04_HTML/js/nlform.js",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_SHUNS_PORTFOLIO/04_HTML/experiments.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_SHUNS_PORTFOLIO/NOTES.txt",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_SHUNS_PORTFOLIO/04_HTML/.htaccess",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_SHUNS_PORTFOLIO/04_HTML/components/menu.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_SHUNS_PORTFOLIO/04_HTML/work.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_SHUNS_PORTFOLIO/04_HTML/.gitignore",
+		"/private/var/folders/mm/32v7gwc55mnffw56lrmffpy40000gn/T/fz3temp-2/.htaccess",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/NOTES.txt",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/experiments.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/js/experimentFilter.js",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/transroad_detail.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/work.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/index.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/_font.scss",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/_variable.scss",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/_reset.scss",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/_menu.scss",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/_section.scss",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/stylesheet.scss",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/stylesheet.css",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/auckland_detail.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/mangosteen_detail.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/mos_detail.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/thankyou.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/undp_detail.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/about.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/contact.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/counsellor_detail.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/gg_2015_detail.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/_workImage.scss",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/_callToAction.scss",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/_expertiseCard.scss",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/_contact_component.css",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/99_phpTest.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/404.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/js/mainScript.js",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/_linkBlock.scss",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/contact.scss",
+		"/Users/SHUN/Desktop/test.js",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/experiments/13/ajax_geocode.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/js/jquery-1.11.3.min.js",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/_thankyou.scss",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/.htaccess",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/php/mail.php",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/js/nlform_extend.js",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/_contact_default.css",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/contact.css",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/js/nlform.js",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/experiments/02/reset.css",
+		"/private/var/folders/mm/32v7gwc55mnffw56lrmffpy40000gn/T/fz3temp-2/sitemap.txt",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/php/99_mail.php",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/gulpfile.js",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/contact_default.css",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/contact_component.css",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/default.css",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/component.css",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/phpTest.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/contact/index.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/contact/css/default.css",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/contact/css/component.css",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/contact/README.md",
+		"/Users/SHUN/Downloads/NaturalLanguageForm/index.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/contact2.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/css/_form.scss",
+		"/Users/SHUN/Downloads/NaturalLanguageForm/css/component.css",
+		"/Users/SHUN/Downloads/NaturalLanguageForm/css/default.css",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/.gitignore",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/experiments/11/scanimation.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/experiments/04/about.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/experiments/02/aquarium.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/experiments/01/slide_out.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/experiments/02/stylesheet.css",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/experiments/03/floating_menu.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/experiments/17/image_mask.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/experiments/17/stylesheet.css",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/experiments/16/index.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/experiments/15/index.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/experiments/14/index_goo.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/experiments/15/stylesheet.css",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/experiments/15/multiple-select.js",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/experiments/13/geocode.js",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/experiments/12/horizontal_scroll.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/experiments/10/flip_book.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/experiments/10/add_class_if_in_vp.js",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/experiments/09/bw_2_color.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/experiments/08/bg_color_change.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/experiments/07/blood_type.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/experiments/10/stylesheet.css",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/experiments/09/stylesheet.css",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/experiments/08/bg_color_change.js",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/experiments/07/logic.js",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/experiments/07/logical_js.js",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/experiments/06/detection.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/experiments/07/stylesheet.css",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/experiments/05/burger_icon.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/experiments/04/index.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/experiments/04/login.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/experiments/04/other.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/experiments/04/student_life.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/experiments/04/summer_school.html",
+		"/Users/SHUN/Google Drive/99_ARCHIVE/00_DESIGN/2016-/2017_0122_0214_SHUNS_PORTFOLIO/04_HTML/experiments/04/admissions.html"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 304.0,
+		"where_history":
+		[
+			"*.scss",
+			"*.html",
+			"*.scss",
+			"*.html",
+			"*.scss",
+			"*.html",
+			"*.css",
+			"*.scss",
+			"*.html",
+			"*.scss",
+			"*.html",
+			"",
+			"*.scss",
+			"",
+			"InDesign",
+			"",
+			"<open files>",
+			"",
+			"menuBtn",
+			"",
+			"<open files>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"          \n",
+			"section--header",
+			"detail",
+			"border: 1px dashed red;",
+			"1px",
+			"unset",
+			"width",
+			"unset",
+			"work--img--container",
+			"unset",
+			"work--img--container",
+			"unset",
+			"section--header\"",
+			"+ p",
+			"unset",
+			"link--block",
+			"unset",
+			"column",
+			"callToAction",
+			"unset",
+			"|  ",
+			"unset",
+			"ul",
+			"::after",
+			"after",
+			"fter",
+			"block",
+			"border-bottom-right-radius",
+			"after",
+			"_section",
+			"visual d",
+			"visual designer",
+			"a href",
+			"data-category",
+			"experiments.html",
+			"example",
+			"Add ",
+			"strings",
+			"erokuapp.com/",
+			"Feature",
+			"API",
+			"transroad_03.jpg",
+			"transroad_02.jpg",
+			"transroad_01.jpg",
+			"s/t",
+			".jpg",
+			".png",
+			"H1",
+			"1440",
+			"1440px",
+			"body {",
+			"1439px",
+			"20px",
+			"landing",
+			"class=\"work--detail\"",
+			"work--detail",
+			" block !important;",
+			":not(#landing)",
+			"width: 20px;",
+			" block !important;",
+			"about--tex",
+			"about--",
+			"about--text",
+			"desktop--div",
+			".desktop--div",
+			"60%",
+			"about--",
+			"+ p",
+			"button--container",
+			"button--",
+			"button--container",
+			"desktop--",
+			"detailSpacer",
+			"detail--",
+			"wImgContainerDesktop",
+			"desktop--div",
+			".desktop--div",
+			"wImgContainerDesktop",
+			"div.detail--body ",
+			"class=\"ul\"",
+			"class=\"hl\"",
+			"exo",
+			"1.6rem",
+			"margin-bottom: 1.4rem;",
+			"1.4rem",
+			"detail",
+			"detail--body",
+			"itali",
+			"italics",
+			"italic",
+			"\"hl\"",
+			"0.5",
+			"a:after",
+			"opacity: 0.5",
+			"opacity: 0/5",
+			"\"previous work\"",
+			"logistics",
+			"service",
+			"transport",
+			"load",
+			"DOM",
+			"align-items:left",
+			"align-items:",
+			"align-items: left",
+			"<script src=\"js/mainScript.js\" defer></script>",
+			"0.5",
+			"key",
+			"emailAlert",
+			"textarea",
+			"emailAlert",
+			"JavaScriptRuby",
+			"etc",
+			"JavaScriptRuby",
+			"experiments",
+			"experimentHeight",
+			" !important",
+			";",
+			".experiments--category",
+			"hidden",
+			"hideLinkBlock",
+			"idden');",
+			"hideLinkBlock",
+			"linkBlock",
+			"const linkBlock = document.querySelectorAll('.linkBlock');\n",
+			"linkBlock",
+			"experimentMatch",
+			"API",
+			"categories"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"transroad_03.png",
+			"transroad_02.png",
+			"transroad_01.png",
+			".png",
+			"1440px",
+			"class=\"hl\"",
+			"class=\"ul\"",
+			"<script defer src=\"js/mainScript.js\"></script>",
+			"<script src=\"js/mainScript.js\" defer></script>",
+			"<head>\n  <meta charset=\"UTF-8\">\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n  <meta name=\"author\" content=\"Shun Miyaki\">\n  <meta name=\"description\" content=\"Shun Miyaki is a Graphic Designer that helps people communicate their message effectively.\">\n  <meta name=\"googlebot\" content=\"index, follow\">\n  <meta name=\"keywords\" content=\"Shun, Miyaki, Online, Portfolio, Designer, Graphic, Graphic Designer\">\n  <meta name=\"robot\" content=\"index, follow\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>SHUN MIYAKI</title>\n  <link rel=\"icon\" href=\"images/favicon_16px.svg\" sizes=\"any\" type=\"image/svg+xml\">\n  <link rel=\"icon\" href=\"images/favicon.ico\" type=\"image/x-icon\">\n  <link rel=\"shortcut icon\" href=\"images/favicon.ico\" type=\"image/x-icon\">\n  <link rel=\"icon\" href=\"images/favicon_16px.png\" sizes=\"16x16\" type=\"image/png\">\n  <link rel=\"home\" href=\"index.html\">\n  <link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css?family=Exo+2:400,500,700\">\n  <link rel=\"stylesheet\" href=\"https://use.typekit.net/pau5vzj.css\">\n  <link rel=\"stylesheet\" href=\"css/bootstrap.min.css\">\n  <link rel=\"stylesheet\" href=\"css/stylesheet.css\">\n  <script defer src=\"https://use.fontawesome.com/releases/v5.0.8/js/all.js\"></script>\n</head>",
+			"<span class=\"denominator\">7</span>",
+			"<span class=\"denominator\">6</span>",
+			"InDesign",
+			"Exo+2:400,",
+			"menu",
+			"active",
+			"menuBtn"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "experiments.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										14,
+										15
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/angle_bracket.png",
+										"region.orangish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										0,
+										1
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"bs_sintax": "html",
+							"buffer_scroll_name": "9122bedc",
+							"git_gutter_is_enabled": true,
+							"spell_check": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "auckland_detail.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5358,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2490,
+								2490
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										2464,
+										2467
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"region.orangish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										2169,
+										2172
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										2505,
+										2506
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										2486,
+										2487
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"bs_sintax": "html",
+							"buffer_scroll_name": "3e476d5d",
+							"git_gutter_is_enabled": true,
+							"spell_check": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 706.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "counsellor_detail.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5268,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2285,
+								2285
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										2284,
+										2285
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										2277,
+										2278
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"bs_sintax": "html",
+							"buffer_scroll_name": "da66e8fc",
+							"git_gutter_is_enabled": true,
+							"spell_check": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 264.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "transroad_detail.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5283,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2280,
+								2264
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										2263,
+										2264
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										2238,
+										2239
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"bs_sintax": "html",
+							"buffer_scroll_name": "c66cdedd",
+							"git_gutter_is_enabled": true,
+							"spell_check": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 468.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "css/_section.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										507,
+										508
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										296,
+										297
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										507,
+										508
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										296,
+										297
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"bs_sintax": "scss",
+							"buffer_scroll_name": "25d33abc",
+							"git_gutter_is_enabled": true,
+							"spell_check": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 104.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.619725991411,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 494.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 124.0
+	},
+	"pinned_build_system": "",
+	"project": "20180314_Portfolio_v3.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"main.js",
+				"experiments/28/js/main.js"
+			],
+			[
+				"experi",
+				"experiments.html"
+			],
+			[
+				"variable",
+				"css/_variable.scss"
+			],
+			[
+				"tras",
+				"transroad_detail.html"
+			],
+			[
+				"cu",
+				"counsellor_detail.html"
+			],
+			[
+				"detail",
+				"auckland_detail.html"
+			],
+			[
+				"sectionsss",
+				"css/_section.scss"
+			],
+			[
+				"stylsscss",
+				"css/stylesheet.scss"
+			],
+			[
+				"stylesscss",
+				"css/stylesheet.scss"
+			],
+			[
+				"menuscss",
+				"css/_menu.scss"
+			],
+			[
+				"cotactscss",
+				"css/contact.scss"
+			],
+			[
+				"workimage",
+				"css/_workImage.scss"
+			],
+			[
+				"thankyouscss",
+				"css/_thankyou.scss"
+			],
+			[
+				"se",
+				"css/_section.scss"
+			],
+			[
+				"linkb",
+				"css/_linkBlock.scss"
+			],
+			[
+				"menu.scss",
+				"css/_menu.scss"
+			],
+			[
+				"sectionscss",
+				"css/_section.scss"
+			],
+			[
+				"sty",
+				"css/stylesheet.scss"
+			],
+			[
+				"nlform",
+				"js/nlform.js"
+			],
+			[
+				"contact",
+				"contact.html"
+			],
+			[
+				"php",
+				"php/mail.php"
+			],
+			[
+				"gitig",
+				".gitignore"
+			],
+			[
+				"htacc",
+				".htaccess"
+			],
+			[
+				"filter",
+				"js/experimentFilter.js"
+			],
+			[
+				"experie",
+				"experiments.html"
+			],
+			[
+				"transrea",
+				"transroad_detail.html"
+			],
+			[
+				"vari",
+				"css/_variable.scss"
+			],
+			[
+				"fontscss",
+				"css/_font.scss"
+			],
+			[
+				"section",
+				"css/_section.scss"
+			],
+			[
+				"index",
+				"index.html"
+			],
+			[
+				"mango",
+				"mangosteen_detail.html"
+			],
+			[
+				"auck",
+				"auckland_detail.html"
+			],
+			[
+				"trans",
+				"transroad_detail.html"
+			],
+			[
+				"cou",
+				"counsellor_detail.html"
+			],
+			[
+				"styl",
+				"css/stylesheet.css"
+			],
+			[
+				"mang",
+				"mangosteen_detail.html"
+			],
+			[
+				"transroad",
+				"transroad_detail.html"
+			],
+			[
+				"styls",
+				"css/stylesheet.scss"
+			],
+			[
+				"calltoac",
+				"css/_callToAction.scss"
+			],
+			[
+				"about",
+				"about.html"
+			],
+			[
+				"auckl",
+				"auckland_detail.html"
+			],
+			[
+				"st",
+				"css/stylesheet.scss"
+			],
+			[
+				"expertis",
+				"css/_expertiseCard.scss"
+			],
+			[
+				"calltoaction",
+				"css/_callToAction.scss"
+			],
+			[
+				"font",
+				"css/_font.scss"
+			],
+			[
+				"_font",
+				"css/_font.scss"
+			],
+			[
+				"stylsh",
+				"css/stylesheet.scss"
+			],
+			[
+				"css",
+				"css/stylesheet.css"
+			],
+			[
+				"_detai",
+				"mos_detail.html"
+			],
+			[
+				"var",
+				"css/_variable.scss"
+			],
+			[
+				"varia",
+				"css/_variable.scss"
+			],
+			[
+				"stylscss",
+				"css/stylesheet.scss"
+			],
+			[
+				"stylsheet",
+				"css/stylesheet.css"
+			],
+			[
+				"mainsc",
+				"js/mainScript.js"
+			],
+			[
+				"exper",
+				"experiments.html"
+			],
+			[
+				"callto",
+				"css/_callToAction.scss"
+			],
+			[
+				"stylshscss",
+				"css/stylesheet.scss"
+			],
+			[
+				"",
+				"contact.html"
+			],
+			[
+				"workima",
+				"css/_workImage.scss"
+			],
+			[
+				"work",
+				"work.html"
+			],
+			[
+				"main",
+				"js/mainScript.js"
+			],
+			[
+				"mainscr",
+				"js/mainScript.js"
+			],
+			[
+				"thank",
+				"css/_thankyou.scss"
+			],
+			[
+				"stylshe",
+				"css/stylesheet.scss"
+			],
+			[
+				".ht",
+				".htaccess"
+			],
+			[
+				"than",
+				"thankyou.html"
+			],
+			[
+				"thankyou",
+				"thankyou.html"
+			],
+			[
+				"contacht",
+				"contact.html"
+			],
+			[
+				"js",
+				"js/nlform_extend.js"
+			],
+			[
+				"conta",
+				"contact.html"
+			],
+			[
+				"stscss",
+				"css/stylesheet.scss"
+			],
+			[
+				"_css",
+				"css/_contact_default.css"
+			],
+			[
+				"_c",
+				"css/_contact_component.css"
+			],
+			[
+				"contaccss",
+				"css/contact.css"
+			],
+			[
+				"sc",
+				"css/stylesheet.scss"
+			],
+			[
+				"stylesheescss",
+				"css/stylesheet.scss"
+			],
+			[
+				"resetc",
+				"experiments/02/reset.css"
+			],
+			[
+				"mail",
+				"php/mail.php"
+			],
+			[
+				"aboutht",
+				"about.html"
+			],
+			[
+				"stylshescss",
+				"css/stylesheet.scss"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"scss",
+				"css/stylesheet.scss"
+			],
+			[
+				"transde",
+				"transroad_detail.html"
+			],
+			[
+				"detai",
+				"auckland_detail.html"
+			],
+			[
+				"git",
+				".gitignore"
+			],
+			[
+				"giti",
+				".gitignore"
+			],
+			[
+				"gitg",
+				".gitignore"
+			],
+			[
+				"scani",
+				"experiments/11/scanimation.html"
+			],
+			[
+				"aqu",
+				"experiments/02/aquarium.html"
+			],
+			[
+				"geocojs",
+				"experiments/13/geocode.js"
+			],
+			[
+				"ajax",
+				"experiments/13/ajax_geocode.html"
+			],
+			[
+				"hori",
+				"experiments/12/horizontal_scroll.html"
+			],
+			[
+				"fli",
+				"experiments/10/flip_book.html"
+			],
+			[
+				"flip",
+				"experiments/10/flip_book.html"
+			],
+			[
+				"colojs",
+				"experiments/08/bg_color_change.js"
+			],
+			[
+				"bg",
+				"experiments/08/bg_color_change.html"
+			],
+			[
+				"logic",
+				"experiments/07/logic.js"
+			],
+			[
+				"dete",
+				"experiments/06/detection.html"
+			],
+			[
+				"inde",
+				"experiments/04/index.html"
+			],
+			[
+				"float",
+				"experiments/03/floating_menu.html"
+			],
+			[
+				"burg",
+				"experiments/05/burger_icon.html"
+			],
+			[
+				"exp",
+				"experiments.html"
+			],
+			[
+				"auk",
+				"auckland_detail.html"
+			],
+			[
+				"mosd",
+				"mos_detail.html"
+			],
+			[
+				"sectio",
+				"css/_section.scss"
+			],
+			[
+				"styscss",
+				"css/stylesheet.scss"
+			],
+			[
+				"abouth",
+				"about.html"
+			],
+			[
+				"transhtml",
+				"transroad_detail.html"
+			],
+			[
+				"coun",
+				"counsellor_detail.html"
+			],
+			[
+				"gg",
+				"gg_2015_detail.html"
+			],
+			[
+				"mangos",
+				"mangosteen_detail.html"
+			],
+			[
+				"unde",
+				"undp_detail.html"
+			],
+			[
+				"mos",
+				"mos_detail.html"
+			],
+			[
+				"aucka",
+				"auckland_detail.html"
+			],
+			[
+				"transro",
+				"transroad_detail.html"
+			],
+			[
+				"wir",
+				"css/_workImage.scss"
+			],
+			[
+				"cal",
+				"css/_callToAction.scss"
+			],
+			[
+				"abouthtm",
+				"about.html"
+			],
+			[
+				"cli",
+				"js/clipboard.min.js"
+			],
+			[
+				"v",
+				"css/_variable.scss"
+			],
+			[
+				"stys",
+				"css/stylesheet.scss"
+			],
+			[
+				"workht",
+				"work.html"
+			],
+			[
+				"experhtml",
+				"experiments.html"
+			],
+			[
+				"callti",
+				"css/_callToAction.scss"
+			],
+			[
+				"menu",
+				"components/menu.html"
+			],
+			[
+				"w",
+				"css/_workImage.scss"
+			],
+			[
+				"sect",
+				"css/_section.scss"
+			],
+			[
+				"wor",
+				"css/_workImage.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 634.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 677.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 244.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 3
+	}
+}

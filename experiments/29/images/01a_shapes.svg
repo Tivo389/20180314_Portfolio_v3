@@ -1,0 +1,9 @@
+<svg id="shapes" xmlns="http://www.w3.org/2000/svg" width="112" height="107" viewBox="0 0 112 107">
+  <g fill="#676767" fill-rule="evenodd">
+    <circle id="circle" cx="56" cy="53" r="52"/>
+    <polygon id="triangle" points="56 5 112 101.995 0 101.995"/>
+    <rect id="square" width="100" height="100" x="6" y="3"/>
+    <polygon id="pentagon" points="56 0 112 40.686 90.61 106.518 21.39 106.518 0 40.686"/>
+    <polygon id="cross" points="40.7 37.7 40.7 2 71.3 2 71.3 37.7 107 37.7 107 68.3 71.3 68.3 71.3 104 40.7 104 40.7 68.3 5 68.3 5 37.7"/>
+  </g>
+</svg>
