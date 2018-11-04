@@ -1,5 +1,5 @@
 const categories = document.querySelectorAll('.experiments--category span');
-const experiments = document.querySelectorAll('.experiment--img--container a[data-category]');
+const experiments = document.querySelectorAll('.experiment__img--container a[data-category]');
 const linkBlocks = document.querySelectorAll('.link--block');
 let experimentHeight;
 
