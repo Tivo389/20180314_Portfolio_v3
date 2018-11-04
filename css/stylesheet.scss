@@ -149,18 +149,22 @@ div.detail--body p a {
     transform: translate(-50%, -3.85rem);
   }
 }
-.experiments--category {
+.experiments--category,
+.experiment__detail,
+.filter--container {
   display: none;
 }
 .experiment__img--container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  // justify-content: space-between;
   padding: 0 1.5rem;
+  a {
+    max-width: 50%;
+  }
   a:not(.link--block) {
     margin: 0.75rem 0;
     position: relative;
-    width: calc(50% - 0.75rem);
     &:last-child, &:nth-last-child(2) {
       margin-bottom: 0;
     }
@@ -396,6 +400,7 @@ div.detail--body p a {
     }
   }
   .experiment__detail {
+    display: block;
     position: absolute;
     top: 0;
     right: 0;
@@ -444,6 +449,7 @@ div.detail--body p a {
     }
   }
   .filter--container {
+    display: block;
     margin: 2.5rem 0 1.25rem 0;
     & p {
       font-family: $font--exo;
