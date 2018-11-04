@@ -2,7 +2,6 @@
 @import "_reset";
 @import "_variable";
 @import "_font";
-@import "_debugger";
 
 @import "_animation";
 @import "_section";
@@ -87,8 +86,6 @@ p a {
   }
 }
 div.detail--body p a {
-  // font-size: inherit;
-  // position: relative;
   &:after {
     @extend %extParagraphAnchor;
     bottom: -1px;
