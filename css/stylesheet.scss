@@ -403,7 +403,7 @@ div.detail--body p a {
     bottom: 0;
     transition-duration: $transition--s;
     transform: translateX(-101%);
-    background-color: $color--black--transparent;
+    background-color: $color--main--transparent;
     padding: 1rem;
     & .experiment__detail--header {
       font-weight: bolder;
@@ -412,7 +412,7 @@ div.detail--body p a {
       letter-spacing: 0.1em;
     }
     & .experiment__detail--header:not(:first-of-type) {
-      margin-top: 1.4em;
+      margin-top: 1em;
     }
     & p {
       letter-spacing: 0.02em;
@@ -425,11 +425,13 @@ div.detail--body p a {
     justify-content: flex-start;
     margin: -1.5rem;
     padding: initial;
+    a {
+      max-width: calc(25% - 3rem);
+    }
     a:not(.link--block) {
       overflow: hidden;
       flex: 1 25%;
       margin: 1.5rem;
-      max-width: calc(25% - 3rem);
       display: flex;
       justify-content: center;
       align-items: center;
