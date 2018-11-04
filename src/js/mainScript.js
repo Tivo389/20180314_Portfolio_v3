@@ -36,6 +36,11 @@ document.addEventListener("DOMContentLoaded", function(event) {
   };
   loadMenu();
   loadBtn();
+  // BACKUP MENU LOADER ON SCROLL
+  window.addEventListener("scroll", function() {
+    const menuBtnError = menuBtn === null;
+    if (menuBtnError) loadBtn();
+  });
 });
 
 
@@ -102,7 +107,7 @@ function setMenuListDisplay() {
 
 
 
-// // MENU UNORDERED LIST-ITEM / ACTIVATE
+// MENU UNORDERED LIST-ITEM / ACTIVATE
 function setMenuListActive() {
   const currentPage = document.querySelector("#main").dataset.location;
   switch (currentPage) {
@@ -236,5 +241,3 @@ window.addEventListener("touchstart", function() {
   }
   document.addEventListener("scroll", debounce(activateImage));
 });
-
-
