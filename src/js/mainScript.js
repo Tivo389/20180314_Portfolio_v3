@@ -9,16 +9,14 @@ let btnTop;
 
 // IIFE FOR COMPONENT LOADING
 document.addEventListener("DOMContentLoaded", function(event) {
-  loadMenu();
-  loadBtn();
-  function loadMenu() {
+  const loadMenu = () => {
     return fetch("./../components/menu.html")
     .then((response) => response.text())
     .then((data) => {
       $("#main").before(data);
     });
   };
-  function loadBtn() {
+  const loadBtn = () => {
     return fetch("./../components/menuBtn.html")
     .then((response) => response.text())
     .then((data) => {
@@ -36,6 +34,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
       document.addEventListener("scroll", debounce(setButtonColor));
     }).catch(() => console.log('loadBth().error'));
   };
+  loadMenu();
+  loadBtn();
 });
 
 
